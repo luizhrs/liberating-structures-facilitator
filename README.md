@@ -1,4 +1,4 @@
-# LS Facilitator
+# Liberating Structures Facilitator
 
 A free, open-source facilitation companion for the [33 Liberating Structures](https://www.liberatingstructures.com). Helps facilitators and teams choose the right structure, set up sessions with participant names and group assignments, and run them with live timers, phase-by-phase guidance, and a built-in facilitator guide.
 
