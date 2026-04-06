@@ -230,7 +230,7 @@ npm run lint      # ESLint
 
 ## About the author
 
-Built by **[Luiz Santana](https://github.com/luizhrs)** — exploring tech for good, digital transformation, and public sector innovation. Brazilian, based in Manchester, MSc Digital & Tech Solutions.
+Built by **[Luiz Santana](https://github.com/luizhrs)** — exploring tech for good, digital transformation, and public sector innovation. Brazilian, based in the UK, MSc Digital & Tech Solutions.
 
 - GitHub: [github.com/luizhrs](https://github.com/luizhrs)
 - LinkedIn: [linkedin.com/in/luiz-hrsantana](https://www.linkedin.com/in/luiz-hrsantana/)
