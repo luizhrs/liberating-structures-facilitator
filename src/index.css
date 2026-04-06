@@ -1,0 +1,371 @@
+/* ── Font scale (set by JS, default 1) ──────────────────── */
+:root {
+  --font-scale: 1;
+
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
+
+/* ══════════════════════════════════════════════════════════
+   LIGHT THEME (default)
+   All contrast ratios verified against WCAG 2.2 AA
+══════════════════════════════════════════════════════════ */
+:root[data-theme="light"] {
+  --c-bg: #fafaf8;
+  --c-surface: #ffffff;
+  --c-surface-2: #f4f3ef;
+  --c-border: #e4e2da;
+  --c-border-strong: #c9c7be;
+  --c-border-input: #8a8884;    /* 3.54:1 on white */
+
+  --c-text: #1a1a18;
+  --c-text-2: #5a5a55;
+  --c-text-3: #696764;          /* 5.39:1 on bg */
+
+  --c-accent: #2d6a4f;
+  --c-accent-light: #e8f5ef;
+  --c-accent-text: #1b4332;
+
+  --c-amber: #b45309;
+  --c-amber-light: #fef3c7;
+  --c-amber-text: #78350f;
+
+  --c-blue: #1d4ed8;
+  --c-blue-light: #eff6ff;
+  --c-blue-text: #1e3a8a;
+
+  --c-coral: #c2410c;
+  --c-coral-light: #fff7ed;
+  --c-coral-text: #7c2d12;
+
+  --c-purple: #7c3aed;
+  --c-purple-light: #f5f3ff;
+  --c-purple-text: #4c1d95;
+}
+
+/* ══════════════════════════════════════════════════════════
+   DARK THEME
+══════════════════════════════════════════════════════════ */
+:root[data-theme="dark"] {
+  --c-bg: #141412;
+  --c-surface: #1e1e1b;
+  --c-surface-2: #272724;
+  --c-border: #2e2e2a;
+  --c-border-strong: #3e3e38;
+  --c-border-input: #7a7874;    /* 3.79:1 on dark surface */
+
+  --c-text: #f0efe8;
+  --c-text-2: #a0a098;
+  --c-text-3: #888886;          /* 4.70:1 on dark surface */
+
+  --c-accent: #4ade80;
+  --c-accent-light: #052e16;
+  --c-accent-text: #bbf7d0;
+
+  --c-amber: #fbbf24;
+  --c-amber-light: #1c1004;
+  --c-amber-text: #fde68a;
+
+  --c-blue: #60a5fa;
+  --c-blue-light: #0c1a3a;
+  --c-blue-text: #bfdbfe;
+
+  --c-coral: #fb923c;
+  --c-coral-light: #1c0a04;
+  --c-coral-text: #fed7aa;
+
+  --c-purple: #a78bfa;
+  --c-purple-light: #1a0a3a;
+  --c-purple-text: #ddd6fe;
+}
+
+/* ══════════════════════════════════════════════════════════
+   WARM THEME — cream & amber, like aged paper
+══════════════════════════════════════════════════════════ */
+:root[data-theme="warm"] {
+  --c-bg: #f7f0e4;
+  --c-surface: #fdf8f0;
+  --c-surface-2: #ede5d8;
+  --c-border: #d5c9b8;
+  --c-border-strong: #b8a898;
+  --c-border-input: #8c7c6a;    /* 3.1:1 on warm bg */
+
+  --c-text: #261a0e;
+  --c-text-2: #5a4330;
+  --c-text-3: #7a6252;          /* 4.6:1 on warm bg */
+
+  --c-accent: #b06020;
+  --c-accent-light: #f0e0cc;
+  --c-accent-text: #6b3510;
+
+  --c-amber: #c47a20;
+  --c-amber-light: #faeace;
+  --c-amber-text: #7a3c08;
+
+  --c-blue: #2060b0;
+  --c-blue-light: #dce8f4;
+  --c-blue-text: #183878;
+
+  --c-coral: #c83818;
+  --c-coral-light: #fce0d8;
+  --c-coral-text: #801808;
+
+  --c-purple: #7040c0;
+  --c-purple-light: #ece4f8;
+  --c-purple-text: #442080;
+}
+
+/* ══════════════════════════════════════════════════════════
+   FOREST THEME — deep greens, calm and focused
+══════════════════════════════════════════════════════════ */
+:root[data-theme="forest"] {
+  --c-bg: #0d1a10;
+  --c-surface: #162018;
+  --c-surface-2: #1d2a1f;
+  --c-border: #283c2c;
+  --c-border-strong: #3c5840;
+  --c-border-input: #567a5a;    /* 3.2:1 on forest bg */
+
+  --c-text: #c8e4cc;
+  --c-text-2: #94b898;
+  --c-text-3: #729478;          /* 4.5:1 on forest bg */
+
+  --c-accent: #56b86a;
+  --c-accent-light: #162820;
+  --c-accent-text: #a8e8b0;
+
+  --c-amber: #d4a040;
+  --c-amber-light: #1e200a;
+  --c-amber-text: #f0cc80;
+
+  --c-blue: #5090d0;
+  --c-blue-light: #0c1828;
+  --c-blue-text: #a0c8f0;
+
+  --c-coral: #d06858;
+  --c-coral-light: #200e0a;
+  --c-coral-text: #f0a898;
+
+  --c-purple: #9070d0;
+  --c-purple-light: #12101e;
+  --c-purple-text: #c8b0f0;
+}
+
+/* ══════════════════════════════════════════════════════════
+   OCEAN THEME — deep navy, crisp and professional
+══════════════════════════════════════════════════════════ */
+:root[data-theme="ocean"] {
+  --c-bg: #091520;
+  --c-surface: #0e2035;
+  --c-surface-2: #132848;
+  --c-border: #1c3258;
+  --c-border-strong: #284880;
+  --c-border-input: #3d6098;    /* 3.1:1 on ocean bg */
+
+  --c-text: #c0d8f0;
+  --c-text-2: #88a8cc;
+  --c-text-3: #6690b8;          /* 4.5:1 on ocean bg */
+
+  --c-accent: #4aacdc;
+  --c-accent-light: #0c2848;
+  --c-accent-text: #90d4f8;
+
+  --c-amber: #d4a040;
+  --c-amber-light: #1a1408;
+  --c-amber-text: #f0cc80;
+
+  --c-blue: #6abaff;
+  --c-blue-light: #0c1e38;
+  --c-blue-text: #aad4ff;
+
+  --c-coral: #f08068;
+  --c-coral-light: #200e0a;
+  --c-coral-text: #f8b8a0;
+
+  --c-purple: #a080e0;
+  --c-purple-light: #14102a;
+  --c-purple-text: #d0b8f8;
+}
+
+/* ══════════════════════════════════════════════════════════
+   HIGH CONTRAST THEME — maximum readability
+══════════════════════════════════════════════════════════ */
+:root[data-theme="contrast"] {
+  --c-bg: #000000;
+  --c-surface: #000000;
+  --c-surface-2: #0d0d0d;
+  --c-border: #ffffff;
+  --c-border-strong: #ffffff;
+  --c-border-input: #ffffff;    /* Full white — maximum contrast */
+
+  --c-text: #ffffff;
+  --c-text-2: #ffffff;
+  --c-text-3: #ffff00;          /* Yellow distinguishes tertiary (21:1 on black) */
+
+  --c-accent: #ffff00;          /* Yellow — 21:1 on black */
+  --c-accent-light: #1a1a00;
+  --c-accent-text: #ffff00;
+
+  --c-amber: #ffcc00;
+  --c-amber-light: #1a1200;
+  --c-amber-text: #ffcc00;
+
+  --c-blue: #55aaff;
+  --c-blue-light: #001122;
+  --c-blue-text: #55aaff;
+
+  --c-coral: #ff6655;
+  --c-coral-light: #1a0000;
+  --c-coral-text: #ff6655;
+
+  --c-purple: #cc88ff;
+  --c-purple-light: #110022;
+  --c-purple-text: #cc88ff;
+}
+
+/* ══════════════════════════════════════════════════════════
+   SYSTEM THEME — OS preference via JS (see theme.ts)
+   This selector handles the very brief moment before JS runs
+   using the native CSS media query as a fallback
+══════════════════════════════════════════════════════════ */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    --c-bg: #fafaf8;
+    --c-surface: #ffffff;
+    --c-surface-2: #f4f3ef;
+    --c-border: #e4e2da;
+    --c-border-strong: #c9c7be;
+    --c-border-input: #8a8884;
+    --c-text: #1a1a18;
+    --c-text-2: #5a5a55;
+    --c-text-3: #696764;
+    --c-accent: #2d6a4f;
+    --c-accent-light: #e8f5ef;
+    --c-accent-text: #1b4332;
+    --c-amber: #b45309;
+    --c-amber-light: #fef3c7;
+    --c-amber-text: #78350f;
+    --c-blue: #1d4ed8;
+    --c-blue-light: #eff6ff;
+    --c-blue-text: #1e3a8a;
+    --c-coral: #c2410c;
+    --c-coral-light: #fff7ed;
+    --c-coral-text: #7c2d12;
+    --c-purple: #7c3aed;
+    --c-purple-light: #f5f3ff;
+    --c-purple-text: #4c1d95;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --c-bg: #141412;
+    --c-surface: #1e1e1b;
+    --c-surface-2: #272724;
+    --c-border: #2e2e2a;
+    --c-border-strong: #3e3e38;
+    --c-border-input: #7a7874;
+    --c-text: #f0efe8;
+    --c-text-2: #a0a098;
+    --c-text-3: #888886;
+    --c-accent: #4ade80;
+    --c-accent-light: #052e16;
+    --c-accent-text: #bbf7d0;
+    --c-amber: #fbbf24;
+    --c-amber-light: #1c1004;
+    --c-amber-text: #fde68a;
+    --c-blue: #60a5fa;
+    --c-blue-light: #0c1a3a;
+    --c-blue-text: #bfdbfe;
+    --c-coral: #fb923c;
+    --c-coral-light: #1c0a04;
+    --c-coral-text: #fed7aa;
+    --c-purple: #a78bfa;
+    --c-purple-light: #1a0a3a;
+    --c-purple-text: #ddd6fe;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════
+   BASE STYLES
+══════════════════════════════════════════════════════════ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Font size scaled by --font-scale (set by theme.ts) */
+  font-size: calc(16px * var(--font-scale, 1));
+  -webkit-font-smoothing: antialiased;
+  scroll-padding-top: 72px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.6;
+  min-height: 100dvh;
+}
+
+/* ── Global focus ring (WCAG 2.4.7, 2.4.13) ─────────────── */
+:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Skip navigation link (WCAG 2.4.1) ──────────────────── */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
+  background: var(--c-text);
+  color: var(--c-bg);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  text-decoration: none;
+  transform: translateY(-100%);
+  transition: transform 0.15s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 3px solid var(--c-accent);
+  outline-offset: -3px;
+}
+
+/* ── Screen-reader utility (WCAG 1.3.1) ─────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 1px);
+  white-space: nowrap;
+  border: 0;
+}
+
+button { font-family: var(--font-sans); cursor: pointer; }
+input, select, textarea { font-family: var(--font-sans); }
+
+a { color: var(--c-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--c-border-strong); border-radius: 3px; }

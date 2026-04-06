@@ -1,0 +1,1844 @@
+[
+  {
+    "id": 1,
+    "name": "1-2-4-All",
+    "nickname": "1-2-4-All",
+    "time": 12,
+    "minParticipants": 4,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "ideation",
+      "engagement",
+      "decision"
+    ],
+    "online": true,
+    "desc": "Engage everyone simultaneously in generating questions, ideas, and suggestions. No one is left out and all contributions matter.",
+    "when": "When you want to replace a one-way presentation or discussion dominated by a few voices.",
+    "phases": [
+      {
+        "label": "Alone",
+        "minutes": 1,
+        "instruction": "Silently self-reflect on the question. Write down your ideas individually. No talking yet.",
+        "groups": "Individual",
+        "friendlyInstruction": "Take a quiet moment to yourself. What comes to mind? Jot down your thoughts \u2014 there are no wrong answers and no one will judge your notes."
+      },
+      {
+        "label": "Pairs",
+        "minutes": 2,
+        "instruction": "Share and develop ideas with one partner. Find common ground or interesting differences.",
+        "groups": "Pairs",
+        "friendlyInstruction": "Find a partner and share what you wrote. Listen as much as you talk. What's new? What builds on your own thinking?"
+      },
+      {
+        "label": "Groups of 4",
+        "minutes": 4,
+        "instruction": "Two pairs join together. Share the most interesting ideas and build on them.",
+        "groups": "Groups of 4",
+        "friendlyInstruction": "Bring your pairs together. What did each pair discover? Look for patterns, surprises, and anything you disagree on."
+      },
+      {
+        "label": "All",
+        "minutes": 5,
+        "instruction": "Each group shares one key insight or idea with the whole room. Notice patterns and themes.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Each group offers one key idea to the whole room. Keep going until everything important is out \u2014 no repeats needed."
+      }
+    ],
+    "tips": [
+      "Use a crisp, open question that invites genuine reflection",
+      "Enforce the individual round \u2014 silence is productive",
+      "In the All round, ask for one new idea not already shared"
+    ],
+    "lsNumber": 1,
+    "lsUrl": "1-1-2-4-all",
+    "structuralInvitation": "What is your thinking on [challenge/question]? Please reflect alone first.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 2,
+    "name": "Impromptu Networking",
+    "nickname": "Impromptu Networking",
+    "time": 20,
+    "minParticipants": 6,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "engagement",
+      "connection"
+    ],
+    "online": true,
+    "desc": "Rapidly share challenges and expectations, building new connections across a group. Sets the tone for open, peer-to-peer collaboration.",
+    "when": "At the start of a session to energise the group and surface shared challenges quickly.",
+    "phases": [
+      {
+        "label": "Round 1",
+        "minutes": 5,
+        "instruction": "Find a partner you don't know well. Share: what is your biggest challenge with today's topic?",
+        "groups": "Pairs",
+        "friendlyInstruction": "Frame the question clearly: 'In each short conversation, share your honest thinking on [the challenge]. You've got two minutes each direction \u2014 go.'"
+      },
+      {
+        "label": "Round 2",
+        "minutes": 5,
+        "instruction": "New partner. Share: what do you most hope to contribute to today's session?",
+        "groups": "Pairs",
+        "friendlyInstruction": "Find someone you haven't spoken to yet. Share your thinking, listen to theirs. Then move on."
+      },
+      {
+        "label": "Round 3",
+        "minutes": 5,
+        "instruction": "New partner. Share: what do you most want to learn or take away from today?",
+        "groups": "Pairs",
+        "friendlyInstruction": "Same again \u2014 new person, same question, fresh perspective. Notice how your thinking shifts with each conversation."
+      },
+      {
+        "label": "Debrief",
+        "minutes": 5,
+        "instruction": "Return to the whole group. What themes came up? What connections surprised you?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What surprised you? What kept coming up? Did your thinking shift at all after talking to different people?"
+      }
+    ],
+    "tips": [
+      "Keep rounds strictly timed \u2014 urgency sparks openness",
+      "Encourage people to move across the room, not just turn to their neighbour",
+      "Works brilliantly as the very first activity of any session"
+    ],
+    "lsNumber": 2,
+    "lsUrl": "2-impromptu-networking",
+    "structuralInvitation": "What is the most important challenge you hope we will address today? What do you most hope to contribute?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 3,
+    "name": "Nine Whys",
+    "nickname": "Nine Whys",
+    "time": 25,
+    "minParticipants": 2,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "reflection",
+      "planning",
+      "connection"
+    ],
+    "online": true,
+    "desc": "Make the purpose of your work together visible and shared. Surface the deeper motivations that unite a team.",
+    "when": "When a group needs to reconnect with shared purpose or understand what really drives each member.",
+    "phases": [
+      {
+        "label": "Pair up",
+        "minutes": 2,
+        "instruction": "Find a partner. One person will ask 'why?' repeatedly, the other answers honestly.",
+        "groups": "Pairs",
+        "friendlyInstruction": "Sit with a partner. One of you starts by saying what you do. The other just listens \u2014 and gets ready to ask one simple question."
+      },
+      {
+        "label": "The nine whys",
+        "minutes": 10,
+        "instruction": "Partner A: describe what you do at work. Partner B: ask 'why is that important to you?' after each answer. Repeat up to 9 times. Listen for what emerges.",
+        "groups": "Pairs",
+        "friendlyInstruction": "Here is your only question for the next few minutes: 'And why is that important to you?' Ask it again after every answer. Don't rush \u2014 let the silence work."
+      },
+      {
+        "label": "Switch",
+        "minutes": 10,
+        "instruction": "Swap roles. Partner B shares, Partner A asks why repeatedly.",
+        "groups": "Pairs",
+        "friendlyInstruction": "By now you have gone several layers deep. What is the real reason this matters? What showed up that you did not expect?"
+      },
+      {
+        "label": "Share themes",
+        "minutes": 5,
+        "instruction": "In the whole group: what core purposes emerged? What surprised you about your own answers?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What was it like to be asked 'why' so many times? What surprised you about your own answers? Share the most meaningful thing you discovered."
+      }
+    ],
+    "tips": [
+      "The questioner should be genuinely curious, not mechanical",
+      "Answers often get more honest and surprising after the 4th or 5th why",
+      "Notice when someone hits a deep personal truth \u2014 those are the important ones"
+    ],
+    "lsNumber": 3,
+    "lsUrl": "3-nine-whys",
+    "structuralInvitation": "What do you do? (then keep asking) And why is that important to you?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Toyota \"Five Whys\" method."
+  },
+  {
+    "id": 4,
+    "name": "Wicked Questions",
+    "nickname": "Wicked Questions",
+    "time": 25,
+    "minParticipants": 4,
+    "maxParticipants": 200,
+    "complexity": "basic",
+    "purposes": [
+      "reflection",
+      "planning",
+      "decision"
+    ],
+    "online": true,
+    "desc": "Articulate the paradoxical challenges that are holding your organisation back. Surface the tensions that everyone knows about but nobody names.",
+    "when": "When a group is stuck or circling the same problem. When you sense there are unspoken tensions.",
+    "phases": [
+      {
+        "label": "Generate",
+        "minutes": 5,
+        "instruction": "Individually: what are the pairs of opposites that describe your challenge? Start with 'How is it that we...' and 'and at the same time...'",
+        "groups": "Individual",
+        "friendlyInstruction": "Think about the real tensions in your work \u2014 things that feel contradictory but are both completely true. Start writing them as: 'How is it that we [do X] and at the same time [do the opposite]?'"
+      },
+      {
+        "label": "Share in small groups",
+        "minutes": 10,
+        "instruction": "Share your wicked questions in groups of 4-6. Identify the sharpest, most provocative ones.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Now refine them. Do they feel uncomfortable? Do they capture a REAL tension? The best Wicked Questions make you wince a little \u2014 that is a good sign."
+      },
+      {
+        "label": "Gallery share",
+        "minutes": 10,
+        "instruction": "Each group shares their sharpest wicked question. Which ones get the biggest reaction? Those are the important ones.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Which question feels most alive \u2014 most important AND most uncomfortable? That is usually the one worth staying with as a group."
+      }
+    ],
+    "tips": [
+      "A good wicked question has no easy answer and both sides are true",
+      "The emotional reaction in the room tells you which questions matter most",
+      "Don't try to solve the questions \u2014 just name them clearly"
+    ],
+    "lsNumber": 4,
+    "lsUrl": "4-wicked-questions",
+    "structuralInvitation": "How is it that we [pursue one strategy/value] and at the same time [pursue the exact opposite]?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 5,
+    "name": "Appreciative Interviews",
+    "nickname": "Appreciative Interviews",
+    "time": 45,
+    "minParticipants": 4,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "connection",
+      "engagement",
+      "planning"
+    ],
+    "online": true,
+    "desc": "Discover and build on the root causes of success. Interview partners about peak experiences to surface what makes your best work possible.",
+    "when": "When a group is problem-focused and needs to rediscover its strengths. When you want to build from what works.",
+    "phases": [
+      {
+        "label": "Prepare questions",
+        "minutes": 5,
+        "instruction": "Frame 2-3 questions about peak experiences: when were you most proud of our work? What made it possible? What was your contribution?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Think of a moment when this work felt genuinely meaningful \u2014 when something clicked. Write 2\u20133 questions that would help someone else tell that kind of story."
+      },
+      {
+        "label": "Pair interviews",
+        "minutes": 20,
+        "instruction": "Interview each other. Listen for the specific conditions and actions that enabled the peak experience. Take notes.",
+        "groups": "Pairs",
+        "friendlyInstruction": "One person asks, the other tells their story. Real listening here \u2014 not planning your next question, but actually following where the story goes. Switch after a few minutes."
+      },
+      {
+        "label": "Share stories",
+        "minutes": 15,
+        "instruction": "Each person shares their partner's story (not their own). What themes emerge? What conditions keep appearing?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Tell the group what your PARTNER shared, not your own story. What conditions keep coming up across all the stories? What made the best moments possible?"
+      },
+      {
+        "label": "Extract lessons",
+        "minutes": 5,
+        "instruction": "What conditions and practices can we create more of? What made our best work possible?",
+        "groups": "Whole group",
+        "friendlyInstruction": "If these conditions \u2014 the ones that made your best moments happen \u2014 could become more common, what would actually need to change? What is one thing you could start doing tomorrow?"
+      }
+    ],
+    "tips": [
+      "Stories of past success are more reliable than abstract ideas about the future",
+      "Share your partner's story, not your own \u2014 it creates more generous listening",
+      "Keep questions grounded in specific experiences, not general opinions"
+    ],
+    "lsNumber": 5,
+    "lsUrl": "5-appreciative-interviews-ai",
+    "structuralInvitation": "Tell me about a time when you were at your best \u2014 when you were most proud of your contribution to [shared purpose]. What made it possible?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Appreciative Inquiry (David Cooperrider)."
+  },
+  {
+    "id": 6,
+    "name": "TRIZ",
+    "nickname": "TRIZ",
+    "time": 60,
+    "minParticipants": 5,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "ideation",
+      "decision",
+      "planning"
+    ],
+    "online": true,
+    "desc": "Stop counterproductive activities and behaviours by working backwards from the worst possible outcome. Use 1-2-4-All within each step to surface what everyone knows but nobody says.",
+    "when": "When a group is stuck doing things they know aren't working. When you need to stop before you can start.",
+    "phases": [
+      {
+        "label": "Identify the worst outcome",
+        "minutes": 5,
+        "instruction": "Introduce the challenge. Invite groups to identify the single most unwanted result \u2014 the worst possible outcome.",
+        "friendlyInstruction": "What would be the absolute worst result here? Name it clearly \u2014 that's what we're working backwards from.",
+        "groups": "Whole group"
+      },
+      {
+        "label": "List what guarantees failure",
+        "minutes": 10,
+        "instruction": "Each group uses 1-2-4-All to generate a complete list of everything they could do to guarantee achieving the worst outcome. No filter \u2014 the more specific the better.",
+        "friendlyInstruction": "Using 1-2-4-All: what would you have to do to guarantee that terrible outcome? Be creative and specific. The more outrageous the list, the more honest and useful this becomes.",
+        "groups": "Groups of 4-6 using 1-2-4-All"
+      },
+      {
+        "label": "Spot what you're already doing",
+        "minutes": 10,
+        "instruction": "Each group uses 1-2-4-All to identify which items from their failure list they are already doing, even if unintentionally. Be honest.",
+        "friendlyInstruction": "Here's the uncomfortable part. Using 1-2-4-All: which of those failure-guaranteeing things are you actually already doing? Not intentionally \u2014 but honestly?",
+        "groups": "Groups of 4-6 using 1-2-4-All"
+      },
+      {
+        "label": "Commit to stopping",
+        "minutes": 10,
+        "instruction": "Each group uses 1-2-4-All to determine first steps that will help them stop each identified behaviour. What specifically will you stop doing?",
+        "friendlyInstruction": "Using 1-2-4-All: for each item you identified, what's the first step to stop doing it? Not \"we should try to maybe...\" \u2014 actual commitments. What specifically changes, starting when?",
+        "groups": "Groups of 4-6 using 1-2-4-All"
+      },
+      {
+        "label": "Share and debrief",
+        "minutes": 5,
+        "instruction": "Groups share their stopping commitments. What surprised us? What was hardest to admit? What is the single most important thing to stop?",
+        "friendlyInstruction": "What surprised you most? What was hardest to admit out loud? What's the one thing you're most committed to stopping?",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Do not accept ideas for starting new things \u2014 TRIZ is specifically about stopping. Redirect gently but clearly.",
+      "The more outrageous the worst-case list, the more honest and useful the exercise. Encourage exaggeration.",
+      "Step 3 (spotting what you're already doing) is where the breakthroughs happen. Make space for uncomfortable truths.",
+      "Trap: groups skipping straight to solutions. Hold the \"stopping\" frame firmly throughout.",
+      "Trap: making it abstract. Push for specific named activities and behaviours, not vague concepts.",
+      "String with Troika Consulting, Wise Crowds, or Open Space to go deeper on the stopping commitments."
+    ],
+    "lsNumber": 6,
+    "lsUrl": "6-making-space-with-triz",
+    "structuralInvitation": "Make a complete list of everything you could do to make sure we achieve the worst possible outcome for [challenge].",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by one element of the Russian engineering approach TRIZ (teoriya resheniya izobretatelskikh zadatch)."
+  },
+  {
+    "id": 7,
+    "name": "15% Solutions",
+    "nickname": "15% Solutions",
+    "time": 25,
+    "minParticipants": 2,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "planning",
+      "ideation"
+    ],
+    "online": true,
+    "desc": "Focus on what you can do right now with the resources and authority you already have. Avoid waiting for permission or perfect conditions.",
+    "when": "When people feel stuck waiting for others to act. When learned helplessness is preventing progress on important challenges.",
+    "phases": [
+      {
+        "label": "Identify your 15%",
+        "minutes": 5,
+        "instruction": "Individually: what is the 15% of the challenge where you have freedom to act? What actions are in your direct control, right now, without needing anyone's permission?",
+        "groups": "Individual",
+        "friendlyInstruction": "Forget what needs approval, budget, or help from others for now. What could YOU personally do \u2014 starting this week \u2014 that would make a small but real difference? Write it down."
+      },
+      {
+        "label": "Share in pairs",
+        "minutes": 10,
+        "instruction": "Share your 15% with a partner. Help each other see possibilities you might be missing. Your partner asks: what else is within your reach?",
+        "groups": "Pairs",
+        "friendlyInstruction": "Share your idea with your small group. Ask for honest feedback: is this genuinely doable? What might get in the way? How could you make it even more specific?"
+      },
+      {
+        "label": "Commit",
+        "minutes": 10,
+        "instruction": "Share commitments with a small group. State: I will [action] by [date]. Make it small enough to actually do.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Name your commitment out loud: not 'I'll try to...' but 'I will [specific thing] by [specific date].' Someone write it down \u2014 that accountability helps."
+      }
+    ],
+    "tips": [
+      "15% is enough to make a real start \u2014 perfection is the enemy here",
+      "Help people see that their 15% is often larger than they think",
+      "The act of stating a commitment publicly dramatically increases follow-through"
+    ],
+    "lsNumber": 7,
+    "lsUrl": "7-15-solutions",
+    "structuralInvitation": "What is your 15%? Where do you have freedom to act right now, without needing anyone's permission or additional resources?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 8,
+    "name": "Troika Consulting",
+    "nickname": "Troika",
+    "time": 30,
+    "minParticipants": 9,
+    "maxParticipants": 60,
+    "complexity": "basic",
+    "purposes": [
+      "reflection",
+      "planning",
+      "connection"
+    ],
+    "online": true,
+    "desc": "Peers help each other solve real problems using a simple consulting practice. Everyone gets help and everyone gives it.",
+    "when": "When people have real challenges they need help with and peer wisdom is underutilised.",
+    "phases": [
+      {
+        "label": "Form trios",
+        "minutes": 2,
+        "instruction": "Get into groups of exactly 3. Decide who goes first as the 'client'.",
+        "groups": "Trios",
+        "friendlyInstruction": "You have got 1\u20132 minutes. Tell your troika: what is the challenge you are wrestling with right now? Be specific \u2014 the more concrete the better. They will just listen for now."
+      },
+      {
+        "label": "Client presents",
+        "minutes": 3,
+        "instruction": "The client shares their challenge or question in 2-3 minutes. Consultants listen without interrupting.",
+        "groups": "Trios",
+        "friendlyInstruction": "Client \u2014 turn away or close your eyes. Consultants: what do you think is really going on here? What ideas or questions come to mind? Talk openly \u2014 the client is listening but not responding."
+      },
+      {
+        "label": "Consultants confer",
+        "minutes": 8,
+        "instruction": "Client turns their back or mutes themselves. The two consultants discuss and generate suggestions, insights, or questions. Client listens silently.",
+        "groups": "Trios",
+        "friendlyInstruction": "Client \u2014 turn back around. What landed for you? What surprised you? What will you take away, even if it was just a word or a reframe?"
+      },
+      {
+        "label": "Client reflects",
+        "minutes": 4,
+        "instruction": "Client turns back and shares what was most useful. Then rotate \u2014 next person becomes the client.",
+        "groups": "Trios",
+        "friendlyInstruction": "Switch! Each person gets a turn in the client chair. Same energy \u2014 be honest, be curious, be generous with each other."
+      }
+    ],
+    "tips": [
+      "The 'turning away' step is essential \u2014 it creates honest consulting conversations",
+      "Consultants should ask questions as much as give advice",
+      "Rotate so everyone gets to be client at least once"
+    ],
+    "lsNumber": 8,
+    "lsUrl": "8-troika-consulting",
+    "structuralInvitation": "What is your most important challenge for which you could use the help and insight of your peers?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 9,
+    "name": "What, So What, Now What? W\u00b3",
+    "nickname": "W\u00b3",
+    "time": 45,
+    "minParticipants": 4,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "reflection",
+      "planning"
+    ],
+    "online": true,
+    "desc": "A structured reflection for any group to make sense of shared experiences and move toward action. Uses the Ladder of Inference to distinguish observation from interpretation from commitment.",
+    "when": "After a significant event, experiment, or period of work. When you need to make sense of what happened.",
+    "phases": [
+      {
+        "label": "What?",
+        "minutes": 8,
+        "instruction": "Individuals work 1 min alone, then 2-7 min in small groups. Ask: \"What happened? What did you observe? What facts or data stood out?\" Collect salient facts with the whole group (2-3 min). Strictly observable only \u2014 no interpretations yet. Note that emotions can be observed as data (e.g. \"people were smiling\") rather than inferred (e.g. \"people were happy\").",
+        "friendlyInstruction": "Start alone for 1 minute: what actually happened? What did you see, hear, or notice? Facts and observations only \u2014 things you could have filmed. Then share in small groups, then collect key observations as a whole group. If someone starts interpreting, gently redirect: \"That's a great So What \u2014 let's hold it for the next round.\"",
+        "groups": "Individual \u2192 small groups \u2192 whole group"
+      },
+      {
+        "label": "So What?",
+        "minutes": 8,
+        "instruction": "Individuals work 1 min alone, then 2-7 min in small groups. Ask: \"Why is that important? What patterns or conclusions are emerging? What hypotheses can you make?\" This is the most difficult stage \u2014 it's where meaning is made. Collect key themes with the whole group (2-3 min).",
+        "friendlyInstruction": "Now the harder question: why does it matter? Work alone first (1 min), then in small groups. What patterns do you see in those observations? What does it mean for us? This is the most important stage \u2014 don't rush it. Then share the most significant patterns as a whole group.",
+        "groups": "Individual \u2192 small groups \u2192 whole group"
+      },
+      {
+        "label": "Now What?",
+        "minutes": 8,
+        "instruction": "Individuals work 1 min alone, then 2-7 min in small groups. Ask: \"What actions make sense now? What will you do differently?\" Collect commitments with the whole group.",
+        "friendlyInstruction": "So what will you actually do? Work alone first (1 min): given what we've observed and what it means, what actions make sense? Then share in small groups and surface the most important commitments to the whole group.",
+        "groups": "Individual \u2192 small groups \u2192 whole group"
+      },
+      {
+        "label": "Commitments",
+        "minutes": 6,
+        "instruction": "Collect specific commitments. Each person or group states what they will do differently. Make commitments public and specific \u2014 who does what by when.",
+        "friendlyInstruction": "Name your commitment out loud \u2014 that makes it real. Who does what by when? Vague intentions don't count here. One specific thing from each person or group.",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Keep the What? round strictly observational. If someone jumps to interpretation, say: \"That's a great So What \u2014 let's hold it for the next round.\"",
+      "The So What? is the most challenging stage \u2014 resist the urge to skip it. It's where meaning is genuinely made.",
+      "The Ladder of Inference (Argyris/Senge) is the theoretical backbone: we climb from data \u2192 observations \u2192 assumptions \u2192 conclusions \u2192 actions. W\u00b3 slows this climb down.",
+      "Trap: collecting a long repetitive list from a single group. Ask for one unique answer at a time from each group.",
+      "Trap: emotions being expressed as conclusions (\"people were unhappy\") rather than observations (\"several people left early, two people didn't speak\"). Guide participants to observe rather than infer.",
+      "For groups of 10-12 or fewer, skip the small group stage and run all three rounds as a whole group."
+    ],
+    "lsNumber": 9,
+    "lsUrl": "9-what-so-what-now-what-w",
+    "structuralInvitation": "WHAT? What happened? What did you notice, what facts or observations stood out for you?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ladder of Inference (Chris Argyris, 1982; Peter Senge, 1990)."
+  },
+  {
+    "id": 10,
+    "name": "Discovery & Action Dialogue",
+    "nickname": "DAD",
+    "time": 60,
+    "minParticipants": 8,
+    "maxParticipants": 40,
+    "complexity": "intermediate",
+    "purposes": [
+      "ideation",
+      "planning",
+      "engagement"
+    ],
+    "online": true,
+    "desc": "Discover and act on local solutions to seemingly intractable challenges. Six specific questions help groups uncover what is already working locally and spread it \u2014 without importing solutions from outside.",
+    "when": "When a persistent problem has local solutions that haven't been shared. When top-down solutions keep failing.",
+    "phases": [
+      {
+        "label": "Introduce the six questions",
+        "minutes": 5,
+        "instruction": "The facilitator introduces the six DAD questions that will guide the dialogue. These are fixed \u2014 do not skip or modify them:\n1. How do you know when [problem] is present?\n2. How do you contribute to [problem] occurring, even if unintentionally?\n3. What do you do \u2014 or could you do \u2014 to address [problem]?\n4. What gets in the way of doing this all the time?\n5. Who else should be involved in creating solutions?\n6. What needs to happen to get started?",
+        "friendlyInstruction": "There are six questions that guide this conversation \u2014 and they're fixed for a reason. Each one unlocks a different kind of honest conversation. The facilitator reads them out; take a moment to let them land before we dive in.",
+        "groups": "Whole group"
+      },
+      {
+        "label": "Small group dialogue",
+        "minutes": 35,
+        "instruction": "In groups of 6-8, work through all six questions. A facilitator guides each group through the sequence:\n1. How do you know when [the problem] is present? (observable signs)\n2. How do you contribute to this problem, even if unintentionally?\n3. What do you do, or could you do, to address the problem?\n4. What gets in the way of doing this all the time?\n5. Who else should be involved?\n6. What needs to happen to get started? What is your first step?",
+        "friendlyInstruction": "Work through all six questions in your small group. Take your time \u2014 especially on question 2 (your own contribution) and question 3 (what actually helps). Question 3 is where the local solutions live. Question 4 is where the real obstacles are. Don't rush past either.",
+        "groups": "Groups of 6-8"
+      },
+      {
+        "label": "Harvest actions",
+        "minutes": 20,
+        "instruction": "Each group shares: one thing we will try (a specific action), and one thing we need (support or resource). Make commitments specific and realistic. Record them visibly.",
+        "friendlyInstruction": "Each group shares two things: one thing you will actually try \u2014 specific enough to know if you've done it \u2014 and one thing you need to make it possible. No vague intentions. Write them down publicly.",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "The six questions are the structure. Do not skip or modify them \u2014 each one serves a specific purpose.",
+      "Question 2 (your own contribution to the problem) is the hardest and most important. Hold the space for honest answers.",
+      "Local solutions discovered through DAD are more likely to stick than imported best practices. Celebrate what already works.",
+      "Trap: groups jumping to \"what should leadership do?\" Redirect: \"What can YOU do, even in a small way?\"",
+      "Trap: groups staying abstract. Push for specific, named behaviours and situations.",
+      "Follow up at 30 and 60 days to support the actions taken \u2014 commitments without follow-up rarely stick.",
+      "String with Positive Deviance inquiry or follow with Troika Consulting to support individuals with their first steps."
+    ],
+    "lsNumber": 10,
+    "lsUrl": "10-discovery-action-dialogue",
+    "structuralInvitation": "How do you know when [the problem] is present? What do you do that helps, even in small ways? What gets in the way?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Positive Deviance methods."
+  },
+  {
+    "id": 11,
+    "name": "Shift & Share",
+    "nickname": "Shift & Share",
+    "time": 45,
+    "minParticipants": 20,
+    "maxParticipants": 150,
+    "complexity": "basic",
+    "purposes": [
+      "engagement",
+      "ideation"
+    ],
+    "online": false,
+    "desc": "Spread the knowledge of innovators and their local solutions across a large group. Replaces lengthy panel presentations.",
+    "when": "When you have multiple innovators or practitioners with valuable local knowledge to share across a large group.",
+    "phases": [
+      {
+        "label": "Set up stations",
+        "minutes": 5,
+        "instruction": "Innovators set up their stations around the room with materials, examples, or prototypes of their work.",
+        "groups": "Setup",
+        "friendlyInstruction": "Set up your station with your materials. You will be presenting your work in short bursts to rotating groups \u2014 think of it as a mini marketplace of ideas."
+      },
+      {
+        "label": "Round 1",
+        "minutes": 10,
+        "instruction": "Groups of 5-8 visit their first station. Innovator shares their work and answers questions.",
+        "groups": "Groups of 5-8",
+        "friendlyInstruction": "Visitors arrive. Walk them through your work in 3\u20135 minutes, then open it up: what questions do they have? What connections do they see? This is a conversation, not a lecture."
+      },
+      {
+        "label": "Round 2",
+        "minutes": 10,
+        "instruction": "Groups shift to next station. Fresh presentation, fresh questions.",
+        "groups": "Groups of 5-8",
+        "friendlyInstruction": "Rotate! As a visitor, your job is to learn, make connections, and bring ideas back to your own work. What can you adapt?"
+      },
+      {
+        "label": "Round 3",
+        "minutes": 10,
+        "instruction": "Groups shift to final station.",
+        "groups": "Groups of 5-8",
+        "friendlyInstruction": "Reconvene. What was the most interesting thing you saw? What idea from someone else's work could you actually use?"
+      },
+      {
+        "label": "Harvest",
+        "minutes": 10,
+        "instruction": "Whole group: what are the most transferable insights? What surprised you? What will you try?",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Innovators must be willing to share honestly, including failures",
+      "Small visiting groups allow real questions, not just polite listening",
+      "Works brilliantly at conferences as an alternative to breakout panels"
+    ],
+    "lsNumber": 11,
+    "lsUrl": "11-shift-share",
+    "structuralInvitation": "What innovative work do you have to share with others that they could adapt and learn from?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 12,
+    "name": "25/10 Crowd Sourcing",
+    "nickname": "25/10",
+    "time": 30,
+    "minParticipants": 10,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "ideation",
+      "decision"
+    ],
+    "online": false,
+    "desc": "Rapidly generate and rank bold ideas from the whole group. Replaces slow committee processes with energetic crowd wisdom.",
+    "when": "When you need to generate and prioritise bold ideas from a large group quickly.",
+    "phases": [
+      {
+        "label": "Write bold ideas",
+        "minutes": 5,
+        "instruction": "Everyone writes their boldest idea on a card. Ask: if you had 10x the resources, what would you do?",
+        "groups": "Individual",
+        "friendlyInstruction": "Write your boldest idea on a card \u2014 the one you would pitch if you were 10 times braver than usual. Make it specific enough that someone else could understand and rate it."
+      },
+      {
+        "label": "Pass and score",
+        "minutes": 10,
+        "instruction": "Pass cards around randomly. Score each card 1-5 as you receive it. Keep passing every 30 seconds until you've scored 5+ cards.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Swap cards with whoever is near you. Read the card, rate it 1\u20135 on the back, then swap again. Keep moving \u2014 this is fast."
+      },
+      {
+        "label": "Count and reveal",
+        "minutes": 5,
+        "instruction": "Add up the scores on your current card. Call out the top scores. The highest 10% are read aloud.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Keep swapping and scoring. You are building a crowd-sourced ranking without anyone knowing whose idea is whose."
+      },
+      {
+        "label": "Debrief",
+        "minutes": 10,
+        "instruction": "What surprised you? Which ideas deserve further exploration? What do the top ideas have in common?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Call time. The ideas with the highest total scores bubble up. What are the top ideas? Does anything surprise you about what the crowd valued?"
+      }
+    ],
+    "tips": [
+      "Works best in person with physical cards",
+      "The randomness of passing is essential \u2014 it removes politics from voting",
+      "Top ideas often aren't the obvious ones \u2014 trust the process"
+    ],
+    "lsNumber": 12,
+    "lsUrl": "12-2510-crowd-sourcing",
+    "structuralInvitation": "If you were 10 times bolder, what big idea would you recommend we act on? Write your boldest idea on a card.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Open Space Technology."
+  },
+  {
+    "id": 13,
+    "name": "Wise Crowds",
+    "nickname": "Wise Crowds",
+    "time": 60,
+    "minParticipants": 12,
+    "maxParticipants": 50,
+    "complexity": "intermediate",
+    "purposes": [
+      "decision",
+      "reflection",
+      "planning"
+    ],
+    "online": true,
+    "desc": "Tap the wisdom of the whole group for each individual's challenges. Everyone gets expert advice from peers; everyone gives it.",
+    "when": "When individuals have real challenges and the group has relevant collective wisdom that isn't being used.",
+    "phases": [
+      {
+        "label": "Form groups",
+        "minutes": 2,
+        "instruction": "Form groups of 4-5. Each group will work through Troika Consulting so everyone gets a turn as client.",
+        "groups": "Groups of 4-5",
+        "friendlyInstruction": "Think about the challenge you most need help with right now. Something real \u2014 not a hypothetical. Prepare to describe it in about 2 minutes."
+      },
+      {
+        "label": "Rotating Troika rounds",
+        "minutes": 45,
+        "instruction": "Each person takes a turn as client (3 min to present challenge), then turns away while the group consults (8 min), then receives feedback (4 min). Rotate until everyone has been client.",
+        "groups": "Groups of 4-5",
+        "friendlyInstruction": "Client presents their challenge. Consultants: your job is to listen without preparing your response. Just listen."
+      },
+      {
+        "label": "Synthesis",
+        "minutes": 13,
+        "instruction": "Bring the whole group together. What themes appeared across challenges? What collective wisdom emerged? What actions will people take?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Client steps back from the circle. Consultants discuss: what is really going on? What questions would help? What ideas come to mind? Speak freely \u2014 the client is listening but silent."
+      }
+    ],
+    "tips": [
+      "Strictly enforce the rotating structure \u2014 don't let one person's challenge dominate",
+      "The group consulting without the client present generates more honest, creative ideas",
+      "Allow time for written reflection before the group shares back"
+    ],
+    "lsNumber": 13,
+    "lsUrl": "13-wise-crowds",
+    "structuralInvitation": "What is your most important challenge for which you could use the collective wisdom of everyone in this room?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 14,
+    "name": "Min Specs",
+    "nickname": "Min Specs",
+    "time": 60,
+    "minParticipants": 4,
+    "maxParticipants": 60,
+    "complexity": "intermediate",
+    "purposes": [
+      "planning",
+      "decision"
+    ],
+    "online": true,
+    "desc": "Specify only the absolutely essential rules for achieving a goal and no more. Frees up creativity while ensuring critical constraints are met.",
+    "when": "When over-specification is stifling creativity, or when you need to define the minimum viable rules for a new initiative.",
+    "phases": [
+      {
+        "label": "Generate Max Specs",
+        "minutes": 6,
+        "instruction": "In the context of a challenging activity, new initiative, or strategic bottleneck, invite participants to generate the complete list of all must-dos and must-not-dos. Work alone for 1 minute, then consolidate and expand in the small group for 5 minutes. Make the list as complete as possible.",
+        "friendlyInstruction": "Think of everything you believe you must do and must never do to achieve your purpose. Start alone (1 min), then share and expand in your small group (5 min). Get everything on the table \u2014 don't filter yet. This is your Max Specs list.",
+        "groups": "Individual then groups of 4-6"
+      },
+      {
+        "label": "Test each spec",
+        "minutes": 15,
+        "instruction": "Each small group tests every item on their Max Specs list against the purpose statement using this test: \"If we broke or ignored this rule, could we still achieve our purpose?\" If the answer is yes, the spec is dropped from the list.",
+        "friendlyInstruction": "For each rule on your list, ask: if we broke this rule, could we still achieve our purpose? If yes \u2014 cross it off. Be ruthless. You're looking for the rules that are truly non-negotiable, not just comfortable habits.",
+        "groups": "Groups of 4-6"
+      },
+      {
+        "label": "Second round if needed",
+        "minutes": 15,
+        "instruction": "Do a second round of testing if needed. Groups continue challenging each item. Often two to five Min Specs are sufficient \u2014 if your list is still longer, keep testing.",
+        "friendlyInstruction": "Still too many rules on the list? Keep going. The goal is 2-5 truly essential specs \u2014 the ones that, if broken, would genuinely prevent you from achieving your purpose. Everything else is optional.",
+        "groups": "Groups of 4-6"
+      },
+      {
+        "label": "Compare and consolidate",
+        "minutes": 15,
+        "instruction": "Compare Min Specs across small groups and consolidate to the shortest shared list. Challenge any spec that appears in only one group's list.",
+        "friendlyInstruction": "Share your minimal lists across groups. Where do you agree? Where does one group have a rule others don't? Challenge those \u2014 are they truly essential or just one team's preference?",
+        "groups": "Whole group"
+      },
+      {
+        "label": "Commit",
+        "minutes": 4,
+        "instruction": "Agree on the final minimal set. Announce: everything else is permitted \u2014 people are free to innovate within these constraints.",
+        "friendlyInstruction": "Here are your Min Specs \u2014 the true non-negotiables. Everything else is allowed. You now have maximum freedom within minimum constraint. Go wild responsibly.",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Groups typically start with 15-20 rules and end with 2-5 real ones. Trust the process even when it feels uncomfortable.",
+      "The most important rules are often unwritten and unexamined. Make them explicit before testing them.",
+      "Min Specs creates freedom, not chaos. Explain this upfront \u2014 people often assume fewer rules means less clarity.",
+      "Trap: groups keeping rules out of comfort or habit rather than necessity. Hold the test firmly: \"If we broke this, could we still achieve our purpose?\"",
+      "Trap: confusing Min Specs with best practices. Min Specs are non-negotiable constraints; best practices are recommended approaches.",
+      "String with TRIZ to first clear out what you should stop, then use Min Specs to establish the true minimum required."
+    ],
+    "lsNumber": 14,
+    "lsUrl": "14-min-specs",
+    "structuralInvitation": "What must we absolutely do and must we absolutely never do to achieve our purpose? Generate a complete list, then reduce it to the true minimum.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "name": "Improv Prototyping",
+    "nickname": "Improv Prototyping",
+    "time": 20,
+    "minParticipants": 6,
+    "maxParticipants": 999,
+    "complexity": "intermediate",
+    "purposes": [
+      "ideation",
+      "reflection",
+      "engagement"
+    ],
+    "online": false,
+    "desc": "Engage a group to learn and improve rapidly by acting out challenging scenarios and discovering better ways to handle them. Taps three levels of knowledge simultaneously: explicit (what we know), tacit (what we discover by watching each other), and latent (new ideas that emerge through improvisation).",
+    "when": "When a group faces a frustrating recurring challenge and needs to discover better behaviours \u2014 not just discuss them. When training, retrospectives, or talk-based approaches have stopped producing new insight.",
+    "phases": [
+      {
+        "label": "Explain and set the stage",
+        "minutes": 5,
+        "instruction": "Explain what will be done and describe the sequence of steps (2 min). Set the stage by describing the scenario that will be acted out and the various roles (3 min). Invite 2-4 players to come forward.",
+        "friendlyInstruction": "First, walk everyone through what's about to happen \u2014 no surprises. Then set the scene: what's the situation we're going to play out? Who are the characters? Invite a few brave volunteers to come forward as the first players.",
+        "groups": "Whole group"
+      },
+      {
+        "label": "Enact the scene",
+        "minutes": 5,
+        "instruction": "Players on stage enact the scene (3-5 min). The scene should depict the challenge as it actually happens \u2014 not an idealised version. Other participants observe in small groups, each group looking for specific things.",
+        "friendlyInstruction": "Players: just act it out as it really happens. Don't try to show the ideal version \u2014 show the real one, warts and all. Observers: watch closely. What's working, even slightly? What's definitely not working? Your group will discuss this in a moment.",
+        "groups": "Players on stage; observers in small groups"
+      },
+      {
+        "label": "Small group debrief",
+        "minutes": 5,
+        "instruction": "Each small observer group uses 1-2-4-All to identify successful and unsuccessful \"chunks\" from the scene they just observed. What specific moments or behaviours worked? What didn't?",
+        "friendlyInstruction": "Using 1-2-4-All in your small group: what were the specific moments that worked \u2014 even slightly? What clearly didn't? You're looking for concrete chunks of behaviour, not general impressions.",
+        "groups": "Small groups of 4-6 using 1-2-4-All"
+      },
+      {
+        "label": "Build improved prototype",
+        "minutes": 5,
+        "instruction": "Each observer group pieces together the successful chunks into a new prototype. Volunteers from within the group act out the new prototype for their own small group only (not the whole room yet). Refine it.",
+        "friendlyInstruction": "Your group now builds an improved version by keeping what worked and replacing what didn't. Act it out among yourselves \u2014 not for the whole room yet. Try things. Laugh. Adjust. What's better now?",
+        "groups": "Small groups"
+      },
+      {
+        "label": "Share best prototype",
+        "minutes": 5,
+        "instruction": "Participants from the group with the most improved prototype volunteer to come on stage and enact their version for the whole group (3-5 min). Continue with as many rounds as needed to arrive at one or more prototypes good enough to put into practice.",
+        "friendlyInstruction": "Which group has a version they're proud of? Come on stage and show us. The rest of us watch: what's genuinely better? What else could change? Keep going until you have something worth actually trying in real life.",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Stay close to a real challenge the group is actually facing. Invented scenarios feel safe but generate less insight.",
+      "Encourage exaggeration \u2014 it makes patterns visible and keeps the atmosphere playful while doing serious work.",
+      "Trap: groups getting stuck talking about the scene rather than acting it. Redirect: \"Let's see it \u2014 start acting.\"",
+      "Trap: people feeling uncomfortable with roleplay. Normalise it early; give people supporting roles (director, stage manager) if they're hesitant to perform.",
+      "Invite creative swaps: doctor plays nurse, manager plays team member. Perspective shifts unlock new insight.",
+      "String with Discovery & Action Dialogue or Simple Ethnography to source the scenarios, and Design StoryBoards or Shift & Share to spread the innovations."
+    ],
+    "id": 15,
+    "lsNumber": 15,
+    "lsUrl": "15-improv-prototyping",
+    "structuralInvitation": "What frustrating recurring challenge would benefit from being acted out so we can discover better ways to handle it together?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Antonas Mockus (former mayor of Bogota) and Improv artists."
+  },
+  {
+    "id": 16,
+    "name": "Helping Heuristics",
+    "nickname": "Helping Heuristics",
+    "time": 45,
+    "minParticipants": 6,
+    "maxParticipants": 30,
+    "complexity": "intermediate",
+    "purposes": [
+      "reflection",
+      "connection"
+    ],
+    "online": true,
+    "desc": "Practise and develop four progressive methods for helping others: Expert, Doctor, Process Consultant, and Facilitator. Avoid the common trap of jumping straight to advice before understanding what is truly needed.",
+    "when": "When people default to giving advice before understanding. When helping relationships feel unequal or ineffective.",
+    "phases": [
+      {
+        "label": "Introduce the four positions",
+        "minutes": 10,
+        "instruction": "Introduce and demonstrate the four helping positions:\n1. Expert \u2014 you give information or do the task for them\n2. Doctor \u2014 you diagnose, then prescribe a solution\n3. Process Consultant \u2014 you help them solve their own problem, without telling them what to do\n4. Facilitator \u2014 you help the group help itself\nEach position is appropriate in different situations. The trap is defaulting to Expert or Doctor when a different position would serve better.",
+        "friendlyInstruction": "There are four ways to help someone, and most of us default to the first two:\n1. Expert \u2014 \"here's the answer\"\n2. Doctor \u2014 \"here's what's wrong, here's my prescription\"\n3. Process Consultant \u2014 \"let me help you figure it out yourself\"\n4. Facilitator \u2014 \"let me help the group figure it out together\"\nWatch a demonstration of each. Notice when each position is most useful \u2014 and when it's overused.",
+        "groups": "Whole group"
+      },
+      {
+        "label": "Practise in trios",
+        "minutes": 20,
+        "instruction": "In groups of 3: one person brings a real challenge (client), one practices helping (helper), one observes (observer). The helper must start with curiosity \u2014 asking questions to understand before offering anything. Try to move through the positions progressively, only advancing when the previous position is insufficient. Observer gives specific feedback after.",
+        "friendlyInstruction": "In trios: one person brings a real challenge, one tries to help, one watches. Helper: you must start with genuine curiosity. Ask questions. Resist the urge to jump to Expert or Doctor mode immediately. Move through the positions only as needed. Observer: give honest, specific feedback on what you saw.",
+        "groups": "Trios"
+      },
+      {
+        "label": "Rotate roles",
+        "minutes": 10,
+        "instruction": "Rotate so each person gets a turn in each role. Switch client and helper at minimum.",
+        "friendlyInstruction": "Switch roles. Everyone should experience being the client, the helper, and the observer.",
+        "groups": "Trios"
+      },
+      {
+        "label": "Debrief",
+        "minutes": 15,
+        "instruction": "Debrief as a whole group: Which position did helpers default to? When was each position most useful? What was hardest about holding back advice? What will you do differently in your next helping conversation?",
+        "friendlyInstruction": "What position did helpers default to? What was hardest about staying curious before jumping to answers? When was the Expert position actually the right one? What changes in how you'll help people going forward?",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Most helpers jump straight to Expert or Doctor. Name this pattern explicitly and without judgment before starting.",
+      "The best help often comes after two minutes of the helper saying nothing \u2014 just listening and asking questions.",
+      "Trap: helpers giving advice while calling it \"process consulting.\" Watch for advice dressed up as questions (\"Have you tried...?\").",
+      "Trap: clients not bringing real challenges. Encourage genuine problems, not hypotheticals.",
+      "String with Troika Consulting for a deeper peer-helping experience, or follow with 15% Solutions to action the insights."
+    ],
+    "lsNumber": 16,
+    "lsUrl": "16-helping-heuristics",
+    "structuralInvitation": "How can you help someone without taking over? What does the person in front of you actually need from you right now?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Edgar Schein's work on helping relationships."
+  },
+  {
+    "id": 17,
+    "name": "Conversation Caf\u00e9",
+    "nickname": "Conversation Caf\u00e9",
+    "time": 60,
+    "minParticipants": 6,
+    "maxParticipants": 40,
+    "complexity": "basic",
+    "purposes": [
+      "engagement",
+      "reflection",
+      "decision"
+    ],
+    "online": true,
+    "desc": "Engage everyone in making sense of challenging, complex, or controversial topics. Creates conditions for genuine dialogue rather than debate.",
+    "when": "When a topic is genuinely complex or controversial and people need to think together, not just argue.",
+    "phases": [
+      {
+        "label": "Check-in",
+        "minutes": 5,
+        "instruction": "Each person shares one word or sentence in response to the central question. No discussion yet.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Welcome everyone. The question we are exploring together today is [question]. There are a few simple agreements: listen to understand, speak from your own experience, and allow silence."
+      },
+      {
+        "label": "Round 1 \u2014 open",
+        "minutes": 15,
+        "instruction": "Open dialogue. Anyone can speak. Focus on understanding each other, not winning arguments. Use a talking object if helpful.",
+        "groups": "Groups of 6-8",
+        "friendlyInstruction": "Round 1: everyone speaks once on the question, briefly. No discussion yet \u2014 just your initial take. The talking piece moves around the circle."
+      },
+      {
+        "label": "Round 2 \u2014 deeper",
+        "minutes": 15,
+        "instruction": "Deepen the conversation. What assumptions are we making? What are we not saying? What would change our minds?",
+        "groups": "Groups of 6-8",
+        "friendlyInstruction": "Round 2 and 3: now it opens up. Build on what others have said, change your mind, share what struck you. The talking piece still goes to whoever holds it."
+      },
+      {
+        "label": "Harvest",
+        "minutes": 15,
+        "instruction": "What have we learned? What questions remain open? What surprised us? Share with the whole group.",
+        "groups": "Whole group",
+        "friendlyInstruction": "What themes and insights emerged? What surprised you? What question are you leaving with that you did not arrive with?"
+      },
+      {
+        "label": "Check-out",
+        "minutes": 10,
+        "instruction": "One word or sentence each: what are you leaving with?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What will you take away from this conversation? Not conclusions \u2014 just what shifted or opened up for you."
+      }
+    ],
+    "tips": [
+      "A talking object (pen, stone) can help regulate airtime in heated conversations",
+      "Seat people in circles, not rows",
+      "The facilitator's job is to protect the space, not direct the content"
+    ],
+    "lsNumber": 17,
+    "lsUrl": "17-conversation-cafe",
+    "structuralInvitation": "What do you think about [complex topic]? What meaning does it have for you?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 18,
+    "name": "User Experience Fishbowl",
+    "nickname": "UX Fishbowl",
+    "time": 30,
+    "minParticipants": 8,
+    "maxParticipants": 200,
+    "complexity": "basic",
+    "purposes": [
+      "engagement",
+      "reflection"
+    ],
+    "online": false,
+    "desc": "Elicit authentic user experience stories to reveal what's working and what isn't from the people who actually use your service.",
+    "when": "When you need real user stories to inform design or improvement. When experts are disconnected from users' actual experience.",
+    "phases": [
+      {
+        "label": "Set up fishbowl",
+        "minutes": 5,
+        "instruction": "4-6 users sit in the centre. Everyone else observes from outside. A facilitator manages the inner group.",
+        "groups": "Setup",
+        "friendlyInstruction": "Welcome our users into the inner circle. Everyone else forms the outer circle. A simple reminder: the inner circle speaks, the outer circle listens \u2014 really listens, without preparing rebuttals."
+      },
+      {
+        "label": "Storytelling",
+        "minutes": 15,
+        "instruction": "Users tell their stories: what happened when you tried to use our service? The facilitator asks gentle follow-up questions. Observers take notes in silence.",
+        "groups": "Inner circle and observers",
+        "friendlyInstruction": "Users: tell us your real experience. What happens when you try to use this service? Walk us through it \u2014 the good, the confusing, the frustrating. We are here to learn, not defend."
+      },
+      {
+        "label": "Observer questions",
+        "minutes": 10,
+        "instruction": "Observers can enter the inner circle to ask one question each, then return to the outside. No debate, no defence.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Outer circle: now you speak. What did you hear that surprised you? What did you not know? What questions are you sitting with? No explanations \u2014 just what you learned."
+      }
+    ],
+    "tips": [
+      "Observers must not interrupt or defend \u2014 this is the hardest rule to enforce",
+      "The discomfort experts feel hearing real stories is productive",
+      "Follow up with What, So What, Now What? to process what was heard"
+    ],
+    "lsNumber": 18,
+    "lsUrl": "18-users-experience-fishbowl",
+    "structuralInvitation": "What happens when you try to use our service? Tell us your story \u2014 what did you experience?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 19,
+    "name": "Heard, Seen, Respected",
+    "nickname": "HSR",
+    "time": 35,
+    "minParticipants": 6,
+    "maxParticipants": 50,
+    "complexity": "basic",
+    "purposes": [
+      "connection",
+      "reflection"
+    ],
+    "online": true,
+    "desc": "Practice the empathic listening and responding that builds trust. Surface experiences of not being heard, seen, or respected without blame.",
+    "when": "When trust is low or has been damaged. When people feel unheard. Before important or difficult conversations.",
+    "phases": [
+      {
+        "label": "Story sharing",
+        "minutes": 10,
+        "instruction": "In pairs: share a time when you did not feel heard, seen, or respected. Speak from personal experience. The listener only listens \u2014 no fixing, no sharing their own story.",
+        "groups": "Pairs",
+        "friendlyInstruction": "We are going to share stories from our own experience. The rule is simple: speak in the first person. Share a time when YOU did not feel heard, seen, or respected. No 'we' statements, no general observations \u2014 just your story."
+      },
+      {
+        "label": "Reflection",
+        "minutes": 10,
+        "instruction": "Listener reflects back what they heard: 'I heard you say...' Check: did you feel heard? Switch roles.",
+        "groups": "Pairs",
+        "friendlyInstruction": "Pairs share their stories. The listener's only job is to listen \u2014 no advice, no 'that happened to me too,' no fixing. Just be with the story."
+      },
+      {
+        "label": "Groups of 4",
+        "minutes": 10,
+        "instruction": "Two pairs join. What did you notice about listening? What made someone feel heard or not heard?",
+        "groups": "Groups of 4",
+        "friendlyInstruction": "Back in the full group: what patterns emerged across the stories? Not to solve them \u2014 just to name them. What did it feel like to be truly listened to?"
+      },
+      {
+        "label": "Whole group",
+        "minutes": 5,
+        "instruction": "What conditions create genuine listening? What will you do differently in your conversations going forward?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What does this experience tell us about how we show up for each other day to day? What is one thing you want to do differently?"
+      }
+    ],
+    "tips": [
+      "The listener must not share their own story during step 1 \u2014 this is surprisingly hard",
+      "Stories of not being heard are universal \u2014 expect recognition and emotion",
+      "This structure alone builds more trust than most team-building exercises"
+    ],
+    "lsNumber": 19,
+    "lsUrl": "19-heard-seen-respected-hsr",
+    "structuralInvitation": "Share a time when you did not feel heard, seen, or respected. Tell your story from your own experience.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 20,
+    "name": "Drawing Together",
+    "nickname": "Drawing Together",
+    "time": 30,
+    "minParticipants": 2,
+    "maxParticipants": 40,
+    "complexity": "basic",
+    "purposes": [
+      "reflection",
+      "engagement"
+    ],
+    "online": false,
+    "desc": "Enable people to communicate complex ideas with simple drawings. Bypasses the limitations of language and surfaces hidden assumptions.",
+    "when": "When language alone isn't revealing enough, or when a group needs to think together about something complex or emotional.",
+    "phases": [
+      {
+        "label": "Draw your challenge",
+        "minutes": 10,
+        "instruction": "Draw your current understanding of the challenge. No writing allowed. Stick figures welcome. Use only basic symbols: circle, triangle, square, star, person, arrow.",
+        "groups": "Individual",
+        "friendlyInstruction": "You will draw your response to the challenge \u2014 but there is a rule: you can only use these five shapes: circle, triangle, square, star, and a simple person. No words allowed. Start now."
+      },
+      {
+        "label": "Gallery and narrate",
+        "minutes": 10,
+        "instruction": "Pin drawings up. Each person narrates their drawing in 60 seconds. Others listen without comment.",
+        "groups": "Whole group",
+        "friendlyInstruction": "In your small group, each person shares what they drew and what it means. Look for shared themes or symbols that appeared independently."
+      },
+      {
+        "label": "Patterns",
+        "minutes": 10,
+        "instruction": "What patterns appear across the drawings? What do the differences tell us? What assumptions are visible?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What patterns do you see across the drawings? What does the visual language reveal that words might have hidden or complicated?"
+      }
+    ],
+    "tips": [
+      "Explicitly say there's no skill required \u2014 reassure people early",
+      "Drawings reveal mental models that words hide",
+      "Pay attention to what's missing from the drawings as much as what's there"
+    ],
+    "lsNumber": 20,
+    "lsUrl": "20-drawing-together",
+    "structuralInvitation": "Draw your response to the challenge using only these basic shapes: a circle, a triangle, a square, a star, and a simple person. No writing allowed.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 21,
+    "name": "Design StoryBoards",
+    "nickname": "Storyboards",
+    "time": 90,
+    "minParticipants": 6,
+    "maxParticipants": 30,
+    "complexity": "intermediate",
+    "purposes": [
+      "planning",
+      "ideation"
+    ],
+    "online": false,
+    "desc": "Describe the desired user experience in detail before building solutions. Makes the invisible visible.",
+    "when": "When designing new services, products, or processes. When you want to centre the user before jumping to solutions.",
+    "phases": [
+      {
+        "label": "Set the scene",
+        "minutes": 10,
+        "instruction": "Who is the user? What is the context? Define the character and situation together as a group.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Think about your user \u2014 someone specific, not a persona. What does a genuinely great experience look like for them? Start drawing the first moment of their journey."
+      },
+      {
+        "label": "Draw the journey",
+        "minutes": 40,
+        "instruction": "In small teams, sketch the user's experience step by step. What do they see, feel, do at each stage? No writing \u2014 only drawings.",
+        "groups": "Groups of 3-4",
+        "friendlyInstruction": "Continue the storyboard: what happens next? What do they see, feel, and do at each step? Keep drawing \u2014 stick figures are fine, this is not about art."
+      },
+      {
+        "label": "Gallery walk",
+        "minutes": 20,
+        "instruction": "Post storyboards on the wall. Everyone walks around and leaves sticky note reactions \u2014 stars for what's valuable, questions for what's unclear.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Share your storyboard with another pair. What is working? Where does the experience break down? What did the drawing reveal that a written plan would have hidden?"
+      },
+      {
+        "label": "Synthesise",
+        "minutes": 20,
+        "instruction": "What common elements appear across storyboards? What's the essential experience we're designing for?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What is the single most important moment in your storyboard \u2014 the one that makes or breaks the whole experience? What would it take to get that moment right?"
+      }
+    ],
+    "tips": [
+      "Stick figures are perfect \u2014 this isn't an art competition",
+      "Focus on the user's emotional journey, not just the steps",
+      "The gallery walk generates more ideas than the drawing phase"
+    ],
+    "lsNumber": 21,
+    "lsUrl": "21-design-storyboards",
+    "structuralInvitation": "What does a great experience look like for [user]? Draw it step by step \u2014 what do they see, feel, and do at each moment?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 22,
+    "name": "Celebrity Interview",
+    "nickname": "Celebrity Interview",
+    "time": 30,
+    "minParticipants": 6,
+    "maxParticipants": 999,
+    "complexity": "basic",
+    "purposes": [
+      "engagement",
+      "reflection"
+    ],
+    "online": true,
+    "desc": "Elicit wisdom from an expert or leader in a way that is honest, engaging, and avoids the prepared-speech trap. Makes tacit knowledge explicit.",
+    "when": "When an expert or leader has valuable experience to share and a traditional Q&A feels too formal or shallow.",
+    "phases": [
+      {
+        "label": "Prepare questions",
+        "minutes": 10,
+        "instruction": "Audience generates questions using 1-2-4-All. Focus on: what would we most want to know? What would we be afraid to ask?",
+        "groups": "Groups of 4",
+        "friendlyInstruction": "Introduce your guest to the group. Set the context: why is this person's experience and perspective valuable right now?"
+      },
+      {
+        "label": "The interview",
+        "minutes": 15,
+        "instruction": "A skilled interviewer draws out the guest's experience with the audience's best questions. Go where the energy goes \u2014 don't stick to a script.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Interview your guest with open, curious questions. Think of yourself as a genuinely interested journalist \u2014 not a moderator. Follow the interesting threads, not your script."
+      },
+      {
+        "label": "Debrief",
+        "minutes": 5,
+        "instruction": "What surprised us? What was most useful? What questions remain?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Open it up: what questions does the wider group have? What do they want to know that the interview did not cover?"
+      }
+    ],
+    "tips": [
+      "The interviewer makes or breaks this \u2014 choose someone who listens well and asks follow-ups",
+      "Encourage the guest to share failures and doubts, not just successes",
+      "Audience-generated questions are always better than pre-prepared ones"
+    ],
+    "lsNumber": 22,
+    "lsUrl": "22-celebrity-interview",
+    "structuralInvitation": "Tell me about a time when [your work on this topic] went particularly well. What made it possible?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 23,
+    "name": "Social Network Webbing",
+    "nickname": "Network Webbing",
+    "time": 60,
+    "minParticipants": 8,
+    "maxParticipants": 40,
+    "complexity": "intermediate",
+    "purposes": [
+      "planning",
+      "reflection"
+    ],
+    "online": false,
+    "desc": "Visualise how a community or organisation is connected. Identify brokers, bridges, and gaps to spread innovation and build resilience.",
+    "when": "When you need to understand how information and influence actually flow \u2014 not how the org chart says they do.",
+    "phases": [
+      {
+        "label": "Map the network",
+        "minutes": 20,
+        "instruction": "Place name cards on a large surface. Draw connections between people who regularly share information or collaborate. Use different colours for strong/weak ties.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Think about how your work actually gets done \u2014 not the org chart, but the real flow. Who do you actually go to for information, advice, or to get things moving? Write their names."
+      },
+      {
+        "label": "Analyse",
+        "minutes": 20,
+        "instruction": "Where are the bridges (connectors between clusters)? Where are the silos? Who is over-connected and at risk of burnout?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Map your connections on the shared diagram. Draw lines to the people you named. Thick lines for frequent contact, thin for occasional."
+      },
+      {
+        "label": "Plan",
+        "minutes": 20,
+        "instruction": "What connections need to be strengthened? What new bridges need to be built? What structures are creating silos?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Look at the map together. Where are the hubs \u2014 the people everything flows through? Where are the gaps \u2014 places where connection is missing but needed? What surprises you?"
+      }
+    ],
+    "tips": [
+      "Let the group map it themselves \u2014 they know the real connections",
+      "Bridges are often the most valuable and most overlooked people",
+      "Silos often exist for reasons \u2014 explore them with curiosity, not blame"
+    ],
+    "lsNumber": 23,
+    "lsUrl": "23-social-network-webbing",
+    "structuralInvitation": "Who do you regularly turn to for information, advice, or collaboration to get your work done? Let's map the real connections.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "name": "What I Need From You (WINFY)",
+    "nickname": "WINFY",
+    "time": 55,
+    "minParticipants": 8,
+    "maxParticipants": 50,
+    "complexity": "intermediate",
+    "purposes": [
+      "planning",
+      "decision",
+      "connection"
+    ],
+    "online": true,
+    "desc": "People in different functions or groups can quickly improve how they ask each other for what they need to succeed. By articulating core needs clearly and receiving unambiguous responses (yes, no, I will try, or whatever), you boost clarity, integrity, and transparency while dissolving misunderstandings that have built up across silos.",
+    "when": "When groups or teams depend on each other but have accumulated vague resentments or unarticulated needs. When you need to replace complaints with concrete requests. When cross-functional coordination is breaking down.",
+    "phases": [
+      {
+        "label": "Brief and set context",
+        "minutes": 5,
+        "instruction": "Reiterate the shared goal or challenge being addressed \u2014 context must be the same for all. Explain the four permitted responses: YES, NO, I WILL TRY, and WHATEVER (meaning: your request was too vague to answer specifically). No other responses are allowed. No elaboration or discussion when responding. Position the functional clusters around the room.",
+        "friendlyInstruction": "Before we start, let's be clear about the shared goal we're all working toward. Then the rules: when you respond to a request, you can only say YES, NO, I WILL TRY, or WHATEVER \u2014 which means \"your request was too vague for me to give you a real answer.\" No explanations. No negotiation. No \"but what I meant was...\" Clear requests get clear answers.",
+        "groups": "Whole group"
+      },
+      {
+        "label": "Craft top needs",
+        "minutes": 15,
+        "instruction": "Functional clusters use 1-2-4-All to identify their top needs from each of the other groups in the room. Needs are expressed as requests in the form: \"What I need from you is ____.\" Each cluster reduces their list to their two most important needs, writes them down in exact form, and selects a spokesperson.",
+        "friendlyInstruction": "Using 1-2-4-All in your group: what do you truly need from each of the other groups here in order to succeed? Complete the sentence: \"What I need from you is ___.\" Be specific \u2014 vague requests get \"WHATEVER\" as an answer. Reduce to your two most important needs per group, write them down precisely, and choose your spokesperson.",
+        "groups": "Functional clusters using 1-2-4-All"
+      },
+      {
+        "label": "Express needs \u2014 no responses yet",
+        "minutes": 10,
+        "instruction": "Spokespeople come to the centre (inner circle). Each spokesperson reads their needs to the relevant groups. Receiving groups ONLY LISTEN \u2014 no responses yet, no reactions. This is strictly enforced.",
+        "friendlyInstruction": "Spokespeople: come to the centre. Each of you will read your needs aloud to the groups you're addressing. Everyone else: your only job right now is to listen. No reactions, no nodding, no \"mmm\". Strictly listen. You'll get to respond shortly.",
+        "groups": "Spokespeople in inner circle; others listen"
+      },
+      {
+        "label": "Consult and formulate responses",
+        "minutes": 10,
+        "instruction": "Spokespeople return to their groups. Each group confers and decides on their response to each request directed at them: YES, NO, I WILL TRY, or WHATEVER. No other options. Groups select their response and prepare to deliver it without elaboration.",
+        "friendlyInstruction": "Spokespeople: go back to your groups. Discuss the requests directed at you and decide: YES, NO, I WILL TRY, or WHATEVER. Choose one \u2014 you cannot negotiate or qualify it when you deliver it. No \"it depends\" or \"we would if...\" Just the answer.",
+        "groups": "Functional clusters"
+      },
+      {
+        "label": "Deliver responses",
+        "minutes": 5,
+        "instruction": "Spokespeople reconvene in the inner circle. Each spokesperson delivers their responses to each request, one at a time, without elaboration. No discussion allowed at this stage.",
+        "friendlyInstruction": "Spokespeople: back to the centre. Deliver your answers one by one \u2014 just the answer, nothing more. No explaining. No softening. The directness is the point.",
+        "groups": "Spokespeople in inner circle; others listen"
+      },
+      {
+        "label": "Debrief",
+        "minutes": 10,
+        "instruction": "Debrief with What, So What, Now What? What surprised us? What requests got \"WHATEVER\" \u2014 what does that tell us about how clearly we express our needs? What commitments emerged? What was not asked that should have been?",
+        "friendlyInstruction": "What surprised you? Which responses were unexpected? Any \"WHATEVER\" answers \u2014 what does that tell you about how clearly you're asking? What commitments did you hear that you want to hold each other to? And: what did you need but didn't ask for?",
+        "groups": "Whole group"
+      }
+    ],
+    "tips": [
+      "Emphasise that requests must be specific enough to receive a yes or no. Vague requests always get \"WHATEVER\" \u2014 and that's the point.",
+      "Strictly enforce \"no immediate response\" when needs are first expressed. Rushing to respond before consulting the group undermines the process.",
+      "Strictly enforce the four-response rule. No elaboration, no negotiation. This directness is what makes WINFY work.",
+      "Trap: groups expressing complaints rather than requests. Redirect: \"How can you turn that into a specific request?\"",
+      "Trap: \"I WILL TRY\" being used to avoid a real yes or no. Consider replacing it with \"HUH?\" (Keith McCandless's suggestion) \u2014 more lovingly provocative.",
+      "This structure can surface real tension. Keep the atmosphere warm and constructive without undermining the seriousness.",
+      "String with Nine Whys beforehand to deepen purpose clarity, or debrief with What, So What, Now What? to process what emerged."
+    ],
+    "id": 24,
+    "lsNumber": 24,
+    "lsUrl": "24-what-i-need-from-you-winfy",
+    "structuralInvitation": "What I need from you to be successful in achieving [shared goal] is... (complete the sentence with a clear, specific request)",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Kathie Dannemiller and professor Dan Pesut."
+  },
+  {
+    "id": 25,
+    "name": "Open Space Technology",
+    "nickname": "Open Space",
+    "time": 240,
+    "minParticipants": 15,
+    "maxParticipants": 2000,
+    "complexity": "advanced",
+    "purposes": [
+      "ideation",
+      "planning",
+      "engagement"
+    ],
+    "online": false,
+    "desc": "Invite a group to create and manage its own agenda around a single, complex theme. Radical self-organisation at scale.",
+    "when": "When the challenge is complex, the people who need to contribute are diverse, and commitment to action is required.",
+    "phases": [
+      {
+        "label": "Opening circle",
+        "minutes": 30,
+        "instruction": "Gather the whole group in a circle. The convener introduces the theme and the four principles: whoever comes is the right people, whenever it starts is the right time, whatever happens is the only thing that could, when it's over it's over.",
+        "groups": "Whole group",
+        "friendlyInstruction": "If you have a question or topic you feel genuinely passionate about and personally responsible for exploring \u2014 come up and post it. You are voting with your feet when you choose sessions."
+      },
+      {
+        "label": "Marketplace",
+        "minutes": 20,
+        "instruction": "Anyone who wants to convene a session announces it and posts it on the wall. Sessions self-organise into available spaces and times.",
+        "groups": "Individual",
+        "friendlyInstruction": "You have your marketplace of sessions. The Law of Two Feet applies: if you are not learning or contributing, move. No guilt \u2014 movement is encouraged."
+      },
+      {
+        "label": "Sessions",
+        "minutes": 120,
+        "instruction": "Concurrent self-organised sessions run in parallel. Participants vote with their feet \u2014 move if you're not learning or contributing. Conveners take notes.",
+        "groups": "Self-organised groups",
+        "friendlyInstruction": "Work is happening in parallel sessions right now. Follow your energy. Take notes on what emerges \u2014 the harvest comes at the end."
+      },
+      {
+        "label": "Evening news",
+        "minutes": 30,
+        "instruction": "Brief summaries of what happened in each session. What insights are emerging?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Each session host shares the key insights, questions, and commitments from their group. What will we actually do with what was discovered?"
+      },
+      {
+        "label": "Closing circle",
+        "minutes": 30,
+        "instruction": "What are we taking away? What actions will we commit to? What remains open?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Looking at everything that emerged today: what surprised you? What feels most important? What are you now committed to?"
+      }
+    ],
+    "tips": [
+      "The 'law of two feet' is essential \u2014 people must feel free to move",
+      "Trust the process even when it looks chaotic \u2014 it always self-organises",
+      "Requires a skilled convener but minimal facilitation once started"
+    ],
+    "lsNumber": 25,
+    "lsUrl": "25-open-space-technology",
+    "structuralInvitation": "What questions or issues do you most care about, for which you have genuine passion and real responsibility to act?",
+    "attribution": "Developed by Harrison Owen. Included in the Liberating Structures repertoire by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 26,
+    "name": "Generative Relationships STAR",
+    "nickname": "STAR",
+    "time": 45,
+    "minParticipants": 4,
+    "maxParticipants": 30,
+    "complexity": "intermediate",
+    "purposes": [
+      "reflection",
+      "planning",
+      "connection"
+    ],
+    "online": true,
+    "desc": "Assess and build the qualities of relationships that are needed for complex collaboration. Uses four dimensions: Separate, Tuning, Acting, Reciprocating.",
+    "when": "When a team or partnership needs to reflect honestly on how they're working together and what needs to improve.",
+    "phases": [
+      {
+        "label": "Assess individually",
+        "minutes": 10,
+        "instruction": "Each person rates the relationship on four dimensions: Separate (maintaining identity), Tuning (paying attention), Acting (taking initiative), Reciprocating (giving back). Use 1-5 scale.",
+        "groups": "Individual",
+        "friendlyInstruction": "Look at the four STAR dimensions together: Separateness, Tuning, Acting Together, and Reason to Return. Without judging, where would you honestly place your relationship on each one right now?"
+      },
+      {
+        "label": "Share and compare",
+        "minutes": 20,
+        "instruction": "Share your ratings and reasoning. Where do you agree? Where do you see things differently? Explore the differences with curiosity.",
+        "groups": "Whole group or pairs",
+        "friendlyInstruction": "Share your ratings and the reasoning behind them. Where do you agree? Where do you see it differently? The gaps are where the most interesting conversation lives."
+      },
+      {
+        "label": "Plan",
+        "minutes": 15,
+        "instruction": "What small shifts in each dimension would make this relationship more generative? What will you each do differently?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Given where you are on the STAR dimensions, what would move this relationship in a more generative direction? What is one specific thing each party could do differently?"
+      }
+    ],
+    "tips": [
+      "Honest self-assessment is more valuable than polite agreement",
+      "Differences in perception are data, not problems",
+      "Focus on small, concrete behavioural changes rather than big abstract commitments"
+    ],
+    "lsNumber": 26,
+    "lsUrl": "26-generative-relationships-st",
+    "structuralInvitation": "How generative is our relationship? Where do we stand on each of the four STAR dimensions: Separateness, Tuning, Acting Together, Reason to Return?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the work of Glenda Eoyang."
+  },
+  {
+    "id": 27,
+    "name": "Agreement-Certainty Matrix",
+    "nickname": "ABCDE",
+    "time": 45,
+    "minParticipants": 4,
+    "maxParticipants": 30,
+    "complexity": "intermediate",
+    "purposes": [
+      "decision",
+      "planning"
+    ],
+    "online": true,
+    "desc": "Identify which kind of challenge you're facing and choose the appropriate response. Distinguishes simple, complicated, complex, and chaotic challenges.",
+    "when": "When a group is using the wrong approach for its type of challenge \u2014 for example, applying planning to complexity.",
+    "phases": [
+      {
+        "label": "Map your challenges",
+        "minutes": 15,
+        "instruction": "List your current challenges and place each in one of four zones based on agreement and certainty levels among stakeholders.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Look at the challenge you are facing. On the matrix: how much genuine agreement is there among the people involved? And how certain are you about what causes what? Place it honestly."
+      },
+      {
+        "label": "Discuss placements",
+        "minutes": 15,
+        "instruction": "Share your mappings. Where do you disagree about where a challenge belongs? The disagreements are often the most important conversations.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Compare where different people placed the same challenge. Where do you disagree about the level of agreement or certainty? That disagreement is itself important information."
+      },
+      {
+        "label": "Match approaches",
+        "minutes": 15,
+        "instruction": "For each zone, what's the right approach? Simple = best practice. Complicated = good practice. Complex = emergent practice. Chaotic = novel practice.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Given where your challenges sit on the matrix, what kind of approach actually fits? Simple problems need different methods than complex or chaotic ones \u2014 what does your placement suggest?"
+      }
+    ],
+    "tips": [
+      "Most groups apply complicated-zone solutions to complex-zone problems \u2014 this is a common and expensive mistake",
+      "Disagreement about which zone a challenge belongs in is productive, not a problem to resolve quickly",
+      "Use this before planning processes to ensure you're using the right planning approach"
+    ],
+    "lsNumber": 27,
+    "lsUrl": "27-agreement-certainty-matrix",
+    "structuralInvitation": "Where does each of your current challenges fall on the matrix? How much agreement is there among stakeholders, and how much certainty do you have about cause and effect?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Cynefin framework (Dave Snowden)."
+  },
+  {
+    "id": 28,
+    "name": "Simple Ethnography",
+    "nickname": "Ethnography",
+    "time": 120,
+    "minParticipants": 2,
+    "maxParticipants": 20,
+    "complexity": "intermediate",
+    "purposes": [
+      "reflection",
+      "planning"
+    ],
+    "online": false,
+    "desc": "Observe and record the actual experience of users or front-line workers. Make the gap between how work is imagined and how it actually happens visible.",
+    "when": "When decision-makers are disconnected from how work actually happens. When you suspect the real story is different from the official story.",
+    "phases": [
+      {
+        "label": "Prepare",
+        "minutes": 15,
+        "instruction": "What will you observe? What questions will guide your observation? Prepare an observation guide. Remember: you are there to learn, not to fix.",
+        "groups": "Whole group",
+        "friendlyInstruction": "We are going out to observe, not to evaluate. Your job is to watch and listen as a genuine learner \u2014 not as an expert, not as an auditor. Note what you actually see and hear, not what you expect."
+      },
+      {
+        "label": "Observe",
+        "minutes": 60,
+        "instruction": "Visit the workplace or service point. Observe and take notes. Watch what people actually do, not what they say they do. Take photos if permitted.",
+        "groups": "Pairs",
+        "friendlyInstruction": "In the field: observe without intervening. Write down specific moments, quotes, and details \u2014 not your interpretations of them. What is actually happening?"
+      },
+      {
+        "label": "Debrief with host",
+        "minutes": 15,
+        "instruction": "Thank your hosts. Share one observation that surprised you. Ask what they wish decision-makers knew about their work.",
+        "groups": "Pairs with hosts",
+        "friendlyInstruction": "Back together: share your raw observations first, before any interpretation. What did you see? What did you hear? What did you not expect?"
+      },
+      {
+        "label": "Sense-making",
+        "minutes": 30,
+        "instruction": "With your partner: what did you observe? So what does it mean? Now what should change?",
+        "groups": "Pairs then whole group",
+        "friendlyInstruction": "Now interpret: what do the observations mean? What do they suggest about how things actually work, as opposed to how we assumed they worked?"
+      }
+    ],
+    "tips": [
+      "Arrive as a learner, not an expert or inspector",
+      "The most interesting data is often what surprises you",
+      "Always share back what you learned \u2014 don't just extract information"
+    ],
+    "lsNumber": 28,
+    "lsUrl": "28-simple-ethnography",
+    "structuralInvitation": "What is really happening when people do this work? Let's go observe for ourselves \u2014 as learners, not as inspectors.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by ethnographic research traditions in social science."
+  },
+  {
+    "id": 29,
+    "name": "Integrated~Autonomy",
+    "nickname": "Integrated Autonomy",
+    "time": 60,
+    "minParticipants": 8,
+    "maxParticipants": 40,
+    "complexity": "advanced",
+    "purposes": [
+      "decision",
+      "planning"
+    ],
+    "online": true,
+    "desc": "Move from either/or to both/and thinking on the tension between local autonomy and central coordination. Develop strategies that honor both.",
+    "when": "When a group is stuck arguing between centralisation and decentralisation, standardisation and flexibility.",
+    "phases": [
+      {
+        "label": "Generate both sides",
+        "minutes": 15,
+        "instruction": "In two parallel groups: one generates all the reasons for more autonomy, the other for more integration. Be bold \u2014 don't self-censor.",
+        "groups": "Two groups",
+        "friendlyInstruction": "Think about what you need that is more locally controlled AND more centrally coordinated \u2014 simultaneously. Not a compromise, but genuinely both. Write down the tensions you are holding."
+      },
+      {
+        "label": "Share and listen",
+        "minutes": 15,
+        "instruction": "Each group presents. The other group listens for what's genuinely valuable in the opposing view. No debate yet.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Using 1-2-4-All, explore: what would enable more local autonomy without losing the benefits of integration? And more integration without losing local ownership?"
+      },
+      {
+        "label": "Both/And",
+        "minutes": 20,
+        "instruction": "Together: what strategies would give us more of both? What conditions enable both autonomy and integration at the same time?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What specific structures, agreements, or practices could make both more possible at the same time? What would you need to stop doing to make room?"
+      },
+      {
+        "label": "Commit",
+        "minutes": 10,
+        "instruction": "What specific changes will you make? Which practices enable both dimensions simultaneously?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Name your commitments: what will you actually do to move toward integration AND autonomy? Who needs to be involved that is not in this room?"
+      }
+    ],
+    "tips": [
+      "The 'listening for value' step is critical \u2014 it breaks the debate dynamic",
+      "Both/And solutions exist for most autonomy-integration tensions \u2014 trust the process",
+      "This works for any either/or dilemma, not just autonomy vs integration"
+    ],
+    "lsNumber": 29,
+    "lsUrl": "29-integrated-autonomy",
+    "structuralInvitation": "What do we need that provides both more local autonomy AND more central integration simultaneously? What would make both more possible at the same time?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  },
+  {
+    "id": 30,
+    "name": "Critical Uncertainties",
+    "nickname": "Critical Uncertainties",
+    "time": 90,
+    "minParticipants": 8,
+    "maxParticipants": 30,
+    "complexity": "advanced",
+    "purposes": [
+      "planning",
+      "decision"
+    ],
+    "online": true,
+    "desc": "Develop strategies for operating in a highly uncertain environment by exploring scenarios created from your most critical unknowns.",
+    "when": "When planning in genuinely uncertain environments. When you need robust strategies that work across multiple possible futures.",
+    "phases": [
+      {
+        "label": "Identify uncertainties",
+        "minutes": 20,
+        "instruction": "Generate all the important uncertainties facing your initiative. Reduce to the 2 most critical \u2014 those with highest impact and highest uncertainty.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "List all the factors that could significantly affect the success of your work. Now identify the two that are both most impactful AND most uncertain. These are your critical uncertainties."
+      },
+      {
+        "label": "Create scenario matrix",
+        "minutes": 15,
+        "instruction": "Place your two critical uncertainties on a 2x2 matrix. Name each of the four scenarios that results.",
+        "groups": "Whole group",
+        "friendlyInstruction": "Plot your two critical uncertainties on a 2\u00d72 matrix. This creates four possible future scenarios. Give each scenario a name that captures its essential character."
+      },
+      {
+        "label": "Explore scenarios",
+        "minutes": 30,
+        "instruction": "In small groups, deeply explore each scenario. What would the world look like? What would be true? What would you need to do?",
+        "groups": "Groups of 3-4 per scenario",
+        "friendlyInstruction": "For each scenario: what would it mean for your work? What would you need to do differently? What early signals would tell you this scenario was emerging?"
+      },
+      {
+        "label": "Robust strategies",
+        "minutes": 25,
+        "instruction": "Which strategies work across multiple scenarios? What are the early indicators that tell you which scenario is unfolding?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Looking across all four scenarios: what strategies would serve you well in any of them? What would you do right now that makes sense regardless of which future unfolds?"
+      }
+    ],
+    "tips": [
+      "The choice of the two critical uncertainties determines everything \u2014 take time to get this right",
+      "Good scenarios feel uncomfortable \u2014 if all four feel manageable, the uncertainties aren't critical enough",
+      "Look for 'no-regret' actions that make sense in all scenarios"
+    ],
+    "lsNumber": 30,
+    "lsUrl": "30-critical-uncertainties",
+    "structuralInvitation": "What are the most critical unknowns \u2014 the factors with the highest impact and highest uncertainty \u2014 that could most affect the success of our work?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by scenario planning methods."
+  },
+  {
+    "id": 31,
+    "name": "Ecocycle Planning",
+    "nickname": "Ecocycle",
+    "time": 90,
+    "minParticipants": 8,
+    "maxParticipants": 50,
+    "complexity": "advanced",
+    "purposes": [
+      "planning",
+      "decision",
+      "reflection"
+    ],
+    "online": true,
+    "desc": "Analyse the full portfolio of activities and initiatives. Identify what to grow, what to let go, and where creative destruction is needed.",
+    "when": "For strategic planning when a group needs to honestly assess all its current activities and make resource decisions.",
+    "phases": [
+      {
+        "label": "Map activities",
+        "minutes": 20,
+        "instruction": "List all current activities, projects, and initiatives on sticky notes. Then place each on the Ecocycle map: Birth, Maturity, Creative Destruction, or Renewal.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "List all your current activities and initiatives. Now honestly: where is each one in its lifecycle? Growing? Mature and efficient? Declining? Stuck? Place each one on the Ecocycle map."
+      },
+      {
+        "label": "Identify traps",
+        "minutes": 20,
+        "instruction": "Where are you trapped in a Poverty Trap (nothing new starting) or Rigidity Trap (can't let go of mature activities)? Mark these.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Look at your map: where is the Creative Destruction needed \u2014 what needs to end or radically transform so something new can begin? What are you keeping alive out of habit, not value?"
+      },
+      {
+        "label": "Whole group review",
+        "minutes": 20,
+        "instruction": "Share your maps. What patterns do you see across the organisation? Where are most resources going?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Where are the opportunities for renewal? What new initiatives or approaches are waiting in the wings? What would need to stop for them to have space?"
+      },
+      {
+        "label": "Plan moves",
+        "minutes": 20,
+        "instruction": "What will you start? What will you stop? What will you accelerate? Make specific decisions.",
+        "groups": "Whole group",
+        "friendlyInstruction": "What specific decisions follow from this map? What will you stop, start, or fundamentally change? Name them."
+      },
+      {
+        "label": "Commitments",
+        "minutes": 10,
+        "instruction": "Each team commits to specific moves: at least one stop and one start.",
+        "groups": "Whole group",
+        "friendlyInstruction": "How will you revisit this map? The Ecocycle is a living picture, not a one-time exercise \u2014 what is your commitment to using it?"
+      }
+    ],
+    "tips": [
+      "The creative destruction quadrant is the hardest \u2014 naming what to stop is courageous work",
+      "Include informal activities, not just official projects",
+      "Pair with TRIZ to go deeper on the stopping side"
+    ],
+    "lsNumber": 31,
+    "lsUrl": "31-ecocycle-planning",
+    "structuralInvitation": "Where are each of your current activities and initiatives in their natural lifecycle? Place each one on the Ecocycle map.",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ecocycle model (C.S. Holling) and Panarchy theory."
+  },
+  {
+    "id": 32,
+    "name": "Panarchy",
+    "nickname": "Panarchy",
+    "time": 45,
+    "minParticipants": 6,
+    "maxParticipants": 30,
+    "complexity": "advanced",
+    "purposes": [
+      "planning",
+      "reflection"
+    ],
+    "online": true,
+    "desc": "Understand how actions and interactions at one scale of your system affect other scales. Plan across multiple levels simultaneously.",
+    "when": "When local actions have unintended consequences at larger scales, or when global changes are creating local problems.",
+    "phases": [
+      {
+        "label": "Map the levels",
+        "minutes": 15,
+        "instruction": "Identify the different scales of your system (individual, team, department, organisation, ecosystem). What is happening at each level?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Think about the different scales of your system: what is happening at the individual level? The team level? The organisation level? The wider ecosystem? Describe what you see at each level."
+      },
+      {
+        "label": "Identify connections",
+        "minutes": 15,
+        "instruction": "How do actions at one level affect other levels? Where are the 'revolt' connections (small disrupting large) and 'remember' connections (large constraining small)?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Where do the scales interact? How do actions at one level ripple through the others \u2014 up and down? Where is the leverage? Where are the traps?"
+      },
+      {
+        "label": "Plan across scales",
+        "minutes": 15,
+        "instruction": "What actions at which level would have the most leverage? How can you act locally while thinking at multiple scales?",
+        "groups": "Whole group",
+        "friendlyInstruction": "Given what you see, what actions at which level would have the most positive impact across the whole system? What would you stop doing at one level to create room at another?"
+      }
+    ],
+    "tips": [
+      "This is a complex framework \u2014 introduce it briefly before diving in",
+      "The connections between levels are often more important than any single level",
+      "Resist the urge to only plan at the level you control"
+    ],
+    "lsNumber": 32,
+    "lsUrl": "32-panarchy",
+    "structuralInvitation": "What is happening at different scales of your system \u2014 individual, team, organisation, wider ecosystem? How do these levels interact and influence each other?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Panarchy theory (Holling, Gunderson, and Allen)."
+  },
+  {
+    "id": 33,
+    "name": "Purpose-to-Practice",
+    "nickname": "P2P",
+    "time": 120,
+    "minParticipants": 10,
+    "maxParticipants": 50,
+    "complexity": "advanced",
+    "purposes": [
+      "planning"
+    ],
+    "online": true,
+    "desc": "Define the five essential elements needed to create a resilient, enduring initiative: Purpose, Principles, Participants, Structure, and Practices.",
+    "when": "When launching a new initiative, team, or organisation and you need shared foundations from the start.",
+    "phases": [
+      {
+        "label": "Purpose",
+        "minutes": 20,
+        "instruction": "What is our deepest aspiration? What are we here to do? Use 1-2-4-All to craft a purpose statement everyone believes in.",
+        "groups": "1-2-4-All",
+        "friendlyInstruction": "What is our deepest aspiration \u2014 our purpose? Not a mission statement. The real reason this work matters. Take your time with this one."
+      },
+      {
+        "label": "Principles",
+        "minutes": 20,
+        "instruction": "What values and principles will guide all our decisions? Use Min Specs thinking \u2014 only include what's truly essential.",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Given that purpose, what principles will guide how we work together? Not rules \u2014 the values that should show up in our day-to-day decisions."
+      },
+      {
+        "label": "Participants",
+        "minutes": 20,
+        "instruction": "Who must be included? Who are all the stakeholders? What are their roles? Who is missing from this conversation?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "Who needs to be part of this? Who has a stake in the purpose and brings something essential? Think beyond the obvious people."
+      },
+      {
+        "label": "Structure",
+        "minutes": 20,
+        "instruction": "How will we organise ourselves? What decisions can be made by whom? How will we communicate?",
+        "groups": "Groups of 4-6",
+        "friendlyInstruction": "What specific structures will enable the purpose? Meetings, roles, decision-making processes \u2014 what needs to exist and how should it work?"
+      },
+      {
+        "label": "Practices",
+        "minutes": 20,
+        "instruction": "What specific activities and routines will bring our purpose to life? What will we do differently starting tomorrow?",
+        "groups": "Whole group",
+        "friendlyInstruction": "What practices will we commit to? The regular activities that keep us connected to the purpose and accountable to each other?"
+      }
+    ],
+    "tips": [
+      "Work through each element in order \u2014 they build on each other",
+      "Return to Purpose whenever discussions get stuck",
+      "Document outputs carefully \u2014 these are your founding documents"
+    ],
+    "lsNumber": 33,
+    "lsUrl": "33-purpose-to-practice-p2p",
+    "structuralInvitation": "What is our deepest aspiration \u2014 our purpose? Why does this work matter, and what must we do to bring it to life?",
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+  }
+]

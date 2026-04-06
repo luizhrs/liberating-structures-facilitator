@@ -1,0 +1,211 @@
+@keyframes panelIn {
+  from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .panel { animation: panelIn 0.12s ease-out both; }
+}
+
+.panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  /* Never clip off-screen on small viewports */
+  width: 280px;
+  max-width: calc(100vw - 1.5rem);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border-strong);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 200;
+  overflow: hidden;
+}
+
+/* In dark themes the shadow needs more opacity */
+[data-theme="dark"] .panel,
+[data-theme="forest"] .panel,
+[data-theme="ocean"] .panel,
+[data-theme="contrast"] .panel {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.section {
+  padding: 0.875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--c-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Theme swatches ────────────────────────────────────── */
+
+.themeGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.themeBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 2px;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  transition: background 0.1s;
+  min-height: 44px;
+}
+
+.themeBtn:hover { background: var(--c-surface-2); }
+
+.themeBtn:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 1px;
+}
+
+.swatchWrap {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.swatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+.swatchAccent {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/* System swatch: split light/dark */
+.systemSwatch {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(0,0,0,0.12);
+  display: flex;
+}
+.systemLeft  { flex: 1; background: #fafaf8; }
+.systemRight { flex: 1; background: #141412; }
+
+.swatchCheck {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.25);
+  border-radius: 50%;
+}
+
+.themeBtnActive .swatch,
+.themeBtnActive .systemSwatch {
+  border-color: var(--c-accent);
+  border-width: 2.5px;
+}
+
+.themeLabel {
+  font-size: 10px;
+  color: var(--c-text-3);
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.themeBtnActive .themeLabel {
+  color: var(--c-accent);
+  font-weight: 600;
+}
+
+/* ── Font size ─────────────────────────────────────────── */
+
+.fontRow {
+  display: flex;
+  gap: 4px;
+  align-items: stretch;
+}
+
+.fontBtn {
+  flex: 1;
+  min-height: 36px;
+  border: 1px solid var(--c-border-input);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--c-text-2);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.12s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fontBtn:hover {
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  border-color: var(--c-border-strong);
+}
+
+.fontBtn:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 1px;
+}
+
+.fontBtnActive {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: var(--c-bg);
+}
+
+.fontBtnActive:hover {
+  opacity: 0.9;
+  background: var(--c-accent);
+  color: var(--c-bg);
+}
+
+/* ── Divider & footer ──────────────────────────────────── */
+
+.divider {
+  height: 1px;
+  background: var(--c-border);
+  margin: 0;
+}
+
+.storageNote {
+  padding: 0.625rem 1rem;
+  font-size: 11px;
+  color: var(--c-text-3);
+  line-height: 1.5;
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
