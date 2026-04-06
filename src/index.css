@@ -333,7 +333,7 @@ body {
   background: var(--c-text);
   color: var(--c-bg);
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   border-radius: 0 0 var(--radius-md) var(--radius-md);
   text-decoration: none;
