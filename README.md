@@ -4,7 +4,7 @@ A free, open-source facilitation companion for the [33 Liberating Structures](ht
 
 **No accounts. No personal data collected. No backend. Just open the app and facilitate.**
 
-→ **[Try it live](https://luizhrs.github.io/liberating-structures-facilitator)**
+→ **[Try it live](https://liberating-structures-facilitator.vercel.app/)**
 
 Built by [Luiz Santana](https://github.com/luizhrs) · [LinkedIn](https://www.linkedin.com/in/luiz-hrsantana/) · [Substack](https://luizhrsantana.substack.com/)
 
