@@ -157,7 +157,9 @@ Respond ONLY with a valid JSON array, no other text:
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: {
         temperature: 0.4,
-        maxOutputTokens: 500,
+        maxOutputTokens: 800,
+        // Disable thinking mode — not needed for this task and causes parsing issues
+        thinkingConfig: { thinkingBudget: 0 },
       },
     }),
   })
@@ -183,11 +185,34 @@ Respond ONLY with a valid JSON array, no other text:
   }
 
   const data = await response.json()
-  const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
 
-  const jsonMatch = text.match(/\[[\s\S]*\]/)
-  if (!jsonMatch) throw new Error('Could not parse AI response')
+  // Gemini 2.5+ may include thinking parts — collect only non-thought text parts
+  const parts: { text?: string; thought?: boolean }[] =
+    data?.candidates?.[0]?.content?.parts ?? []
+  const text: string = parts
+    .filter(p => !p.thought && p.text)
+    .map(p => p.text)
+    .join('')
+    .trim()
 
-  const parsed = JSON.parse(jsonMatch[0]) as Recommendation[]
-  return parsed.sort((a, b) => a.rank - b.rank)
+  // Strip markdown code fences if present: ```json ... ``` or ``` ... ```
+  const stripped = text
+    .replace(/^```(?:json)?\s*/i, '')
+    .replace(/\s*```\s*$/, '')
+    .trim()
+
+  // Find the JSON array — either the whole stripped text or embedded within it
+  const jsonMatch = stripped.match(/\[[\s\S]*\]/)
+  if (!jsonMatch) {
+    console.error('Gemini raw response:', text)
+    throw new Error('Could not parse AI response. Try again — the model occasionally returns unexpected formatting.')
+  }
+
+  try {
+    const parsed = JSON.parse(jsonMatch[0]) as Recommendation[]
+    return parsed.sort((a, b) => a.rank - b.rank)
+  } catch (parseErr) {
+    console.error('JSON parse error, raw:', jsonMatch[0])
+    throw new Error('Could not parse AI response. Try again.')
+  }
 }
