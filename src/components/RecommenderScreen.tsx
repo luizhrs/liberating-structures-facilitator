@@ -91,16 +91,29 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
 
         <div className={styles.fieldRow}>
           <div className={styles.field}>
-            <label className={styles.label} htmlFor={participantsId}>Participants</label>
+            <label className={styles.label} htmlFor={participantsId}>
+              Participants
+              <span className={styles.inputLabelHint}>(minimum 2)</span>
+            </label>
             <input
               id={participantsId}
               type="number"
-              className={styles.input}
-              value={participants}
+              className={`${styles.input} ${participants < 2 ? styles.inputError : ''}`}
+              value={participants || ''}
               min={2}
               max={500}
-              onChange={e => setParticipants(Number(e.target.value))}
+              required
+              aria-describedby="participants-hint"
+              onChange={e => {
+                const val = parseInt(e.target.value, 10)
+                setParticipants(isNaN(val) ? 2 : Math.max(2, val))
+              }}
             />
+            {participants < 2 && (
+              <span id="participants-hint" className={styles.fieldError} role="alert">
+                Minimum 2 participants
+              </span>
+            )}
           </div>
           <div className={styles.field}>
             <label className={styles.label} htmlFor={timeId}>Time available</label>
@@ -191,7 +204,7 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
           type="button"
           className={styles.submitBtn}
           onClick={handleRecommend}
-          disabled={loading}
+          disabled={loading || participants < 2}
           aria-busy={loading}
         >
           {loading ? 'Finding the right structures…' : 'Find structures for me →'}
