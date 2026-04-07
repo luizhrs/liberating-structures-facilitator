@@ -13,8 +13,8 @@
       "decision"
     ],
     "online": true,
-    "desc": "Engage everyone simultaneously in generating questions, ideas, and suggestions. No one is left out and all contributions matter.",
-    "when": "When you want to replace a one-way presentation or discussion dominated by a few voices.",
+    "desc": "Engage everyone simultaneously in generating questions, ideas, and suggestions. You can immediately include everyone regardless of group size. Better ideas emerge faster, participants own them, and follow-through happens without the need for buy-in strategies.",
+    "when": "Use instead of open discussion, brainstorming, or 'any questions?' after a presentation. Ideal whenever you want to replace one-way content delivery or discussions dominated by a few voices with genuine input from everyone.",
     "phases": [
       {
         "label": "Alone",
@@ -46,14 +46,45 @@
       }
     ],
     "tips": [
-      "Use a crisp, open question that invites genuine reflection",
-      "Enforce the individual round \u2014 silence is productive",
-      "In the All round, ask for one new idea not already shared"
+      "Ask a single, crisp, open question. Vague questions produce vague answers \u2014 sharpen it before you start.",
+      "Protect the individual silence round. It is the most frequently skipped and the most important. 1 minute feels long. Let it.",
+      "In the All round, ask for one idea that has NOT yet been shared. This prevents repetition and forces groups to listen.",
+      "Time the rounds strictly \u2014 use a visible timer or a bell. Transitions are part of the structure.",
+      "Resist the urge to debrief after every round. Let the structure do the work.",
+      "For groups of 5 or 7, create a group of 3 rather than breaking pairs \u2014 trios work fine.",
+      "Do a second round if the first felt shallow. The second cycle benefits from what surfaced in the first.",
+      "Trap: letting the All round become a monologue from each group. Keep it to one idea per group, then ask 'who has something different?'"
     ],
     "lsNumber": 1,
     "lsUrl": "1-1-2-4-all",
     "structuralInvitation": "What is your thinking on [challenge/question]? Please reflect alone first.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Engage every individual in searching for answers",
+      "Avoid groupthink \u2014 preserve independent judgment before social influence sets in",
+      "Tap the know-how and imagination distributed widely across the group, not just the vocal few",
+      "Generate better ideas and more of them, faster than open discussion",
+      "Build shared ownership \u2014 participants own the ideas, so follow-through is simplified",
+      "Surface what is already known but unsaid",
+      "Include everyone regardless of group size"
+    ],
+    "variations": [
+      "After groups of 4, move to groups of 8 to build toward consensus \u2014 Liz Rykert calls this 'Octopus!'",
+      "Use with post-its and visual mapping so ideas become tangible and patterns emerge across the room",
+      "Do a second rapid cycle when the first didn't go deep enough \u2014 two 10-minute cycles beat one 20-minute one",
+      "Run multiple cycles with escalating questions, each building on the previous harvest",
+      "Combine with Impromptu Networking: use 1-2-4-All at the start to generate questions, then let pairs explore them in open networking"
+    ],
+    "examplesOfUse": [
+      "Immediately after a presentation or speech \u2014 replace passive Q&A with rich, distributed feedback",
+      "At the start of any meeting to surface concerns, questions, and ideas before the agenda locks in",
+      "During strategic planning sessions to generate options from everyone, not just the senior team",
+      "In classrooms and training sessions to engage all participants simultaneously",
+      "For front-line staff to surface improvement ideas that rarely reach leadership",
+      "In large conferences with hundreds of participants \u2014 works just as well at scale",
+      "To help a group work through a complex problem by building from individual reflection to collective insight",
+      "As a debrief structure after any experience or field visit"
+    ]
   },
   {
     "id": 2,
@@ -68,8 +99,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "Rapidly share challenges and expectations, building new connections across a group. Sets the tone for open, peer-to-peer collaboration.",
-    "when": "At the start of a session to energise the group and surface shared challenges quickly.",
+    "desc": "Rapidly and simultaneously share challenges and expectations, and build new connections. In a series of 2-minute conversations, participants prepare for the session ahead while making unexpected connections with others in the room.",
+    "when": "Use at the start of a meeting, workshop, or conference to get people out of their seats, talking to strangers, and thinking about the challenge ahead. Particularly powerful when participants don't know each other or come from different departments.",
     "phases": [
       {
         "label": "Round 1",
@@ -101,14 +132,40 @@
       }
     ],
     "tips": [
-      "Keep rounds strictly timed \u2014 urgency sparks openness",
-      "Encourage people to move across the room, not just turn to their neighbour",
-      "Works brilliantly as the very first activity of any session"
+      "Give participants enough time to find new partners each round \u2014 2 minutes feels rushed but works.",
+      "Use at least 3 rounds (6 minutes total). Fewer rounds don't generate enough connection.",
+      "Ask people to find someone they don't know or rarely speak to \u2014 make it explicit.",
+      "The question should invite genuine reflection, not just information exchange. 'What's your biggest challenge this year?' beats 'What's your role?'",
+      "Trap: participants gravitating to people they already know. Name this upfront and ask people to actively seek strangers.",
+      "In large groups (50+), no need to debrief \u2014 let the energy from the networking carry straight into the next activity.",
+      "Follow up with 1-2-4-All to harvest what emerged and build on it."
     ],
     "lsNumber": 2,
     "lsUrl": "2-impromptu-networking",
     "structuralInvitation": "What is the most important challenge you hope we will address today? What do you most hope to contribute?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Initiate creative and innovative projects by quickly developing connections across silos",
+      "Explore issues and challenges before diving into formal work",
+      "Generate more good ideas faster by activating distributed thinking early",
+      "Create a sense of shared purpose and common ground at the start of a session",
+      "Help introverts engage \u2014 the 1-on-1 format with clear time limits removes social anxiety",
+      "Surface the unexpected connections and common ground that exist across a group"
+    ],
+    "variations": [
+      "Use a single, focused question for all conversations to build convergence on a theme",
+      "Use two questions in sequence \u2014 one about the challenge, one about what the person hopes to contribute",
+      "Make it completely open (no question) to surface whatever is top of mind for each person",
+      "Follow with 1-2-4-All to harvest themes from the conversations",
+      "In virtual settings, use breakout rooms with 2 people per room, randomised each round"
+    ],
+    "examplesOfUse": [
+      "Opening a conference or summit to activate the collective intelligence of the room before any presentations",
+      "Starting a cross-departmental working group where participants don't know each other",
+      "Kicking off a strategy day to surface what's really on people's minds",
+      "At the start of a training programme to help participants connect before content begins",
+      "Between a presentation and structured work time \u2014 as a transition that activates rather than passifies"
+    ]
   },
   {
     "id": 3,
@@ -124,8 +181,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "Make the purpose of your work together visible and shared. Surface the deeper motivations that unite a team.",
-    "when": "When a group needs to reconnect with shared purpose or understand what really drives each member.",
+    "desc": "Make the purpose of your work together clear by progressively revealing deeper motivations. By asking 'why?' repeatedly in pairs, participants surface the real reasons behind what they do \u2014 going from surface activity to fundamental purpose.",
+    "when": "Use at the start of a project, initiative, or collaboration when purpose is unclear or assumed. Especially useful when a group is stuck on tactics rather than aligned on why the work matters.",
     "phases": [
       {
         "label": "Pair up",
@@ -157,14 +214,40 @@
       }
     ],
     "tips": [
-      "The questioner should be genuinely curious, not mechanical",
-      "Answers often get more honest and surprising after the 4th or 5th why",
-      "Notice when someone hits a deep personal truth \u2014 those are the important ones"
+      "Demonstrate the structure with a volunteer before asking pairs to try it \u2014 people underestimate how powerful simple repetition is.",
+      "Coach pairs to ask the question exactly: 'And why is that important to you?' Not 'why?' alone \u2014 the full formulation matters.",
+      "Encourage silence after each answer. The good answers come after a pause.",
+      "Trap: pairs accepting the first or second 'why' and stopping. Push gently: 'And why is THAT important?'",
+      "Trap: answers becoming abstract or philosophical too quickly. Redirect back to the specific work.",
+      "The person answering often surprises themselves. Make space for that \u2014 don't rush to the next question.",
+      "Debrief with: 'What surprised you in your own answers? What emerged that you didn't expect?'"
     ],
     "lsNumber": 3,
     "lsUrl": "3-nine-whys",
     "structuralInvitation": "What do you do? (then keep asking) And why is that important to you?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Toyota \"Five Whys\" method."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Toyota \"Five Whys\" method.",
+    "whyPurposes": [
+      "Help participants clarify and articulate the deeper purpose of their work",
+      "Reveal the 'why' behind strategies, projects, and everyday activities",
+      "Build shared understanding of what motivates different team members",
+      "Surface hidden assumptions about purpose that are driving \u2014 or blocking \u2014 progress",
+      "Connect individual motivation to collective purpose",
+      "Avoid wasted effort on work that doesn't connect to what truly matters"
+    ],
+    "variations": [
+      "Run multiple cycles, each starting from a different person's initial answer, to surface diverse starting points",
+      "Use written responses before the conversation to help quieter participants find their footing",
+      "Stop after 5 whys if the group reaches a genuinely deep answer \u2014 don't force all 9",
+      "Follow with 1-2-4-All: 'What themes in our deeper purposes suggest a shared foundation?'",
+      "Have each pair share their final 'why' \u2014 the deepest one \u2014 in the group debrief"
+    ],
+    "examplesOfUse": [
+      "Before launching a change initiative to ensure the team is aligned on why it truly matters",
+      "When a team feels disconnected from its work or is going through the motions",
+      "At the start of a strategy session to ground tactics in genuine purpose",
+      "In coaching conversations to help individuals reconnect with what drives them",
+      "When onboarding new members to a team \u2014 understanding individual motivations builds trust faster"
+    ]
   },
   {
     "id": 4,
@@ -180,8 +263,8 @@
       "decision"
     ],
     "online": true,
-    "desc": "Articulate the paradoxical challenges that are holding your organisation back. Surface the tensions that everyone knows about but nobody names.",
-    "when": "When a group is stuck or circling the same problem. When you sense there are unspoken tensions.",
+    "desc": "Articulate the paradoxical challenges that a group must confront to succeed. By naming the tensions explicitly \u2014 'How is it that we pursue X and also the opposite?' \u2014 the group can stop pretending those tensions don't exist and start working with them honestly.",
+    "when": "Use when a group is stuck between competing demands, when strategy feels contradictory, or when people are privately aware of a tension no one is naming. Especially useful before or after strategic planning.",
     "phases": [
       {
         "label": "Generate",
@@ -206,14 +289,39 @@
       }
     ],
     "tips": [
-      "A good wicked question has no easy answer and both sides are true",
-      "The emotional reaction in the room tells you which questions matter most",
-      "Don't try to solve the questions \u2014 just name them clearly"
+      "A good Wicked Question makes people wince slightly. If everyone nods easily, it's not wicked enough.",
+      "The format is essential: 'How is it that we [pursue X] AND [pursue the exact opposite]?' Don't let it become just a question.",
+      "Both sides of the paradox must be real and valid \u2014 not a false dilemma.",
+      "Trap: groups trying to 'solve' the Wicked Questions. The point is to name and hold the tension, not resolve it.",
+      "Trap: questions that are actually just problems ('How is it that we have no budget?') rather than genuine paradoxes.",
+      "Use in strings with TRIZ, Min Specs, or 15% Solutions to move from naming tensions to acting within them."
     ],
     "lsNumber": 4,
     "lsUrl": "4-wicked-questions",
     "structuralInvitation": "How is it that we [pursue one strategy/value] and at the same time [pursue the exact opposite]?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Engage everyone in sharper strategic thinking by making real dilemmas visible",
+      "Surface the contradictions and double-binds that are quietly blocking progress",
+      "Create a shared vocabulary for tensions that everyone feels but no one names",
+      "Prevent the waste and frustration of strategies that ignore real paradoxes",
+      "Open the space for creative solutions that honour both sides of a tension",
+      "Build psychological safety \u2014 naming contradictions signals honesty and trust"
+    ],
+    "variations": [
+      "Have the whole group vote on which Wicked Question is most important to work with next",
+      "Use as an input to Min Specs: which tensions must be held in your minimum specifications?",
+      "Follow with TRIZ to identify what you are currently doing that makes the bad side of the paradox worse",
+      "Combine with 1-2-4-All to generate many Wicked Questions before selecting the most powerful",
+      "Post all questions visibly and let participants dot-vote for the most resonant"
+    ],
+    "examplesOfUse": [
+      "Before a strategic planning session to surface the real tensions the strategy must navigate",
+      "When a team is experiencing conflict that seems intractable \u2014 the conflict often masks a Wicked Question",
+      "In leadership development to help leaders see the paradoxes inherent in their role",
+      "During organisational change when people are being asked to maintain operations while transforming them",
+      "In communities where opposing values \u2014 efficiency and care, innovation and stability \u2014 are in tension"
+    ]
   },
   {
     "id": 5,
@@ -229,8 +337,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Discover and build on the root causes of success. Interview partners about peak experiences to surface what makes your best work possible.",
-    "when": "When a group is problem-focused and needs to rediscover its strengths. When you want to build from what works.",
+    "desc": "Discover and build on the best of what already exists in your organisation or community. Through paired storytelling focused on peak experiences, participants surface the concrete conditions that enabled their best work \u2014 then ask what it would take to create more of those conditions.",
+    "when": "Use when you want to understand what is working before addressing what isn't. Ideal for the start of change initiatives, culture work, or any situation where the deficit view has dominated and drained energy.",
     "phases": [
       {
         "label": "Prepare questions",
@@ -262,14 +370,39 @@
       }
     ],
     "tips": [
-      "Stories of past success are more reliable than abstract ideas about the future",
-      "Share your partner's story, not your own \u2014 it creates more generous listening",
-      "Keep questions grounded in specific experiences, not general opinions"
+      "The interview question must ask for a specific story, not an opinion. 'Tell me about a time...' not 'What do you think about...'",
+      "Coaches listeners to ask follow-up questions that draw out more detail: 'What made that possible? Who else was involved?'",
+      "When sharing partner stories in the group, listeners often share more enthusiasm than the original storyteller \u2014 use this.",
+      "Trap: interviews drifting into problem discussion. Gently redirect: 'That's important \u2014 and what about the times it worked?'",
+      "Trap: stories that are too vague ('things were just better'). Push for concrete, specific moments.",
+      "The debrief question matters: 'What conditions made this success possible?' is more useful than 'What went well?'"
     ],
     "lsNumber": 5,
     "lsUrl": "5-appreciative-interviews-ai",
     "structuralInvitation": "Tell me about a time when you were at your best \u2014 when you were most proud of your contribution to [shared purpose]. What made it possible?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Appreciative Inquiry (David Cooperrider)."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Appreciative Inquiry (David Cooperrider).",
+    "whyPurposes": [
+      "Discover and build on concrete examples of what is working, rather than focusing on problems",
+      "Identify the specific conditions that enabled the group's best performance",
+      "Generate positive energy and motivation for change by reconnecting with genuine success",
+      "Help people see that solutions to current problems may already exist somewhere in the system",
+      "Surface local wisdom and knowledge that is rarely visible to leadership",
+      "Create a shared foundation of pride and possibility before tackling difficult challenges"
+    ],
+    "variations": [
+      "Use the full Appreciative Inquiry 4-D cycle: Discover, Dream, Design, Destiny",
+      "Have participants interview across silos \u2014 different departments, roles, or levels \u2014 for richer cross-boundary learning",
+      "Focus the interview question on a specific challenge: 'Tell me about a time this team handled conflict really well'",
+      "Follow with 1-2-4-All: 'What conditions appear repeatedly in our stories? How do we create more of them?'",
+      "In large groups, have pairs share partner stories in groups of 8 before the full harvest"
+    ],
+    "examplesOfUse": [
+      "At the start of a culture change initiative to ground the work in real examples of the desired culture already existing",
+      "When a team is demoralised \u2014 reconnecting with past success rebuilds agency and hope",
+      "In communities facing a difficult challenge \u2014 finding local examples of success builds confidence",
+      "As part of onboarding to help new members understand what the organisation is at its best",
+      "In service improvement work to identify what patient or user experiences to build on, not just fix"
+    ]
   },
   {
     "id": 6,
@@ -285,8 +418,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Stop counterproductive activities and behaviours by working backwards from the worst possible outcome. Use 1-2-4-All within each step to surface what everyone knows but nobody says.",
-    "when": "When a group is stuck doing things they know aren't working. When you need to stop before you can start.",
+    "desc": "Stop counterproductive activities and behaviours by imagining the worst possible outcome and working backwards. By generating a complete list of everything you could do to guarantee failure, groups surface what they are already doing that undermines their own success \u2014 and commit to stopping it.",
+    "when": "Use when a group is stuck, when change initiatives keep failing, or when there is a sense that the organisation is getting in its own way. The most honest and often most hilarious way to surface self-defeating behaviour.",
     "phases": [
       {
         "label": "Identify the worst outcome",
@@ -325,17 +458,40 @@
       }
     ],
     "tips": [
-      "Do not accept ideas for starting new things \u2014 TRIZ is specifically about stopping. Redirect gently but clearly.",
-      "The more outrageous the worst-case list, the more honest and useful the exercise. Encourage exaggeration.",
-      "Step 3 (spotting what you're already doing) is where the breakthroughs happen. Make space for uncomfortable truths.",
-      "Trap: groups skipping straight to solutions. Hold the \"stopping\" frame firmly throughout.",
-      "Trap: making it abstract. Push for specific named activities and behaviours, not vague concepts.",
-      "String with Troika Consulting, Wise Crowds, or Open Space to go deeper on the stopping commitments."
+      "Start with a VERY unwanted result \u2014 the more extreme, the more honest and energetic the lists become.",
+      "Step 3 (what are we already doing?) is the breakthrough. Make space for uncomfortable honesty without shaming.",
+      "Insist on specifics. Vague entries like 'poor communication' should become 'never share the agenda in advance'.",
+      "Trap: groups trying to add new initiatives instead of committing to stopping things. Hold the stopping frame firmly.",
+      "Trap: laughter becoming a way to avoid genuine commitment. Humour is welcome, but real decisions must emerge.",
+      "Confirm stopping commitments in the form of 'I will stop...' and 'We will stop...' \u2014 first person makes it real.",
+      "Check in with groups that look confused \u2014 the logic (inverse thinking) is unfamiliar and may need a second explanation."
     ],
     "lsNumber": 6,
     "lsUrl": "6-making-space-with-triz",
     "structuralInvitation": "Make a complete list of everything you could do to make sure we achieve the worst possible outcome for [challenge].",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by one element of the Russian engineering approach TRIZ (teoriya resheniya izobretatelskikh zadatch)."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by one element of the Russian engineering approach TRIZ (teoriya resheniya izobretatelskikh zadatch).",
+    "whyPurposes": [
+      "Make it possible to stop counterproductive activities before adding new ones",
+      "Surface what everyone knows but no one says \u2014 the actions that guarantee failure",
+      "Create clarity about what must stop before progress is possible",
+      "Break through defensiveness by approaching criticism indirectly and with humour",
+      "Identify the specific behaviours and programmes that are actively working against stated goals",
+      "Free up energy and resources currently consumed by activities that produce the opposite of what is wanted"
+    ],
+    "variations": [
+      "Focus on a very specific unwanted result for sharper output ('guarantee our team never trusts each other')",
+      "Do a silent written round before group sharing to surface ideas people might not say out loud",
+      "Use 1-2-4-All within each TRIZ step for groups of 8 or more",
+      "Make the list public and permanent \u2014 post it visibly so the group can hold itself accountable",
+      "String with Appreciative Interviews: discover what has worked (AI), then use TRIZ to stop what undermines it"
+    ],
+    "examplesOfUse": [
+      "Before a strategy retreat to clear out the activities and behaviours that have been blocking past strategies",
+      "In culture change programmes when the desired culture keeps being undermined by existing practices",
+      "With leadership teams who are aware that their own behaviours are part of the problem",
+      "In quality improvement to identify what the system is doing to produce the defects it is trying to eliminate",
+      "As a retrospective with a team that keeps repeating the same problems despite good intentions"
+    ]
   },
   {
     "id": 7,
@@ -350,8 +506,8 @@
       "ideation"
     ],
     "online": true,
-    "desc": "Focus on what you can do right now with the resources and authority you already have. Avoid waiting for permission or perfect conditions.",
-    "when": "When people feel stuck waiting for others to act. When learned helplessness is preventing progress on important challenges.",
+    "desc": "Discover and focus on what each person has the freedom to do right now \u2014 without waiting for permission, resources, or the right conditions. Small actions taken today compound into significant change, and identifying them restores agency when groups feel stuck.",
+    "when": "Use when people feel that change requires someone else's action, more resources, or better conditions. The antidote to waiting for permission. Best used after a group has named a challenge clearly and needs to shift from diagnosis to action.",
     "phases": [
       {
         "label": "Identify your 15%",
@@ -376,14 +532,39 @@
       }
     ],
     "tips": [
-      "15% is enough to make a real start \u2014 perfection is the enemy here",
-      "Help people see that their 15% is often larger than they think",
-      "The act of stating a commitment publicly dramatically increases follow-through"
+      "The question is precise: 'Where do you have freedom to act WITHOUT needing anyone's permission or additional resources?' Not 'what would help?'",
+      "Coach participants to be honest about what is actually within their control \u2014 solutions that need approval are NOT 15% Solutions.",
+      "Small is the point. 'Host one 30-minute conversation with my team' is better than 'transform our culture'.",
+      "Trap: groups inflating their solutions to 100% (grand plans requiring leadership buy-in). Challenge these gently.",
+      "Trap: participants dismissing small actions as too insignificant. The power is in the compounding, not the individual step.",
+      "Follow with Troika Consulting so others can help identify 15% Solutions that the person couldn't see themselves."
     ],
     "lsNumber": 7,
     "lsUrl": "7-15-solutions",
     "structuralInvitation": "What is your 15%? Where do you have freedom to act right now, without needing anyone's permission or additional resources?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Restore agency \u2014 show that everyone has more freedom to act than they realise",
+      "Identify immediate actions that don't require approval, budget, or coordination",
+      "Avoid the paralysis of waiting for ideal conditions that never arrive",
+      "Build momentum through small wins that compound over time",
+      "Help individuals and groups see the difference between what they control and what they don't",
+      "Counter the learned helplessness that accumulates in large organisations"
+    ],
+    "variations": [
+      "Ask participants to physically exchange their 15% Solutions with a partner for feedback: 'Is this truly within your control?'",
+      "Follow with Troika Consulting so peers can help expand and strengthen each other's solutions",
+      "Use as the final step in a string (TRIZ + 1-2-4-All + 15% Solutions) \u2014 stop what doesn't work, then name what you can start",
+      "In teams: 'What is our collective 15%?' \u2014 what can the team do together without escalating?",
+      "Set a 30-day follow-up: each person reports back on what they actually did"
+    ],
+    "examplesOfUse": [
+      "At the end of any session where a group has identified challenges \u2014 shift from diagnosis to action",
+      "With demoralised teams who feel powerless \u2014 naming what they CAN do rebuilds energy",
+      "In public sector contexts where budget and authority constraints are real but often overstated",
+      "After a Nine Whys session to move from purpose into immediate action",
+      "In coaching or mentoring conversations to identify the next concrete step"
+    ]
   },
   {
     "id": 8,
@@ -399,8 +580,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "Peers help each other solve real problems using a simple consulting practice. Everyone gets help and everyone gives it.",
-    "when": "When people have real challenges they need help with and peer wisdom is underutilised.",
+    "desc": "Develop better solutions and have more good ideas by getting help from peers who are not trapped in the same constraints as you. Three people take turns: one brings a real challenge, two consult without the client present, then the client hears what emerged.",
+    "when": "Use when individuals have a genuine challenge they're wrestling with and need fresh thinking. The absence of the client while consultants speak is what generates insight \u2014 it removes social pressure and creates honest analysis.",
     "phases": [
       {
         "label": "Form trios",
@@ -432,14 +613,40 @@
       }
     ],
     "tips": [
-      "The 'turning away' step is essential \u2014 it creates honest consulting conversations",
-      "Consultants should ask questions as much as give advice",
-      "Rotate so everyone gets to be client at least once"
+      "The client must bring a REAL, current challenge \u2014 not a hypothetical or one already solved.",
+      "The most important moment: the client turns away (or leaves the room). Consultants speak more freely and honestly when not performing for the client.",
+      "Consultants should resist jumping to advice. Begin with: 'What do we think is really going on here?'",
+      "When the client returns, they reflect \u2014 they don't argue or explain. They just say what landed.",
+      "Trap: consultants giving unsolicited advice before genuinely understanding the challenge.",
+      "Trap: clients choosing a challenge that is 'safe' rather than the one that is really keeping them up at night.",
+      "Time discipline is essential \u2014 without it, the first client gets 20 minutes and the last gets 2."
     ],
     "lsNumber": 8,
     "lsUrl": "8-troika-consulting",
     "structuralInvitation": "What is your most important challenge for which you could use the help and insight of your peers?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Help each other solve difficult problems",
+      "Give and receive help without the dependency and passivity that expert advice often creates",
+      "Build coaching skills among non-specialists",
+      "Create a culture of peer support and mutual accountability",
+      "Surface insights that the person closest to the problem cannot see",
+      "Develop trust and candour in a team or community of practice"
+    ],
+    "variations": [
+      "Use written 'postcards' so consultants can share unfiltered thoughts without social inhibition",
+      "Increase group size to 4 for complex challenges (Troika Consulting becomes Wise Crowds)",
+      "In virtual settings, the client leaves the breakout room while consultants work \u2014 then rejoins",
+      "Follow with 15% Solutions: what will the client do with what they heard?",
+      "String three Troika rounds back-to-back so everyone gets a turn as client in one session"
+    ],
+    "examplesOfUse": [
+      "In leadership development programmes to develop peer coaching habits",
+      "In communities of practice where practitioners help each other with real cases",
+      "At the end of a project or initiative to help leaders navigate what comes next",
+      "In team retrospectives when individuals have specific stuck points they haven't named to the group",
+      "With front-line staff who solve each other's problems informally every day \u2014 this makes it deliberate"
+    ]
   },
   {
     "id": 9,
@@ -454,8 +661,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "A structured reflection for any group to make sense of shared experiences and move toward action. Uses the Ladder of Inference to distinguish observation from interpretation from commitment.",
-    "when": "After a significant event, experiment, or period of work. When you need to make sense of what happened.",
+    "desc": "Together, look back on progress and highlights to extract lessons and guide next steps. Moving through three stages \u2014 observable facts, patterns and meaning, and actions \u2014 prevents the most common failure of retrospectives: jumping to action before understanding what actually happened.",
+    "when": "Use after any significant shared experience \u2014 a project phase, a field visit, a difficult meeting, a training programme, or a major event. Particularly valuable when a group has gone through something difficult and needs to process it collectively before deciding what to do next.",
     "phases": [
       {
         "label": "What?",
@@ -487,17 +694,39 @@
       }
     ],
     "tips": [
-      "Keep the What? round strictly observational. If someone jumps to interpretation, say: \"That's a great So What \u2014 let's hold it for the next round.\"",
-      "The So What? is the most challenging stage \u2014 resist the urge to skip it. It's where meaning is genuinely made.",
-      "The Ladder of Inference (Argyris/Senge) is the theoretical backbone: we climb from data \u2192 observations \u2192 assumptions \u2192 conclusions \u2192 actions. W\u00b3 slows this climb down.",
-      "Trap: collecting a long repetitive list from a single group. Ask for one unique answer at a time from each group.",
-      "Trap: emotions being expressed as conclusions (\"people were unhappy\") rather than observations (\"several people left early, two people didn't speak\"). Guide participants to observe rather than infer.",
-      "For groups of 10-12 or fewer, skip the small group stage and run all three rounds as a whole group."
+      "Enforce the order strictly. Groups want to jump to Now What. Don't allow it until So What is complete.",
+      "The What round must be purely observational \u2014 facts and data only. Challenge interpretations: 'Is that something you observed, or a conclusion you drew?'",
+      "The So What round is the hardest and most important. Give it more time than feels comfortable.",
+      "Trap: the What round becoming a story retelling from one person's perspective. Ask for DIFFERENT observations, not more of the same.",
+      "Trap: Now What producing vague intentions rather than specific commitments. Ask 'who does what by when?'",
+      "Validate emotions as data during What \u2014 'I noticed I felt uncomfortable' is an observation."
     ],
     "lsNumber": 9,
     "lsUrl": "9-what-so-what-now-what-w",
     "structuralInvitation": "WHAT? What happened? What did you notice, what facts or observations stood out for you?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ladder of Inference (Chris Argyris, 1982; Peter Senge, 1990)."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ladder of Inference (Chris Argyris, 1982; Peter Senge, 1990).",
+    "whyPurposes": [
+      "Facilitate group learning from experience without jumping prematurely to conclusions",
+      "Build shared understanding of what happened before the group tries to interpret it",
+      "Prevent the common trap of letting the loudest voice define what the experience meant",
+      "Help groups distinguish between observation and interpretation \u2014 a skill that transfers beyond this exercise",
+      "Generate actions that are grounded in genuine insight rather than reactive impulse",
+      "Make reflection a regular, structured part of the group's practice"
+    ],
+    "variations": [
+      "In virtual settings, use digital sticky notes for each round \u2014 participants place them in columns: What / So What / Now What",
+      "Run it as a written exercise first, then share in small groups before harvesting with the whole group",
+      "Use after field visits or ethnographic observation to process raw observations together",
+      "Run multiple short cycles (5 minutes each) rather than one long debrief for time-pressured groups",
+      "Combine with WINFY: use W\u00b3 to process what happened, then use WINFY to name what each group needs from others to act"
+    ],
+    "examplesOfUse": [
+      "After a project milestone or sprint review to extract learning before moving on",
+      "Following a difficult conversation, conflict, or organisational incident",
+      "At the end of a training programme to consolidate learning and generate commitments",
+      "After a site visit or field observation to turn raw experience into insight",
+      "As a regular team retrospective format \u2014 replacing unstructured 'what went well/what could improve'"
+    ]
   },
   {
     "id": 10,
@@ -513,8 +742,8 @@
       "engagement"
     ],
     "online": true,
-    "desc": "Discover and act on local solutions to seemingly intractable challenges. Six specific questions help groups uncover what is already working locally and spread it \u2014 without importing solutions from outside.",
-    "when": "When a persistent problem has local solutions that haven't been shared. When top-down solutions keep failing.",
+    "desc": "Discover, spread, and implement local solutions to chronic problems. Six specific questions help groups uncover what individuals already know, what gets in the way, and what small actions are possible right now \u2014 without importing solutions from outside.",
+    "when": "Use when the same problem persists despite multiple external interventions, when front-line workers have insights that aren't reaching decision-makers, or when you want to spread a local solution more widely.",
     "phases": [
       {
         "label": "Introduce the six questions",
@@ -539,18 +768,40 @@
       }
     ],
     "tips": [
-      "The six questions are the structure. Do not skip or modify them \u2014 each one serves a specific purpose.",
-      "Question 2 (your own contribution to the problem) is the hardest and most important. Hold the space for honest answers.",
-      "Local solutions discovered through DAD are more likely to stick than imported best practices. Celebrate what already works.",
-      "Trap: groups jumping to \"what should leadership do?\" Redirect: \"What can YOU do, even in a small way?\"",
-      "Trap: groups staying abstract. Push for specific, named behaviours and situations.",
-      "Follow up at 30 and 60 days to support the actions taken \u2014 commitments without follow-up rarely stick.",
-      "String with Positive Deviance inquiry or follow with Troika Consulting to support individuals with their first steps."
+      "The six questions are the structure \u2014 do not skip, reorder, or modify them. Each serves a specific purpose.",
+      "Question 2 (your own contribution to the problem) is the hardest. It requires genuine psychological safety. Don't rush past it.",
+      "Question 3 (what you do that helps) is where the local solutions live. Give it space \u2014 the gold is here.",
+      "Facilitators must be genuinely curious, not seeking to confirm what they already think.",
+      "Trap: groups answering what 'should' be done rather than what they actually do. Keep redirecting to the specific and concrete.",
+      "Trap: focusing only on what others should do rather than what the person themselves can do.",
+      "Follow up. Commitments without accountability rarely stick."
     ],
     "lsNumber": 10,
     "lsUrl": "10-discovery-action-dialogue",
     "structuralInvitation": "How do you know when [the problem] is present? What do you do that helps, even in small ways? What gets in the way?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Positive Deviance methods."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Positive Deviance methods.",
+    "whyPurposes": [
+      "Discover local solutions to seemingly intractable problems that outsiders cannot see",
+      "Spread effective practices across groups, teams, and communities without top-down mandates",
+      "Engage front-line workers as experts in the problems they face daily",
+      "Build ownership \u2014 solutions that are discovered locally are implemented locally",
+      "Bridge the gap between what people know and what they do",
+      "Surface the specific obstacles that prevent people from doing what they know works"
+    ],
+    "variations": [
+      "Run multiple DAD sessions with different groups, then use 1-2-4-All across groups to identify common patterns",
+      "Use an outside facilitator who is genuinely curious rather than already knowing the answer",
+      "In large groups, run simultaneous DAD sessions then harvest across groups",
+      "Combine with Positive Deviance inquiry: use DAD to find the 'positive deviants' already solving the problem",
+      "Follow up at 30 and 60 days to support the actions that were identified"
+    ],
+    "examplesOfUse": [
+      "In healthcare to discover why some wards have much lower infection rates than others",
+      "In schools to understand why some students succeed where others don't \u2014 and what teachers are doing differently",
+      "In communities to surface what some families are doing to keep children healthy that others could adopt",
+      "In organisations to understand how some teams maintain morale through change while others don't",
+      "In public services to surface the informal workarounds that front-line staff use to serve clients well"
+    ]
   },
   {
     "id": 11,
@@ -565,8 +816,8 @@
       "ideation"
     ],
     "online": false,
-    "desc": "Spread the knowledge of innovators and their local solutions across a large group. Replaces lengthy panel presentations.",
-    "when": "When you have multiple innovators or practitioners with valuable local knowledge to share across a large group.",
+    "desc": "Spread good ideas and make informal connections between innovators. In rapid cycles, people share work in progress with rotating groups \u2014 creating a marketplace of ideas where the audience comes to the presenter rather than the other way around.",
+    "when": "Use when there is innovative work happening across a group or organisation that people don't know about. Replaces the passive conference presentation with active, peer-to-peer learning. Best when you have 5-10 people with distinct innovations to share.",
     "phases": [
       {
         "label": "Set up stations",
@@ -604,14 +855,39 @@
       }
     ],
     "tips": [
-      "Innovators must be willing to share honestly, including failures",
-      "Small visiting groups allow real questions, not just polite listening",
-      "Works brilliantly at conferences as an alternative to breakout panels"
+      "Presenters need at least 3 minutes of preparation time \u2014 they are sharing work in progress, not a finished product.",
+      "Rotate audiences rather than presenters \u2014 it's much easier to move the crowd than to break down and reassemble presentations.",
+      "Encourage presenters to ask a specific question of each visiting group: 'What would you do differently?' or 'How could this apply to your context?'",
+      "Trap: presenters reverting to formal presentation mode. Remind them: this is a conversation, not a talk.",
+      "Trap: some stations getting all the traffic while others are ignored. Facilitate movement to less-visited stations.",
+      "Works best with 5-7 presenters and group sizes of 5-8 per round."
     ],
     "lsNumber": 11,
     "lsUrl": "11-shift-share",
     "structuralInvitation": "What innovative work do you have to share with others that they could adapt and learn from?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Spread innovations and good practices that exist locally but haven't been shared widely",
+      "Enable genuine peer-to-peer learning without central coordination or gatekeeping",
+      "Give innovators recognition and feedback from people doing similar work",
+      "Expose people to ideas they didn't know to look for",
+      "Build connections between people with complementary approaches",
+      "Replace passive conference-style presentations with active, engaged exchange"
+    ],
+    "variations": [
+      "Use visual displays, prototypes, or demos rather than just talking \u2014 make it a genuine marketplace",
+      "Allow audience members to move freely rather than in structured rotations \u2014 Open Space within Shift & Share",
+      "Invite presenters to ask the audience for help with a specific challenge rather than just showcasing success",
+      "Run multiple rounds so presenters get feedback and can refine between sessions",
+      "Follow with 1-2-4-All: 'What is the one idea from another station that you could adapt for your own work?'"
+    ],
+    "examplesOfUse": [
+      "At a staff conference to share innovative projects happening across departments",
+      "In a network of organisations to cross-pollinate practices between sites",
+      "In schools for teachers to share pedagogical innovations with each other",
+      "At a community of practice gathering where members are working on related but distinct problems",
+      "In an innovation programme where teams are at the prototype stage and need peer feedback"
+    ]
   },
   {
     "id": 12,
@@ -626,8 +902,8 @@
       "decision"
     ],
     "online": false,
-    "desc": "Rapidly generate and rank bold ideas from the whole group. Replaces slow committee processes with energetic crowd wisdom.",
-    "when": "When you need to generate and prioritise bold ideas from a large group quickly.",
+    "desc": "Rapidly generate and sift a group's most actionable and bold ideas. By having participants write ideas on cards, pass them randomly, and score each card they receive, the crowd surfaces its best ideas without any central control or voting manipulation.",
+    "when": "Use when you need to generate bold ideas from a large group quickly and find the ones with the most energy. Replaces voting systems that can be gamed, and works with groups of 10 to 1,000+.",
     "phases": [
       {
         "label": "Write bold ideas",
@@ -659,14 +935,40 @@
       }
     ],
     "tips": [
-      "Works best in person with physical cards",
-      "The randomness of passing is essential \u2014 it removes politics from voting",
-      "Top ideas often aren't the obvious ones \u2014 trust the process"
+      "The idea must be specific enough that someone could read it cold and understand what it means.",
+      "Use physical index cards in person \u2014 the tactile random swap is part of what makes it work.",
+      "Each card is scored 1-5 independently of all others. There is no relative ranking between cards during scoring.",
+      "Participants score the card they are HOLDING, not the ones they wrote \u2014 anonymity is preserved.",
+      "Trap: participants hesitating to score a 1 or 5. Encourage the full range \u2014 avoid clustering around 3.",
+      "Trap: participants writing the same idea on every card to game the system. Address this upfront.",
+      "In groups smaller than 10, do a second round of passing to ensure cards are well-shuffled."
     ],
     "lsNumber": 12,
     "lsUrl": "12-2510-crowd-sourcing",
     "structuralInvitation": "If you were 10 times bolder, what big idea would you recommend we act on? Write your boldest idea on a card.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Open Space Technology."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Open Space Technology.",
+    "whyPurposes": [
+      "Generate creative solutions beyond what a small group or planning committee could produce",
+      "Tap the wisdom and boldness of everyone in the room simultaneously",
+      "Surface the ideas with the most energy and potential without political influence",
+      "Build shared ownership of the best ideas \u2014 the group generated them",
+      "Create a ranked list of actionable proposals in minutes rather than hours",
+      "Reveal surprising consensus on priorities that formal voting processes often obscure"
+    ],
+    "variations": [
+      "Use two questions in sequence \u2014 first 'what would you do if resources were no obstacle?' then 'what is your 10% more bold version of your idea?'",
+      "Project running scores in real time for large groups",
+      "In virtual settings, use shared digital cards with anonymous scoring",
+      "Follow with 1-2-4-All to deepen the top ideas before committing to action",
+      "Use the top-scoring ideas as inputs to a Design StoryBoard or Purpose-to-Practice session"
+    ],
+    "examplesOfUse": [
+      "At the end of a strategy session to identify the boldest ideas the whole group is ready to act on",
+      "In a large community meeting to surface priorities from hundreds of people in 20 minutes",
+      "In innovation challenges to select the most promising ideas to prototype",
+      "As a rapid decision-making tool when a group has too many options and needs to converge",
+      "In conferences to generate 'next steps' from the entire audience rather than just the platform"
+    ]
   },
   {
     "id": 13,
@@ -682,8 +984,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Tap the wisdom of the whole group for each individual's challenges. Everyone gets expert advice from peers; everyone gives it.",
-    "when": "When individuals have real challenges and the group has relevant collective wisdom that isn't being used.",
+    "desc": "Tap the collective and distributed intelligence of your whole group at once. Multiple clients present their real challenges simultaneously to rotating small groups of consultants, dramatically multiplying the depth and diversity of advice available to each person.",
+    "when": "Use when multiple people have challenges that would benefit from fresh, collective thinking and there isn't time for individual coaching or a Troika Consulting session for everyone. Scales peer consulting across a large group efficiently.",
     "phases": [
       {
         "label": "Form groups",
@@ -708,14 +1010,39 @@
       }
     ],
     "tips": [
-      "Strictly enforce the rotating structure \u2014 don't let one person's challenge dominate",
-      "The group consulting without the client present generates more honest, creative ideas",
-      "Allow time for written reflection before the group shares back"
+      "Clients must bring a REAL challenge \u2014 not a hypothetical or a solved problem.",
+      "Time the client's presentation strictly: 2 minutes maximum. Consultants spend the rest of the time working.",
+      "The debrief when the client returns: what resonated? What will you do? Not: do you agree with the consultants?",
+      "Trap: consultants spending most of the time asking clarifying questions rather than consulting.",
+      "Trap: clients giving long background. Encourage them to prepare: 'What is the real challenge, in one sentence?'",
+      "For deep challenges, a second consulting round after the initial debrief can go much further than the first."
     ],
     "lsNumber": 13,
     "lsUrl": "13-wise-crowds",
     "structuralInvitation": "What is your most important challenge for which you could use the collective wisdom of everyone in this room?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Provide everyone with access to the wisdom and experience of the whole group",
+      "Develop everyone's capacity to give and receive help",
+      "Make confidential challenges discussable in a safe and structured way",
+      "Build the peer coaching culture without requiring formal coaching training",
+      "Multiply the impact of group intelligence \u2014 parallel rather than sequential consulting",
+      "Help people see their challenges from multiple fresh perspectives simultaneously"
+    ],
+    "variations": [
+      "In large groups, have the client stand at a fixed station while consultant groups rotate \u2014 this is more efficient",
+      "Use written postcards as in Troika Consulting to ensure consultants share honest views",
+      "Allow clients to choose a panel of consultants rather than random assignment \u2014 useful when specific expertise matters",
+      "Follow with 15% Solutions \u2014 each client identifies their next step immediately after receiving input",
+      "Use a dedicated fishbowl to debrief what themes emerged across multiple client challenges"
+    ],
+    "examplesOfUse": [
+      "In leadership programmes to help participants apply learning to real current challenges",
+      "In communities of practice where members have similar but distinct problems",
+      "At team retreats to address accumulated individual challenges before collective planning",
+      "In peer supervision groups for professionals (teachers, nurses, social workers) with complex cases",
+      "As a regular team practice \u2014 rotating 'client of the week' who brings a challenge for collective consultation"
+    ]
   },
   {
     "id": 14,
@@ -730,8 +1057,8 @@
       "decision"
     ],
     "online": true,
-    "desc": "Specify only the absolutely essential rules for achieving a goal and no more. Frees up creativity while ensuring critical constraints are met.",
-    "when": "When over-specification is stifling creativity, or when you need to define the minimum viable rules for a new initiative.",
+    "desc": "Specify only the absolute must-dos and must-not-dos for achieving your purpose \u2014 and by eliminating everything else, create the freedom to innovate within a meaningful minimum of constraints. Min Specs liberate more than they constrain.",
+    "when": "Use when a group needs to agree on non-negotiable parameters before acting autonomously, when constraints are unclear or excessive, or when people are waiting for permission to act because the rules are unclear.",
     "phases": [
       {
         "label": "Generate Max Specs",
@@ -770,17 +1097,39 @@
       }
     ],
     "tips": [
-      "Groups typically start with 15-20 rules and end with 2-5 real ones. Trust the process even when it feels uncomfortable.",
-      "The most important rules are often unwritten and unexamined. Make them explicit before testing them.",
-      "Min Specs creates freedom, not chaos. Explain this upfront \u2014 people often assume fewer rules means less clarity.",
-      "Trap: groups keeping rules out of comfort or habit rather than necessity. Hold the test firmly: \"If we broke this, could we still achieve our purpose?\"",
-      "Trap: confusing Min Specs with best practices. Min Specs are non-negotiable constraints; best practices are recommended approaches.",
-      "String with TRIZ to first clear out what you should stop, then use Min Specs to establish the true minimum required."
+      "The test for each spec is merciless: 'If we broke this rule, could we still achieve our purpose?' If yes, it is NOT a Min Spec.",
+      "Groups typically start with 15-20 rules and end with 2-5. Trust the reduction process even when it feels uncomfortable.",
+      "Both 'must-do' and 'must-not-do' specs are valid and important.",
+      "Trap: confusing Min Specs with best practices or preferences. Only genuine non-negotiables survive the test.",
+      "Trap: groups keeping specs for comfort or habit rather than necessity. Hold the test firmly.",
+      "The final list should feel both minimal AND complete \u2014 if it feels like something important is missing, test whether it truly belongs."
     ],
     "lsNumber": 14,
     "lsUrl": "14-min-specs",
     "structuralInvitation": "What must we absolutely do and must we absolutely never do to achieve our purpose? Generate a complete list, then reduce it to the true minimum.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Define the boundaries of what is absolutely required without over-specifying how people work",
+      "Create maximum freedom within minimum necessary constraint",
+      "Surface hidden or unexamined rules that are blocking progress",
+      "Ensure that essential requirements are explicit, shared, and agreed",
+      "Stop the proliferation of guidelines and procedures that add complexity without adding value",
+      "Enable autonomous action while maintaining alignment on what truly matters"
+    ],
+    "variations": [
+      "Start with Max Specs (list everything) to make visible the full weight of existing rules before testing each",
+      "Use multiple small groups to generate separate lists, then compare and challenge each other's specs",
+      "Apply to a specific process or initiative \u2014 'What are the Min Specs for how we run our weekly meetings?'",
+      "Combine with Purpose-to-Practice to move from purpose through principles to minimum specifications",
+      "Post the final Min Specs visibly and review them at the next project milestone"
+    ],
+    "examplesOfUse": [
+      "Before delegating to a team \u2014 what are the absolute non-negotiables for how they work?",
+      "In regulatory or compliance contexts to distinguish essential requirements from bureaucratic accretion",
+      "When designing a new initiative \u2014 what must it do and must it never do to succeed?",
+      "In communities developing shared norms \u2014 'what are the minimum agreements that allow us to function together?'",
+      "When streamlining processes that have accumulated unnecessary steps over time"
+    ]
   },
   {
     "name": "Improv Prototyping",
@@ -795,8 +1144,8 @@
       "engagement"
     ],
     "online": false,
-    "desc": "Engage a group to learn and improve rapidly by acting out challenging scenarios and discovering better ways to handle them. Taps three levels of knowledge simultaneously: explicit (what we know), tacit (what we discover by watching each other), and latent (new ideas that emerge through improvisation).",
-    "when": "When a group faces a frustrating recurring challenge and needs to discover better behaviours \u2014 not just discuss them. When training, retrospectives, or talk-based approaches have stopped producing new insight.",
+    "desc": "Improve solutions by using improv theatre techniques to act out challenges and prototype better responses. Repeated cycles of acting, observing, and improving allow groups to discover and embody better behaviours \u2014 not just discuss them.",
+    "when": "Use when a group needs to change how it handles recurring situations, when talk-based approaches have failed to shift behaviour, or when the challenge involves interpersonal dynamics that are hard to describe but easy to show.",
     "phases": [
       {
         "label": "Explain and set the stage",
@@ -835,18 +1184,40 @@
       }
     ],
     "tips": [
-      "Stay close to a real challenge the group is actually facing. Invented scenarios feel safe but generate less insight.",
-      "Encourage exaggeration \u2014 it makes patterns visible and keeps the atmosphere playful while doing serious work.",
-      "Trap: groups getting stuck talking about the scene rather than acting it. Redirect: \"Let's see it \u2014 start acting.\"",
-      "Trap: people feeling uncomfortable with roleplay. Normalise it early; give people supporting roles (director, stage manager) if they're hesitant to perform.",
-      "Invite creative swaps: doctor plays nurse, manager plays team member. Perspective shifts unlock new insight.",
-      "String with Discovery & Action Dialogue or Simple Ethnography to source the scenarios, and Design StoryBoards or Shift & Share to spread the innovations."
+      "The scenes must be based on real recurring challenges the group faces \u2014 invented scenarios generate less insight.",
+      "Encourage exaggeration in the first round \u2014 it makes patterns visible and creates psychological safety.",
+      "Observer groups must be specific about what they saw, not what they felt: 'The manager interrupted three times' not 'the manager was rude'.",
+      "Trap: groups talking about the scene instead of acting it. Redirect: 'Show us \u2014 start acting.'",
+      "Trap: participants being too polite to show the problem as it really is. Name this: 'The real version, please.'",
+      "Multiple short rounds produce more insight than one long scene \u2014 keep momentum through iteration."
     ],
     "id": 15,
     "lsNumber": 15,
     "lsUrl": "15-improv-prototyping",
     "structuralInvitation": "What frustrating recurring challenge would benefit from being acted out so we can discover better ways to handle it together?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Antonas Mockus (former mayor of Bogota) and Improv artists."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Antonas Mockus (former mayor of Bogota) and Improv artists.",
+    "whyPurposes": [
+      "Engage three types of knowledge simultaneously: explicit (what we say), tacit (what we observe), and latent (what emerges)",
+      "Prototype solutions to complex social and behavioural challenges that resist verbal description",
+      "Make invisible patterns of interaction visible and subject to improvement",
+      "Build new behaviours through embodied practice rather than intellectual understanding",
+      "Generate the unexpected insights that only arise when people act rather than talk",
+      "Create psychological safety for experimenting with new approaches in a low-stakes environment"
+    ],
+    "variations": [
+      "Invite the group to shout 'Freeze!' when they see something worth analysing \u2014 pause the scene mid-action",
+      "Have groups develop competing prototypes of the same scene, then act them all out and compare",
+      "Use video recording to allow groups to review their prototypes between rounds",
+      "Swap roles between insiders and outsiders \u2014 a manager plays the front-line worker, and vice versa",
+      "Follow with Design StoryBoards to map the most effective prototype into a visual process"
+    ],
+    "examplesOfUse": [
+      "In healthcare to prototype how clinical teams handle difficult conversations with patients",
+      "In service design to embody the customer journey and reveal friction points that don't show up in data",
+      "In leadership development to practise difficult conversations rather than just discuss them",
+      "In community conflict resolution to find new ways of engaging across disagreement",
+      "In training programmes where the goal is behaviour change, not just knowledge transfer"
+    ]
   },
   {
     "id": 16,
@@ -861,8 +1232,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "Practise and develop four progressive methods for helping others: Expert, Doctor, Process Consultant, and Facilitator. Avoid the common trap of jumping straight to advice before understanding what is truly needed.",
-    "when": "When people default to giving advice before understanding. When helping relationships feel unequal or ineffective.",
+    "desc": "Practise and develop four progressive methods for helping others: Expert, Doctor, Process Consultant, and Facilitator. By naming and practising the different positions, groups discover when each is appropriate and how to avoid the most common trap \u2014 defaulting to expert advice when something else is needed.",
+    "when": "Use in leadership development, coaching training, or any context where people want to improve how they help each other. Particularly valuable when teams rely too heavily on one mode of helping (usually expert advice) and need to expand their repertoire.",
     "phases": [
       {
         "label": "Introduce the four positions",
@@ -894,16 +1265,39 @@
       }
     ],
     "tips": [
-      "Most helpers jump straight to Expert or Doctor. Name this pattern explicitly and without judgment before starting.",
-      "The best help often comes after two minutes of the helper saying nothing \u2014 just listening and asking questions.",
-      "Trap: helpers giving advice while calling it \"process consulting.\" Watch for advice dressed up as questions (\"Have you tried...?\").",
-      "Trap: clients not bringing real challenges. Encourage genuine problems, not hypotheticals.",
-      "String with Troika Consulting for a deeper peer-helping experience, or follow with 15% Solutions to action the insights."
+      "Start by naming the four positions clearly before any practice \u2014 the framework must be visible throughout.",
+      "The most common default is Expert, followed by Doctor. Most people never reach Process Consultant without deliberate practice.",
+      "Coach observers to be specific: 'You jumped to a solution at minute 2' is more useful than 'you were too directive'.",
+      "Trap: helpers giving advice while calling it process consulting. Watch for advice disguised as questions ('Have you tried...?').",
+      "Trap: the person with the challenge choosing a safe, low-stakes issue. Encourage real challenges.",
+      "Debrief with: 'What position do you default to? When is that useful, and when does it get in the way?'"
     ],
     "lsNumber": 16,
     "lsUrl": "16-helping-heuristics",
     "structuralInvitation": "How can you help someone without taking over? What does the person in front of you actually need from you right now?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Edgar Schein's work on helping relationships."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Edgar Schein's work on helping relationships.",
+    "whyPurposes": [
+      "Practise progressive methods for giving and receiving help",
+      "Understand when each of the four helping positions is appropriate",
+      "Avoid the most common helping trap: jumping to expert advice before understanding what is needed",
+      "Build a shared vocabulary for different types of helping in a team or organisation",
+      "Develop the capacity to ask better questions before offering solutions",
+      "Create a culture where help is genuinely useful rather than dependency-creating"
+    ],
+    "variations": [
+      "Use real challenges from participants rather than invented scenarios \u2014 the insight is deeper",
+      "Add a fifth position: Witness/Presence \u2014 simply being present with someone in difficulty without trying to fix anything",
+      "Have observers score each interaction on a matrix: which position was used, when, and how effective was it?",
+      "Rotate observer, client, and helper roles so everyone experiences all three perspectives",
+      "Follow with Troika Consulting to practise process consulting immediately"
+    ],
+    "examplesOfUse": [
+      "In manager development programmes where leaders need to shift from 'expert answer-giver' to 'capacity builder'",
+      "In clinical and social care settings where the helper/helped dynamic has significant power implications",
+      "In communities of practice to develop peer mentoring skills",
+      "In organisations implementing coaching cultures to give the concept practical form",
+      "In consulting training to help practitioners understand when to offer expertise and when to hold back"
+    ]
   },
   {
     "id": 17,
@@ -919,8 +1313,8 @@
       "decision"
     ],
     "online": true,
-    "desc": "Engage everyone in making sense of challenging, complex, or controversial topics. Creates conditions for genuine dialogue rather than debate.",
-    "when": "When a topic is genuinely complex or controversial and people need to think together, not just argue.",
+    "desc": "Engage everyone in making sense of profound challenges. Using a talking piece and a series of conversational rounds, participants reflect deeply on complex issues without pressure to reach conclusions or fix anything \u2014 the conversation itself is the output.",
+    "when": "Use when a group needs to make sense of a complex or contentious issue together, when there is deep disagreement that needs to be understood rather than resolved, or when the group has been through a significant shared experience and needs to process it collectively.",
     "phases": [
       {
         "label": "Check-in",
@@ -959,14 +1353,39 @@
       }
     ],
     "tips": [
-      "A talking object (pen, stone) can help regulate airtime in heated conversations",
-      "Seat people in circles, not rows",
-      "The facilitator's job is to protect the space, not direct the content"
+      "The agreements for the Caf\u00e9 must be established and genuinely accepted before starting \u2014 they are the container.",
+      "The host's role is to invite, not direct. Ask open questions, then get out of the way.",
+      "Talking pieces work \u2014 even in groups that find them unfamiliar. Give people permission to feel awkward.",
+      "Trap: the conversation becoming a debate where people argue positions. Redirect to experience: 'What is this like for you?'",
+      "Trap: one or two people dominating even with the talking piece. The host may need to actively invite quieter voices.",
+      "Do not force a conclusion. The value is in the conversation itself, not what is decided at the end."
     ],
     "lsNumber": 17,
     "lsUrl": "17-conversation-cafe",
     "structuralInvitation": "What do you think about [complex topic]? What meaning does it have for you?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Explore complex topics that resist simple answers or quick decisions",
+      "Develop shared understanding across genuine differences of perspective",
+      "Create the conditions for deep listening \u2014 not just waiting to speak",
+      "Surface the values and assumptions that underlie different positions",
+      "Make meaning together from confusing or difficult shared experiences",
+      "Build the capacity for dialogue rather than debate in a community or organisation"
+    ],
+    "variations": [
+      "Use a physical talking piece \u2014 an object passed around the circle that signals who has the right to speak",
+      "Include a formal silence round \u2014 30-60 seconds between each speaker for the group to absorb what was said",
+      "Run multiple rounds of increasing depth: first impressions, deeper reactions, then what is essential",
+      "Use in conjunction with What, So What, Now What? as a debrief after the Caf\u00e9",
+      "In large groups, run parallel Caf\u00e9s then use Fishbowl to share across groups"
+    ],
+    "examplesOfUse": [
+      "After a difficult organisational change to help people make sense of what happened and why",
+      "In communities where a polarising issue has created division \u2014 surfacing shared values across opposing views",
+      "In education settings to engage students in deep reflection on ethical or complex topics",
+      "In healthcare to process difficult ethical questions that don't have easy answers",
+      "As a regular community practice for ongoing sense-making rather than one-time events"
+    ]
   },
   {
     "id": 18,
@@ -981,8 +1400,8 @@
       "reflection"
     ],
     "online": false,
-    "desc": "Elicit authentic user experience stories to reveal what's working and what isn't from the people who actually use your service.",
-    "when": "When you need real user stories to inform design or improvement. When experts are disconnected from users' actual experience.",
+    "desc": "Engage a whole group in a dialogue with a small sample of users, clients, or practitioners who have first-hand experience. The fishbowl format \u2014 inner circle speaks, outer circle listens \u2014 ensures that user voices are heard without interruption, and that practitioners genuinely absorb what they hear.",
+    "when": "Use when decision-makers or practitioners have become disconnected from the experience of the people they serve, when user or client perspectives need to inform a design or policy decision, or when a team needs to hear difficult feedback without becoming defensive.",
     "phases": [
       {
         "label": "Set up fishbowl",
@@ -1007,14 +1426,38 @@
       }
     ],
     "tips": [
-      "Observers must not interrupt or defend \u2014 this is the hardest rule to enforce",
-      "The discomfort experts feel hearing real stories is productive",
-      "Follow up with What, So What, Now What? to process what was heard"
+      "Prepare inner circle participants beforehand \u2014 they should know the format and feel safe to speak honestly.",
+      "The outer circle's job is to LISTEN, not to plan their response. Ask them explicitly to take notes on what surprises them, not what they want to say.",
+      "Debrief with the outer circle only at first \u2014 what did you hear? Then invite inner circle participants back for dialogue.",
+      "Trap: practitioners jumping in to explain or defend during the inner circle's time. Enforce the fishbowl boundary firmly.",
+      "Trap: inner circle participants softening their experience to protect the feelings of people watching. The host must give explicit permission to be honest."
     ],
     "lsNumber": 18,
     "lsUrl": "18-users-experience-fishbowl",
     "structuralInvitation": "What happens when you try to use our service? Tell us your story \u2014 what did you experience?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Include the perspective of users, clients, or patients in design and decision-making",
+      "Give voice to people who are rarely heard in formal processes",
+      "Build genuine empathy in practitioners and decision-makers through direct listening",
+      "Surface the gap between what practitioners believe the experience is and what it actually is",
+      "Create accountability for the experience others have of your service or organisation",
+      "Generate improvement ideas that are grounded in real experience rather than professional assumptions"
+    ],
+    "variations": [
+      "Invite multiple groups into the fishbowl sequentially \u2014 different types of users, then staff, then managers",
+      "Use an empty chair in the inner circle that anyone from the outer circle can join to add a perspective",
+      "Follow with 1-2-4-All: 'What surprised you? What will you do differently?' among the outer circle",
+      "Record the inner circle conversation to share with people who couldn't attend",
+      "In virtual settings, use a shared document for the outer circle to record reactions without interrupting"
+    ],
+    "examplesOfUse": [
+      "In service redesign to ensure the new design reflects actual user needs, not assumed ones",
+      "In healthcare quality improvement with patients and carers sharing their experience directly with clinical teams",
+      "In education with students sharing their learning experience with teachers and curriculum designers",
+      "In community development with residents telling planners what they actually need",
+      "In policy development with front-line workers telling policymakers what the policy looks like in practice"
+    ]
   },
   {
     "id": 19,
@@ -1029,8 +1472,8 @@
       "reflection"
     ],
     "online": true,
-    "desc": "Practice the empathic listening and responding that builds trust. Surface experiences of not being heard, seen, or respected without blame.",
-    "when": "When trust is low or has been damaged. When people feel unheard. Before important or difficult conversations.",
+    "desc": "Practice deeply listening to and acknowledging others. By sharing and listening to stories about times when we did not feel heard, seen, or respected, participants develop empathy, build trust, and understand the impact of not being acknowledged \u2014 and what it takes to genuinely do so.",
+    "when": "Use when a team or community needs to build deeper trust and empathy, when people feel unheard or dismissed, or when a group wants to explore issues of inclusion and belonging from lived experience rather than abstract principle.",
     "phases": [
       {
         "label": "Story sharing",
@@ -1062,14 +1505,39 @@
       }
     ],
     "tips": [
-      "The listener must not share their own story during step 1 \u2014 this is surprisingly hard",
-      "Stories of not being heard are universal \u2014 expect recognition and emotion",
-      "This structure alone builds more trust than most team-building exercises"
+      "Establish explicit safety before starting \u2014 people are sharing vulnerable experiences.",
+      "The instruction is first person only. 'I felt unheard when...' not 'people often feel unheard when...' Enforce this.",
+      "Listeners must stay fully present \u2014 no note-taking, no phones, no planning their response.",
+      "Debrief with the listener, not the storyteller: 'What did you notice in yourself as you listened?'",
+      "Trap: stories drifting from personal experience to general observations or complaints. Redirect gently.",
+      "Trap: participants choosing surface-level stories to avoid vulnerability. Create space for depth by going first with something real yourself."
     ],
     "lsNumber": 19,
     "lsUrl": "19-heard-seen-respected-hsr",
     "structuralInvitation": "Share a time when you did not feel heard, seen, or respected. Tell your story from your own experience.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Develop empathy and the ability to truly listen \u2014 not just wait to speak",
+      "Build trust within teams and communities through shared vulnerability",
+      "Understand the lived experience of not being heard, seen, or respected",
+      "Create the conditions for people to bring their whole selves to the work",
+      "Surface patterns of exclusion that are invisible to those who benefit from the current culture",
+      "Practise the skills of acknowledgement that make teams and communities more inclusive"
+    ],
+    "variations": [
+      "Follow with 1-2-4-All: 'What conditions allow everyone to feel heard, seen, and respected here?'",
+      "Use across groups with different roles or backgrounds to reveal different experiences of the same environment",
+      "Add a final reflection: 'When did YOU fail to make someone else feel heard, seen, or respected?'",
+      "Pair with Wicked Questions to surface the paradoxes in how the group says it values inclusion vs how it acts",
+      "Run at team formation or after a significant change to acknowledge the emotional reality of transition"
+    ],
+    "examplesOfUse": [
+      "In diversity, equity, and inclusion work \u2014 moving from concepts to lived experience",
+      "At the start of a change initiative to acknowledge the losses and disruptions people are experiencing",
+      "In team-building, particularly after conflict or a difficult period",
+      "In healthcare, education, or social care settings where feeling unheard is a common complaint",
+      "In communities that have experienced trauma or exclusion \u2014 creating space to be witnessed"
+    ]
   },
   {
     "id": 20,
@@ -1084,8 +1552,8 @@
       "engagement"
     ],
     "online": false,
-    "desc": "Enable people to communicate complex ideas with simple drawings. Bypasses the limitations of language and surfaces hidden assumptions.",
-    "when": "When language alone isn't revealing enough, or when a group needs to think together about something complex or emotional.",
+    "desc": "Enable people to access deeper knowledge and insights by drawing on a set of universal symbols \u2014 circle, triangle, rectangle, spiral, and person. Drawing bypasses the analytical mind and allows groups to express and share what is difficult to put into words.",
+    "when": "Use when a group has reached the limits of what verbal language can express, when you want to unlock creative insight, or when you want to make an abstract challenge or vision tangible.",
     "phases": [
       {
         "label": "Draw your challenge",
@@ -1110,14 +1578,39 @@
       }
     ],
     "tips": [
-      "Explicitly say there's no skill required \u2014 reassure people early",
-      "Drawings reveal mental models that words hide",
-      "Pay attention to what's missing from the drawings as much as what's there"
+      "Give explicit permission to draw badly. The quality of the drawing is irrelevant \u2014 the meaning is what matters.",
+      "Use the five symbols exactly as specified \u2014 the constraint is the point.",
+      "Give enough time for people to sit with the prompt before drawing. 1-2 minutes of quiet before anyone picks up a pen.",
+      "Debrief with curiosity: 'Tell me about your drawing' not 'What does your drawing mean?'",
+      "Trap: participants refusing to engage because they 'can't draw'. Insist: anyone can draw five shapes.",
+      "Trap: groups rushing to verbal explanation before really looking at the images. Spend time with the visual before translating it."
     ],
     "lsNumber": 20,
     "lsUrl": "20-drawing-together",
     "structuralInvitation": "Draw your response to the challenge using only these basic shapes: a circle, a triangle, a square, a star, and a simple person. No writing allowed.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Reveal insights and perspectives that verbal language cannot easily express",
+      "Access tacit and intuitive knowledge that rational analysis often misses",
+      "Build shared visual understanding of complex challenges or visions",
+      "Create an equal playing field \u2014 everyone can draw five shapes, regardless of artistic skill",
+      "Make abstract thinking concrete and shareable",
+      "Open up creative and non-linear ways of working within groups that have become stuck in analytical patterns"
+    ],
+    "variations": [
+      "Add colour \u2014 each participant uses a different colour to trace their own visual contribution",
+      "Create a collective drawing where everyone contributes to the same image simultaneously",
+      "Follow with 1-2-4-All: 'What do your drawings have in common? What is different?'",
+      "Use sequential drawing: each person starts a drawing, then passes it to the next person to continue",
+      "Combine with Improv Prototyping: draw the challenge first, then act it out"
+    ],
+    "examplesOfUse": [
+      "In strategy work to help a team visualise its future state beyond what bullet points can capture",
+      "In conflict resolution to surface each party's understanding of the situation visually",
+      "With groups that are over-reliant on analytical thinking and have lost creative connection to their work",
+      "In design processes to generate visual prototypes before building physical ones",
+      "As a check-in or reflection tool \u2014 'draw how you feel about where we are right now'"
+    ]
   },
   {
     "id": 21,
@@ -1132,8 +1625,8 @@
       "ideation"
     ],
     "online": false,
-    "desc": "Describe the desired user experience in detail before building solutions. Makes the invisible visible.",
-    "when": "When designing new services, products, or processes. When you want to centre the user before jumping to solutions.",
+    "desc": "Co-create a visual, step-by-step design for an interaction, process, or experience. By drawing each step as a storyboard, groups surface the tacit knowledge embedded in experience and make it explicit, shareable, and improvable.",
+    "when": "Use when designing or improving a service, process, or experience and you want to capture and share the full sequence from the user's perspective. Particularly valuable when there are multiple stakeholders with different mental models of how something works.",
     "phases": [
       {
         "label": "Set the scene",
@@ -1165,14 +1658,39 @@
       }
     ],
     "tips": [
-      "Stick figures are perfect \u2014 this isn't an art competition",
-      "Focus on the user's emotional journey, not just the steps",
-      "The gallery walk generates more ideas than the drawing phase"
+      "Stick figures and simple shapes are sufficient \u2014 and better, since they focus attention on the steps rather than the aesthetics.",
+      "Work from the user's perspective, not the system's. 'What does the patient experience?' not 'What does the system do?'",
+      "Include emotional states in each step \u2014 what does the person feel as well as what they do?",
+      "Trap: groups jumping to the ideal design before accurately mapping the current state.",
+      "Trap: storyboards becoming too abstract \u2014 push for the specific moment, not the general category.",
+      "Post storyboards visibly so they can be read, challenged, and built on by others."
     ],
     "lsNumber": 21,
     "lsUrl": "21-design-storyboards",
     "structuralInvitation": "What does a great experience look like for [user]? Draw it step by step \u2014 what do they see, feel, and do at each moment?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Develop a richer and more shared understanding of how an interaction or process works in practice",
+      "Surface the tacit knowledge that experienced practitioners have but rarely articulate",
+      "Make visible the gaps between the intended design and what actually happens",
+      "Enable co-design across different roles and perspectives",
+      "Create a shared artefact that can be used to brief, train, and improve",
+      "Ground abstract design principles in concrete, visible steps"
+    ],
+    "variations": [
+      "Use split storyboards: current state on the left, ideal state on the right \u2014 highlight the gaps",
+      "Do rapid prototyping: sketch, share, get feedback, redraw in 15-minute cycles",
+      "Add speech bubbles to capture what each person is saying and thinking at each step",
+      "Compare storyboards across groups \u2014 different groups often reveal completely different mental models",
+      "Follow with User Experience Fishbowl: have the 'users' in your storyboard validate whether it reflects reality"
+    ],
+    "examplesOfUse": [
+      "In service design to map the patient, customer, or citizen journey from their perspective",
+      "In training design to plan an effective learning experience step by step",
+      "In process improvement to visualise a workflow and identify where it breaks down",
+      "In change management to design the transition experience for the people going through it",
+      "In product development to prototype user interactions before building anything"
+    ]
   },
   {
     "id": 22,
@@ -1187,8 +1705,8 @@
       "reflection"
     ],
     "online": true,
-    "desc": "Elicit wisdom from an expert or leader in a way that is honest, engaging, and avoids the prepared-speech trap. Makes tacit knowledge explicit.",
-    "when": "When an expert or leader has valuable experience to share and a traditional Q&A feels too formal or shallow.",
+    "desc": "Discover and build on the wisdom and experience of an expert or leader through a structured, engaging interview conducted in front of the whole group. Unlike a lecture or panel, the Celebrity Interview format keeps the expert's knowledge grounded in real stories and specific experience.",
+    "when": "Use when an expert, leader, or experienced practitioner has valuable knowledge that the group needs access to, but a standard presentation would make the knowledge abstract and the audience passive. Particularly useful when the expert is a senior leader whose stories are rarely heard in full.",
     "phases": [
       {
         "label": "Prepare questions",
@@ -1213,14 +1731,39 @@
       }
     ],
     "tips": [
-      "The interviewer makes or breaks this \u2014 choose someone who listens well and asks follow-ups",
-      "Encourage the guest to share failures and doubts, not just successes",
-      "Audience-generated questions are always better than pre-prepared ones"
+      "The interviewer must prepare thoroughly \u2014 the quality of the questions determines the quality of the conversation.",
+      "Open with: 'Tell me about a time when...' \u2014 stories unlock insight that direct questions about opinion or process don't.",
+      "Keep questions short and simple. The expert's answer is the content, not the question.",
+      "Trap: the interviewer taking too long to ask each question \u2014 keep them brief and move on.",
+      "Trap: the expert defaulting to prepared talking points rather than real stories. Follow up: 'Can you give me a specific example?'",
+      "Always leave time for the audience to ask their own questions \u2014 the most important ones are often not the interviewer's."
     ],
     "lsNumber": 22,
     "lsUrl": "22-celebrity-interview",
     "structuralInvitation": "Tell me about a time when [your work on this topic] went particularly well. What made it possible?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Give the group access to expert knowledge and experience without the passivity of a lecture",
+      "Surface the tacit knowledge that experts have but rarely articulate in formal presentations",
+      "Create genuine curiosity and engagement \u2014 the group learns about a person, not just a topic",
+      "Help leaders and experts share their story in a way that builds connection and trust",
+      "Democratise expertise \u2014 members of the group can ask what they really want to know",
+      "Model the value of learning from experience rather than only from formal knowledge"
+    ],
+    "variations": [
+      "Have participants submit questions in advance \u2014 select the most interesting ones and follow up live",
+      "Run a 'reverse celebrity interview' where the expert interviews a practitioner about what works on the front line",
+      "Use multiple experts in sequence with the same interview format for comparison",
+      "Follow with 1-2-4-All: 'What surprised you? What will you do differently based on what you heard?'",
+      "In virtual settings, use an audience 'hot seat' where participants can briefly join the interview"
+    ],
+    "examplesOfUse": [
+      "When a senior leader has stories that the organisation rarely gets to hear in full",
+      "To bring external expertise into a team without losing the group's agency to engage and question",
+      "In learning programmes to connect participants with practitioners from the field",
+      "To surface the experience and wisdom of long-serving or retiring staff members before they leave",
+      "In community settings to honour and learn from elders or experienced members"
+    ]
   },
   {
     "id": 23,
@@ -1235,8 +1778,8 @@
       "reflection"
     ],
     "online": false,
-    "desc": "Visualise how a community or organisation is connected. Identify brokers, bridges, and gaps to spread innovation and build resilience.",
-    "when": "When you need to understand how information and influence actually flow \u2014 not how the org chart says they do.",
+    "desc": "Map informal connections to identify who is in the network, what connects them, and where the missing links are. Making the informal network visible reveals who has influence, where information flows (and where it doesn't), and how to strengthen the network to support change.",
+    "when": "Use when launching or accelerating a change initiative, when information isn't reaching the people who need it, or when you need to understand who the real connectors and influencers are \u2014 as opposed to who holds formal authority.",
     "phases": [
       {
         "label": "Map the network",
@@ -1261,14 +1804,39 @@
       }
     ],
     "tips": [
-      "Let the group map it themselves \u2014 they know the real connections",
-      "Bridges are often the most valuable and most overlooked people",
-      "Silos often exist for reasons \u2014 explore them with curiosity, not blame"
+      "Ask specifically: 'Who do you go to for help with your work?' rather than 'who do you work with?' \u2014 this reveals real influence.",
+      "Draw lines of different weights or colours to represent frequency and type of connection.",
+      "Protect confidentiality \u2014 individual maps should not be shared without consent.",
+      "Trap: the map becoming the org chart because people name their formal colleagues rather than their real connections.",
+      "Trap: treating the map as a final product rather than the start of a conversation about what it reveals.",
+      "Use the map to ask: 'Where are we well-connected? Where are we isolated? Who is at risk of overload?'"
     ],
     "lsNumber": 23,
     "lsUrl": "23-social-network-webbing",
     "structuralInvitation": "Who do you regularly turn to for information, advice, or collaboration to get your work done? Let's map the real connections.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Identify and develop the informal network that actually gets things done",
+      "Surface connectors, bridges, and isolated nodes that are invisible in the org chart",
+      "Reveal the flow of information and resources across formal boundaries",
+      "Identify the critical relationships that need strengthening for a change to succeed",
+      "Build on existing connections rather than creating parallel structures",
+      "Make visible the informal leadership that formal leaders often can't see"
+    ],
+    "variations": [
+      "Use different types of connections for different questions: trust networks, information networks, advice networks",
+      "Do before-and-after mappings to assess whether an intervention has strengthened connections",
+      "Use network analysis software for large groups (>50) to visualise patterns systematically",
+      "Combine with Appreciative Interviews to discover the stories behind the strongest relationships",
+      "Follow with Shift & Share: people with the strongest networks share what makes them effective"
+    ],
+    "examplesOfUse": [
+      "In change management to identify the informal leaders who will make or break implementation",
+      "In community development to understand and strengthen existing social capital",
+      "In knowledge management to map where expertise actually lives, not where the org chart says it should",
+      "In healthcare to understand how clinical teams actually coordinate across ward boundaries",
+      "At the start of a large cross-functional project to identify who needs to be connected"
+    ]
   },
   {
     "name": "What I Need From You (WINFY)",
@@ -1283,8 +1851,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "People in different functions or groups can quickly improve how they ask each other for what they need to succeed. By articulating core needs clearly and receiving unambiguous responses (yes, no, I will try, or whatever), you boost clarity, integrity, and transparency while dissolving misunderstandings that have built up across silos.",
-    "when": "When groups or teams depend on each other but have accumulated vague resentments or unarticulated needs. When you need to replace complaints with concrete requests. When cross-functional coordination is breaking down.",
+    "desc": "Surface and address the needs that people in different roles or groups have of each other. Using only four permitted responses \u2014 Yes, No, I'll try, or Whatever \u2014 WINFY cuts through vague complaints and unspoken expectations to create clear, actionable commitments.",
+    "when": "Use when groups or departments depend on each other but have accumulated unspoken resentments, when cross-boundary coordination is breaking down, or when people have needs that they've been reluctant to name explicitly.",
     "phases": [
       {
         "label": "Brief and set context",
@@ -1330,19 +1898,40 @@
       }
     ],
     "tips": [
-      "Emphasise that requests must be specific enough to receive a yes or no. Vague requests always get \"WHATEVER\" \u2014 and that's the point.",
-      "Strictly enforce \"no immediate response\" when needs are first expressed. Rushing to respond before consulting the group undermines the process.",
-      "Strictly enforce the four-response rule. No elaboration, no negotiation. This directness is what makes WINFY work.",
-      "Trap: groups expressing complaints rather than requests. Redirect: \"How can you turn that into a specific request?\"",
-      "Trap: \"I WILL TRY\" being used to avoid a real yes or no. Consider replacing it with \"HUH?\" (Keith McCandless's suggestion) \u2014 more lovingly provocative.",
-      "This structure can surface real tension. Keep the atmosphere warm and constructive without undermining the seriousness.",
-      "String with Nine Whys beforehand to deepen purpose clarity, or debrief with What, So What, Now What? to process what emerged."
+      "The four responses are sacred. No elaboration, no 'yes but', no 'it depends'. The discipline is the point.",
+      "Groups must have time to consult before responding \u2014 don't ask for immediate on-the-spot responses.",
+      "Requests must be specific enough to merit a yes or no. 'Be more supportive' gets 'Whatever'. 'Share the project status every Friday' gets a real answer.",
+      "Trap: groups using 'I'll try' to avoid a real yes or no. Challenge: 'What would need to be true for this to be a yes?'",
+      "Trap: the listening round becoming a discussion. Enforce: requests are heard in silence, responses come later.",
+      "Follow with clear documentation of commitments \u2014 verbal agreements without a record rarely hold."
     ],
     "id": 24,
     "lsNumber": 24,
     "lsUrl": "24-what-i-need-from-you-winfy",
     "structuralInvitation": "What I need from you to be successful in achieving [shared goal] is... (complete the sentence with a clear, specific request)",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Kathie Dannemiller and professor Dan Pesut."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Kathie Dannemiller and professor Dan Pesut.",
+    "whyPurposes": [
+      "Give voice to the needs that people have of each other but rarely express clearly",
+      "Replace vague complaints and resentments with concrete, actionable requests",
+      "Create the conditions for honest response \u2014 yes, no, or an honest 'I'll try'",
+      "Surface the dependencies between roles and groups that everyone knows about but no one discusses",
+      "Build clarity about what people can and cannot commit to",
+      "Strengthen working relationships through honest, direct communication"
+    ],
+    "variations": [
+      "Use 'HUH?' instead of 'Whatever' to signal a request that was too vague \u2014 it's more lovingly provocative",
+      "Run a follow-up session 30 days later: how have the commitments held?",
+      "Combine with What, So What, Now What? as a debrief after the responses are given",
+      "Use anonymised written requests first, then reveal who made each request in the group response round",
+      "In virtual settings, post needs in a shared document, then groups respond in breakout rooms"
+    ],
+    "examplesOfUse": [
+      "Between departments or teams that have interdependencies and unresolved frustrations",
+      "Between managers and their direct reports to surface what both need from each other",
+      "In cross-functional projects when role clarity and coordination have broken down",
+      "Between clinical and administrative teams in healthcare where handoffs consistently fail",
+      "At the start of a new partnership or collaboration to set explicit expectations from the outset"
+    ]
   },
   {
     "id": 25,
@@ -1358,8 +1947,8 @@
       "engagement"
     ],
     "online": false,
-    "desc": "Invite a group to create and manage its own agenda around a single, complex theme. Radical self-organisation at scale.",
-    "when": "When the challenge is complex, the people who need to contribute are diverse, and commitment to action is required.",
+    "desc": "Invite a group of any size to organise itself and create their own agenda around a theme of strategic importance. Open Space self-organises around passion and responsibility \u2014 participants call sessions on topics they genuinely care about and take personal responsibility for.",
+    "when": "Use when the right agenda cannot be predicted in advance, when the group has more wisdom than any single planner, when you need genuine commitment rather than compliance, or when a group needs to tackle a complex challenge that spans multiple perspectives and roles.",
     "phases": [
       {
         "label": "Opening circle",
@@ -1398,14 +1987,39 @@
       }
     ],
     "tips": [
-      "The 'law of two feet' is essential \u2014 people must feel free to move",
-      "Trust the process even when it looks chaotic \u2014 it always self-organises",
-      "Requires a skilled convener but minimal facilitation once started"
+      "The opening question or invitation must be compelling \u2014 it determines the energy and quality of the self-organised sessions.",
+      "Trust the Law of Two Feet completely. Bumblebees and butterflies are valuable \u2014 resist the urge to manage who goes where.",
+      "The harvest is as important as the sessions. Build in structured time to share and commit to what emerged.",
+      "Trap: facilitators trying to manage or guide which sessions happen. Step back entirely.",
+      "Trap: leadership deciding in advance which topics are 'acceptable'. Open Space only works with genuine openness.",
+      "Plan for surprises \u2014 they are a feature, not a bug. The most important conversations are usually the ones nobody planned."
     ],
     "lsNumber": 25,
     "lsUrl": "25-open-space-technology",
     "structuralInvitation": "What questions or issues do you most care about, for which you have genuine passion and real responsibility to act?",
-    "attribution": "Developed by Harrison Owen. Included in the Liberating Structures repertoire by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Harrison Owen. Included in the Liberating Structures repertoire by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Enable self-organisation around what participants are genuinely passionate and responsible for",
+      "Tap collective intelligence across an entire organisation, community, or system",
+      "Generate real commitment \u2014 people work on what they chose, not what was assigned",
+      "Surface the real conversations that need to happen rather than the ones that were planned",
+      "Build cross-boundary connections around shared interests and challenges",
+      "Create the conditions for emergence \u2014 outcomes that no one could have planned in advance"
+    ],
+    "variations": [
+      "Use the Law of Two Feet explicitly \u2014 if you're not learning or contributing, it's your responsibility to move",
+      "Combine with 1-2-4-All at the end of each session to harvest insights before they disperse",
+      "Post a digital marketplace board for virtual Open Space sessions",
+      "Run a 'mini Open Space' of 60-90 minutes by limiting sessions to 15-20 minutes each",
+      "Follow with Purpose-to-Practice to move from discovered energy to structural commitment"
+    ],
+    "examplesOfUse": [
+      "At whole-organisation summits to set priorities and generate commitment without top-down agenda-setting",
+      "In communities to enable citizens to set the agenda for complex local challenges",
+      "In professional conferences to replace passive presentations with active peer-to-peer learning",
+      "At the start of a major change initiative to surface what people are most concerned about and most committed to",
+      "In networks and coalitions where no single body has authority to set the agenda for everyone"
+    ]
   },
   {
     "id": 26,
@@ -1421,8 +2035,8 @@
       "connection"
     ],
     "online": true,
-    "desc": "Assess and build the qualities of relationships that are needed for complex collaboration. Uses four dimensions: Separate, Tuning, Acting, Reciprocating.",
-    "when": "When a team or partnership needs to reflect honestly on how they're working together and what needs to improve.",
+    "desc": "Reveal relationship patterns that are inhibiting or enabling progress. Using four dimensions \u2014 Separateness, Tuning, Acting Together, and Reason to Return \u2014 groups assess and improve the generative quality of their relationships with partners, stakeholders, or each other.",
+    "when": "Use when a partnership or collaborative relationship is underperforming, when groups feel that 'the relationship isn't working' but can't pinpoint why, or when you want to intentionally design more generative connections.",
     "phases": [
       {
         "label": "Assess individually",
@@ -1447,14 +2061,39 @@
       }
     ],
     "tips": [
-      "Honest self-assessment is more valuable than polite agreement",
-      "Differences in perception are data, not problems",
-      "Focus on small, concrete behavioural changes rather than big abstract commitments"
+      "The four dimensions \u2014 Separateness, Tuning, Acting Together, Reason to Return \u2014 need to be explained with concrete examples before rating.",
+      "Individual ratings are more honest than group ratings \u2014 collect individually, then share and discuss.",
+      "Focus on what can be improved rather than attributing blame for the current state.",
+      "Trap: groups conflating 'Reason to Return' with just enjoying each other's company \u2014 it means genuine mutual benefit.",
+      "Trap: treating the assessment as a verdict rather than a starting point. The point is to improve, not to judge.",
+      "The most generative dimension to improve first is usually 'Tuning' \u2014 learning to notice and respond to each other's signals."
     ],
     "lsNumber": 26,
     "lsUrl": "26-generative-relationships-st",
     "structuralInvitation": "How generative is our relationship? Where do we stand on each of the four STAR dimensions: Separateness, Tuning, Acting Together, Reason to Return?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the work of Glenda Eoyang."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the work of Glenda Eoyang.",
+    "whyPurposes": [
+      "Diagnose and improve the generative quality of relationships and partnerships",
+      "Surface the specific dimensions of relationship that are enabling or inhibiting progress",
+      "Build shared language for talking about relationship quality beyond 'it's not working'",
+      "Identify concrete actions to improve relationships rather than just describing problems",
+      "Help groups see that relationship quality is designable, not just emergent",
+      "Enable honest conversation about what each party needs to contribute to a more generative relationship"
+    ],
+    "variations": [
+      "Use with multiple relationships simultaneously \u2014 map where you are on STAR with different partners",
+      "Do individual STAR assessments first, then compare across the group \u2014 the gaps reveal blind spots",
+      "Follow with Min Specs: what are the minimum specifications for a generative relationship in this context?",
+      "Use before and after a relationship intervention to measure change",
+      "Combine with Social Network Webbing to see which relationships in the network are most generative"
+    ],
+    "examplesOfUse": [
+      "In multi-agency partnerships to diagnose why coordination is not producing results",
+      "In joint ventures or alliances to develop relationship quality as a deliberate strategy",
+      "In communities of practice to assess whether the community is becoming more or less generative over time",
+      "In team development to surface what each member needs from the team to contribute fully",
+      "In complex systems change work where the quality of relationships between organisations matters as much as the strategies"
+    ]
   },
   {
     "id": 27,
@@ -1469,8 +2108,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Identify which kind of challenge you're facing and choose the appropriate response. Distinguishes simple, complicated, complex, and chaotic challenges.",
-    "when": "When a group is using the wrong approach for its type of challenge \u2014 for example, applying planning to complexity.",
+    "desc": "Move from analysis to action based on the nature of the challenge. By plotting challenges according to how much agreement exists and how certain you are about cause and effect, groups discover which problems require simple management, which require complexity thinking, and which require something entirely different.",
+    "when": "Use when a group is applying the same approach to all its challenges regardless of whether that approach fits, when experts disagree about a problem and can't agree why, or when a complex challenge is being managed as if it were simple.",
     "phases": [
       {
         "label": "Map your challenges",
@@ -1495,14 +2134,38 @@
       }
     ],
     "tips": [
-      "Most groups apply complicated-zone solutions to complex-zone problems \u2014 this is a common and expensive mistake",
-      "Disagreement about which zone a challenge belongs in is productive, not a problem to resolve quickly",
-      "Use this before planning processes to ensure you're using the right planning approach"
+      "Define the two axes clearly with examples before asking groups to place challenges \u2014 the concepts of agreement and certainty need concrete illustration.",
+      "Individual placements first, then group comparison \u2014 the disagreements are where the learning is.",
+      "Trap: groups treating the matrix as a permanent verdict. Problems migrate \u2014 a well-managed complex challenge can become simple.",
+      "Trap: using the Complicated quadrant as a dumping ground for things the group doesn't know how to approach.",
+      "Connect explicitly to action: 'This challenge is in the Complex zone \u2014 which LS or approach fits?'"
     ],
     "lsNumber": 27,
     "lsUrl": "27-agreement-certainty-matrix",
     "structuralInvitation": "Where does each of your current challenges fall on the matrix? How much agreement is there among stakeholders, and how much certainty do you have about cause and effect?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Cynefin framework (Dave Snowden)."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Cynefin framework (Dave Snowden).",
+    "whyPurposes": [
+      "Help groups match their approach to the real nature of each challenge",
+      "Stop applying simple solutions to complex problems \u2014 and complex frameworks to simple ones",
+      "Surface hidden disagreement about what kind of problem the group is actually facing",
+      "Build shared language for complexity and uncertainty across different levels and functions",
+      "Enable better decision-making by clarifying what is actually known and agreed",
+      "Connect to action: each quadrant suggests a different leadership and management response"
+    ],
+    "variations": [
+      "Plot multiple challenges simultaneously and compare \u2014 groups are often surprised by the spread",
+      "Use as an ongoing diagnostic rather than a one-time exercise \u2014 challenges migrate across the matrix over time",
+      "Combine with Critical Uncertainties: use the matrix to identify which uncertainties matter most",
+      "Follow with different LS depending on where challenges land \u2014 simple (best practice), complex (DAD, TRIZ), chaotic (Improv Prototyping)",
+      "In large groups, have subgroups independently place challenges and then compare \u2014 the disagreements are as informative as the placements"
+    ],
+    "examplesOfUse": [
+      "In strategy development to distinguish which aspects of the strategy are simple execution and which require emergent approaches",
+      "In leadership development to build complexity literacy \u2014 the capacity to diagnose and respond to different types of problems",
+      "In quality improvement to understand which defects are caused by process failure (simple) vs systemic complexity",
+      "In policy development where different stakeholders have fundamentally different views of the problem",
+      "In consulting work to help clients see why their technically correct solution is not working in a complex context"
+    ]
   },
   {
     "id": 28,
@@ -1517,8 +2180,8 @@
       "planning"
     ],
     "online": false,
-    "desc": "Observe and record the actual experience of users or front-line workers. Make the gap between how work is imagined and how it actually happens visible.",
-    "when": "When decision-makers are disconnected from how work actually happens. When you suspect the real story is different from the official story.",
+    "desc": "Observe and record the actual behaviours and interactions of people in the field to discover what is really happening, as opposed to what is assumed to be happening. Going to see for yourself \u2014 with genuine curiosity and minimal assumptions \u2014 is the foundation of human-centred improvement.",
+    "when": "Use when decisions are being made based on assumptions about what users, clients, or colleagues experience rather than direct observation. Particularly valuable when there is a significant gap between how a service or process is designed and how it actually works.",
     "phases": [
       {
         "label": "Prepare",
@@ -1550,14 +2213,39 @@
       }
     ],
     "tips": [
-      "Arrive as a learner, not an expert or inspector",
-      "The most interesting data is often what surprises you",
-      "Always share back what you learned \u2014 don't just extract information"
+      "Observe with genuine curiosity, not the aim of confirming what you already think. Leave your hypotheses behind.",
+      "Take notes on specific, observable moments \u2014 not interpretations. 'The nurse looked at the screen, not the patient' not 'the nurse was distracted'.",
+      "Debrief separately: raw observations first, then interpretations \u2014 keep them clearly distinguished.",
+      "Trap: observers narrating their mental models rather than what they actually see. Challenge each statement: 'Did you see that, or did you infer it?'",
+      "Trap: people being observed changing their behaviour because they know they're being watched. Spend enough time that this fades.",
+      "Be transparent with the people you are observing \u2014 explain what you're doing and why. Trust enables honesty."
     ],
     "lsNumber": 28,
     "lsUrl": "28-simple-ethnography",
     "structuralInvitation": "What is really happening when people do this work? Let's go observe for ourselves \u2014 as learners, not as inspectors.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by ethnographic research traditions in social science."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by ethnographic research traditions in social science.",
+    "whyPurposes": [
+      "Develop empathy and understanding for the people you serve through direct, unmediated observation",
+      "Surface the gap between how you think your system works and how it actually works",
+      "Discover local solutions and positive deviance that desk-based analysis would miss",
+      "Build the capacity to see your work from the perspective of the people most affected",
+      "Ground decisions and improvements in real data from the field rather than assumptions",
+      "Connect practitioners to the human impact of their work"
+    ],
+    "variations": [
+      "Use guided observation with a simple template: what I expected to see / what I actually saw / what surprised me",
+      "Have observers from different roles observe the same situation to compare what they notice",
+      "Combine with Appreciative Interviews after observation: 'Tell me about a time this worked well'",
+      "Follow with DAD to discover what the people you observed are already doing that works",
+      "Use before and after an improvement to measure whether the change made a real difference to the experience"
+    ],
+    "examplesOfUse": [
+      "In healthcare improvement \u2014 go to the ward and watch what actually happens, not what the protocol says",
+      "In service design \u2014 follow a customer through their entire journey rather than just surveying them at the end",
+      "In education \u2014 observe a classroom before redesigning curriculum",
+      "In community development \u2014 spend time in the community before proposing interventions",
+      "In organisational development \u2014 shadow a front-line worker for a day before designing training for them"
+    ]
   },
   {
     "id": 29,
@@ -1572,8 +2260,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Move from either/or to both/and thinking on the tension between local autonomy and central coordination. Develop strategies that honor both.",
-    "when": "When a group is stuck arguing between centralisation and decentralisation, standardisation and flexibility.",
+    "desc": "Move from either/or to both/and when facing the tension between local autonomy and central integration. By exploring what would make both more possible simultaneously, groups discover structural innovations that neither pure autonomy nor pure control can produce.",
+    "when": "Use when an organisation is swinging between centralisation and decentralisation, when local teams feel over-controlled while the centre feels under-informed, or when the tension between standardisation and local adaptation is blocking progress.",
     "phases": [
       {
         "label": "Generate both sides",
@@ -1605,14 +2293,38 @@
       }
     ],
     "tips": [
-      "The 'listening for value' step is critical \u2014 it breaks the debate dynamic",
-      "Both/And solutions exist for most autonomy-integration tensions \u2014 trust the process",
-      "This works for any either/or dilemma, not just autonomy vs integration"
+      "The tension must be real and felt by the group \u2014 don't use this on theoretical or low-stakes questions.",
+      "Both sides of the tension (autonomy AND integration) must be genuinely valued before the exercise can work.",
+      "Trap: groups collapsing back to either/or thinking \u2014 'let's just have more autonomy'. Hold the AND firmly.",
+      "Trap: abstract solutions that sound good but specify nothing. Push for concrete structural examples.",
+      "The 'Integrated~Autonomy' name is deliberately paradoxical \u2014 the tilde (~) signals 'both at the same time, not just a balance'."
     ],
     "lsNumber": 29,
     "lsUrl": "29-integrated-autonomy",
     "structuralInvitation": "What do we need that provides both more local autonomy AND more central integration simultaneously? What would make both more possible at the same time?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Explore and navigate the tension between local autonomy and central integration creatively",
+      "Move beyond false either/or choices about how to organise",
+      "Discover structural and relational innovations that enable both independence and coordination",
+      "Surface the hidden costs of both extremes \u2014 too much control and too little",
+      "Build shared understanding of what each level needs from the others",
+      "Enable distributed leadership without losing the benefits of coordination"
+    ],
+    "variations": [
+      "Use 1-2-4-All within each step for groups larger than 8",
+      "Map the current state on a spectrum from pure autonomy to pure integration before exploring what both would look like",
+      "Follow with Min Specs: what are the minimum non-negotiables that enable both autonomy and integration?",
+      "Combine with WINFY: what does the centre need from the local? What does local need from the centre?",
+      "Use across levels \u2014 have local teams and central teams do the exercise separately, then share"
+    ],
+    "examplesOfUse": [
+      "In federated organisations (NHS, multi-site businesses, school networks) navigating the centre/local tension",
+      "In professional services firms where standardisation and professional judgment are in constant tension",
+      "In franchises balancing brand consistency with local market adaptation",
+      "In community organisations where member autonomy and collective action need to coexist",
+      "In global companies navigating the global/local tension in ways that neither pure standardisation nor pure localisation can resolve"
+    ]
   },
   {
     "id": 30,
@@ -1627,8 +2339,8 @@
       "decision"
     ],
     "online": true,
-    "desc": "Develop strategies for operating in a highly uncertain environment by exploring scenarios created from your most critical unknowns.",
-    "when": "When planning in genuinely uncertain environments. When you need robust strategies that work across multiple possible futures.",
+    "desc": "Prepare for the future by exploring the most critical and unknowable uncertainties your work faces. By constructing four scenarios from two critical uncertainties and developing robust strategies for each, groups become genuinely prepared for multiple possible futures rather than betting on one.",
+    "when": "Use when the future is genuinely uncertain and planning based on a single forecast is risky, when a group needs to test whether its current strategy is fragile or robust, or when key assumptions about the future need to be examined openly.",
     "phases": [
       {
         "label": "Identify uncertainties",
@@ -1660,14 +2372,39 @@
       }
     ],
     "tips": [
-      "The choice of the two critical uncertainties determines everything \u2014 take time to get this right",
-      "Good scenarios feel uncomfortable \u2014 if all four feel manageable, the uncertainties aren't critical enough",
-      "Look for 'no-regret' actions that make sense in all scenarios"
+      "The two selected uncertainties must be genuinely important AND genuinely uncertain \u2014 not things you can reasonably predict.",
+      "The four scenario names should be vivid and memorable \u2014 they will be used throughout the planning process.",
+      "Focus equal time on all four scenarios \u2014 groups tend to spend most time on their preferred or feared future.",
+      "Trap: selecting uncertainties that are really different versions of the same uncertainty.",
+      "Trap: treating the scenario work as forecasting rather than preparation. The goal is strategy that works across scenarios, not identifying the 'right' scenario.",
+      "The most valuable output is often the list of early signals that would tell you which scenario is emerging."
     ],
     "lsNumber": 30,
     "lsUrl": "30-critical-uncertainties",
     "structuralInvitation": "What are the most critical unknowns \u2014 the factors with the highest impact and highest uncertainty \u2014 that could most affect the success of our work?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by scenario planning methods."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by scenario planning methods.",
+    "whyPurposes": [
+      "Help a group develop strategies that are robust across multiple possible futures",
+      "Surface and challenge hidden assumptions about what the future will look like",
+      "Move from prediction to preparedness \u2014 building capacity to adapt rather than predict",
+      "Reveal which current strategies are fragile (only work if one future arrives) and which are robust",
+      "Create shared language for uncertainty without requiring everyone to agree on a forecast",
+      "Build the capacity to hold multiple futures simultaneously rather than defaulting to the most comfortable one"
+    ],
+    "variations": [
+      "Use with senior leadership teams to stress-test a strategy rather than generate a new one",
+      "Combine with Agreement-Certainty Matrix to identify which uncertainties are truly in the chaotic zone",
+      "Run in parallel groups, each developing scenarios from different pairs of uncertainties \u2014 compare across groups",
+      "Follow with Purpose-to-Practice to develop organisational design that works across scenarios",
+      "Use with external partners and stakeholders who have different views of which uncertainties are most critical"
+    ],
+    "examplesOfUse": [
+      "In strategic planning to test whether the strategy holds across different possible futures",
+      "In public policy to design interventions that are effective regardless of which way key uncertainties resolve",
+      "In healthcare planning where demographic, technological, and political uncertainties are all high",
+      "In environmental work where climate scenarios interact with social and economic uncertainties",
+      "In start-ups and new ventures to plan for the different ways the market might evolve"
+    ]
   },
   {
     "id": 31,
@@ -1683,8 +2420,8 @@
       "reflection"
     ],
     "online": true,
-    "desc": "Analyse the full portfolio of activities and initiatives. Identify what to grow, what to let go, and where creative destruction is needed.",
-    "when": "For strategic planning when a group needs to honestly assess all its current activities and make resource decisions.",
+    "desc": "Identify where your portfolio of activities and initiatives are in their natural lifecycle and plan accordingly. By mapping current work across four phases \u2014 Birth, Maturity, Creative Destruction, and Renewal \u2014 groups discover what to start, what to stop, and what to transform.",
+    "when": "Use in annual planning, strategic reviews, or any point where a group needs to look at its full portfolio of activities honestly and decide what to invest in, what to wind down, and what new initiatives to launch.",
     "phases": [
       {
         "label": "Map activities",
@@ -1723,14 +2460,39 @@
       }
     ],
     "tips": [
-      "The creative destruction quadrant is the hardest \u2014 naming what to stop is courageous work",
-      "Include informal activities, not just official projects",
-      "Pair with TRIZ to go deeper on the stopping side"
+      "The Creative Destruction trap (the 'poverty trap' and 'rigidity trap' on the Ecocycle) is where most organisations get stuck \u2014 make sure to name these explicitly.",
+      "Individual placements first reveal the real diversity of views about where things are in their lifecycle.",
+      "The hardest and most valuable conversation is about what is in the 'Conservation/Maintenance' phase that should be moving into Creative Destruction.",
+      "Trap: the map becoming an intellectual exercise rather than leading to real decisions about what to stop, continue, and start.",
+      "Trap: senior leaders using authority to move things on the map rather than engaging with the evidence.",
+      "The map is a starting point for conversation, not a final verdict \u2014 expect and welcome disagreement."
     ],
     "lsNumber": 31,
     "lsUrl": "31-ecocycle-planning",
     "structuralInvitation": "Where are each of your current activities and initiatives in their natural lifecycle? Place each one on the Ecocycle map.",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ecocycle model (C.S. Holling) and Panarchy theory."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by the Ecocycle model (C.S. Holling) and Panarchy theory.",
+    "whyPurposes": [
+      "Help groups see their portfolio of activities as a living ecosystem with natural lifecycles",
+      "Surface activities that have passed their peak and are now consuming resources without proportionate value",
+      "Identify the 'creative destruction' that must happen before renewal is possible",
+      "Enable deliberate conversation about stopping things \u2014 not just about what to start",
+      "Plan with the full spectrum of lifecycle phases in mind, not just launch and maintain",
+      "Build the capacity to let go as well as to grow"
+    ],
+    "variations": [
+      "Use individual placements followed by group comparison and discussion of disagreements",
+      "Add resource flow lines \u2014 show where time, money, and attention are flowing to reveal invisible priorities",
+      "Focus on a specific domain (services, projects, partnerships) rather than the full portfolio",
+      "Run annually as a living review rather than a one-time exercise",
+      "Combine with Min Specs: 'What are the minimum conditions required for this activity to justify its place on the map?'"
+    ],
+    "examplesOfUse": [
+      "In annual planning to make visible which initiatives are ready to scale, which are past their prime, and which are ready to be born",
+      "In portfolio management to balance investment across different lifecycle phases",
+      "In organisational design when the structure has accumulated legacy elements that no longer serve the purpose",
+      "In community organisations to review what programmes and activities still serve the community's real needs",
+      "In health systems to identify which services need to be transformed and which decommissioned to free resources for new needs"
+    ]
   },
   {
     "id": 32,
@@ -1745,8 +2507,8 @@
       "reflection"
     ],
     "online": true,
-    "desc": "Understand how actions and interactions at one scale of your system affect other scales. Plan across multiple levels simultaneously.",
-    "when": "When local actions have unintended consequences at larger scales, or when global changes are creating local problems.",
+    "desc": "Understand how events happening at different levels of a system influence each other. By mapping what is happening at the individual, group, organisational, and wider ecosystem level, groups discover the leverage points where action at one level can catalyse positive change across levels.",
+    "when": "Use when a challenge seems intractable because it spans multiple levels simultaneously, when local actions seem to have no impact on the larger system, or when system-level trends are overwhelming local action.",
     "phases": [
       {
         "label": "Map the levels",
@@ -1771,14 +2533,38 @@
       }
     ],
     "tips": [
-      "This is a complex framework \u2014 introduce it briefly before diving in",
-      "The connections between levels are often more important than any single level",
-      "Resist the urge to only plan at the level you control"
+      "Start by grounding each level in specific, concrete examples rather than abstract descriptions.",
+      "The 'revolt' (small-scale disruption changing large-scale patterns) and 'remember' (large-scale patterns constraining small-scale innovation) connections are often the most revealing.",
+      "Trap: staying descriptive rather than identifying action. Always move from 'this is what's happening at each level' to 'where can we act to create positive cross-scale effects?'",
+      "Trap: groups only focusing on the level they work at rather than genuinely exploring all levels.",
+      "This is one of the most cognitively demanding LS \u2014 allow time and give permission to sit with complexity."
     ],
     "lsNumber": 32,
     "lsUrl": "32-panarchy",
     "structuralInvitation": "What is happening at different scales of your system \u2014 individual, team, organisation, wider ecosystem? How do these levels interact and influence each other?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Panarchy theory (Holling, Gunderson, and Allen)."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless. Inspired by Panarchy theory (Holling, Gunderson, and Allen).",
+    "whyPurposes": [
+      "Connect micro-level actions to macro-level patterns and system dynamics",
+      "Reveal the nested and interdependent cycles that shape how systems change over time",
+      "Identify the leverage points where action at one scale can catalyse change at others",
+      "Build a more sophisticated understanding of why some interventions work and others don't",
+      "Enable groups to act locally while understanding the wider system they are part of",
+      "Prepare for the cross-scale surprises \u2014 the 'revolt' and 'remember' connections \u2014 that often derail well-planned initiatives"
+    ],
+    "variations": [
+      "Draw the Ecocycle at each level to show where each level is in its development",
+      "Use different colours to show flow of influence \u2014 green for positive, red for constraining",
+      "Map historical changes to understand how the system has evolved, not just how it is now",
+      "Combine with Critical Uncertainties: which cross-scale dynamics are most uncertain and most impactful?",
+      "Follow with Integrated~Autonomy to develop strategies that work across levels"
+    ],
+    "examplesOfUse": [
+      "In complex social issues where individual behaviour, community norms, and national policy all interact",
+      "In healthcare reform where clinical practice, organisational culture, and system policy are all relevant",
+      "In education reform where classroom practice, school culture, and national curriculum interact",
+      "In community development where local action, regional infrastructure, and global economic trends all affect outcomes",
+      "In environmental work where individual choices, corporate behaviour, and policy frameworks must all shift"
+    ]
   },
   {
     "id": 33,
@@ -1792,8 +2578,8 @@
       "planning"
     ],
     "online": true,
-    "desc": "Define the five essential elements needed to create a resilient, enduring initiative: Purpose, Principles, Participants, Structure, and Practices.",
-    "when": "When launching a new initiative, team, or organisation and you need shared foundations from the start.",
+    "desc": "Define the five elements that are essential for a resilient and enduring initiative: Purpose, Principles, Participants, Structure, and Practices. Moving through each element in sequence \u2014 and revisiting them as the design evolves \u2014 ensures that what gets built is grounded in shared purpose rather than just activity.",
+    "when": "Use when founding a new organisation, initiative, or community of practice; when redesigning an existing one; or when a group has lost its connection to why it exists and needs to return to first principles.",
     "phases": [
       {
         "label": "Purpose",
@@ -1832,13 +2618,38 @@
       }
     ],
     "tips": [
-      "Work through each element in order \u2014 they build on each other",
-      "Return to Purpose whenever discussions get stuck",
-      "Document outputs carefully \u2014 these are your founding documents"
+      "Work through the five elements in order \u2014 each depends on the previous. Jumping ahead produces structures that aren't grounded.",
+      "The Purpose element deserves the most time \u2014 'to make a difference' is not a purpose. Push for specificity and genuine shared meaning.",
+      "Principles should be actionable \u2014 'we value respect' is not a principle. 'We speak directly with each other before speaking about each other' is.",
+      "Trap: the group designing for what they think they should be rather than what they genuinely commit to.",
+      "Trap: rushing through the elements to get to structure and practices \u2014 these are the easiest to design and the most dangerous to design first.",
+      "Revisit regularly \u2014 organisations that only do Purpose-to-Practice once tend to drift back to old patterns within a year."
     ],
     "lsNumber": 33,
     "lsUrl": "33-purpose-to-practice-p2p",
     "structuralInvitation": "What is our deepest aspiration \u2014 our purpose? Why does this work matter, and what must we do to bring it to life?",
-    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless."
+    "attribution": "Developed by Henri Lipmanowicz and Keith McCandless.",
+    "whyPurposes": [
+      "Define the elements that are necessary and sufficient for a robust and lasting initiative",
+      "Build genuine shared ownership by involving everyone in co-creating the design",
+      "Ensure that structure and practices are derived from purpose and principles rather than inherited by default",
+      "Prevent the common failure mode of organisations that are busy but disconnected from purpose",
+      "Create alignment without uniformity \u2014 a shared foundation that supports diverse action",
+      "Make the invisible architecture of how a group works together visible and subject to intentional design"
+    ],
+    "variations": [
+      "Revisit the five elements at regular intervals \u2014 purpose and principles tend to drift without deliberate maintenance",
+      "Run each element in a separate session for complex or large-scale initiatives",
+      "Use 1-2-4-All within each element to ensure broad participation in the design",
+      "Combine with Min Specs to identify the absolute non-negotiables within each element",
+      "Follow with Critical Uncertainties: which aspects of the design depend on uncertainties that need scenario planning?"
+    ],
+    "examplesOfUse": [
+      "When founding a new social enterprise, network, or community organisation",
+      "At the start of a major change initiative to build genuine commitment rather than just compliance",
+      "When a successful initiative has grown and needs more explicit organisational design",
+      "When a team has lost its sense of purpose and needs to reconnect with why it exists",
+      "In governance design for collaborative or multi-stakeholder bodies"
+    ]
   }
 ]

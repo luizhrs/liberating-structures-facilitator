@@ -24,6 +24,12 @@ export interface Structure {
   attribution: string
   phases: Phase[]
   tips: string[]
+  /** "WHY? Purposes" from the official LS page */
+  whyPurposes: string[]
+  /** "Riffs and Variations" */
+  variations: string[]
+  /** "Examples of Use" */
+  examplesOfUse: string[]
 }
 
 export type Purpose =

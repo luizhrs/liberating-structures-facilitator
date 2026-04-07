@@ -315,6 +315,17 @@ export default function App() {
                 <p className={styles.sectionText}>{selectedStructure.when}</p>
               </div>
 
+              {(selectedStructure as any).whyPurposes?.length > 0 && (
+                <div className={styles.detailSection}>
+                  <h2 className={styles.sectionTitle}>Why — purposes</h2>
+                  <ul className={styles.purposeList}>
+                    {(selectedStructure as any).whyPurposes.map((p: string, i: number) => (
+                      <li key={i} className={styles.purposeItem}>{p}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {selectedStructure.structuralInvitation && (
                 <div className={styles.detailSection}>
                   <h2 className={styles.sectionTitle}>Opening invitation</h2>
@@ -344,11 +355,33 @@ export default function App() {
               </div>
 
               <div className={styles.detailSection}>
-                <h2 className={styles.sectionTitle}>Facilitator tips & traps</h2>
+                <h2 className={styles.sectionTitle}>Facilitator tips &amp; traps</h2>
                 <ul className={styles.tipsList}>
                   {selectedStructure.tips.map((tip, i) => <li key={i} className={styles.tipItem}>{tip}</li>)}
                 </ul>
               </div>
+
+              {(selectedStructure as any).variations?.length > 0 && (
+                <div className={styles.detailSection}>
+                  <h2 className={styles.sectionTitle}>Riffs &amp; variations</h2>
+                  <ul className={styles.tipsList}>
+                    {(selectedStructure as any).variations.map((v: string, i: number) => (
+                      <li key={i} className={styles.tipItem}>{v}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {(selectedStructure as any).examplesOfUse?.length > 0 && (
+                <div className={styles.detailSection}>
+                  <h2 className={styles.sectionTitle}>Examples of use</h2>
+                  <ul className={styles.tipsList}>
+                    {(selectedStructure as any).examplesOfUse.map((e: string, i: number) => (
+                      <li key={i} className={styles.tipItem}>{e}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               <div className={styles.detailFooter}>
                 <button className={styles.runBigBtn} onClick={() => goToSetup(selectedStructure)}>

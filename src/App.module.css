@@ -58,13 +58,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.05em;
 }
 
 .logoText {
-  font-size: 0.9375rem;
+  font-size: 15px;
   font-weight: 600;
   color: var(--c-text);
 }
@@ -80,7 +80,7 @@
   border-radius: var(--radius-full);
   border: none;
   background: transparent;
-  font-size: 0.875rem;
+  font-size: 14px;
   color: var(--c-text-2);
   transition: all 0.15s;
   cursor: pointer;
@@ -147,7 +147,7 @@
 
 .homeTag {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -166,7 +166,7 @@
 }
 
 .homeSub {
-  font-size: 1rem;
+  font-size: 16px;
   color: var(--c-text-2);
   line-height: 1.6;
   max-width: 460px;
@@ -222,19 +222,19 @@
 }
 
 .choiceIcon {
-  font-size: 1.375rem;
+  font-size: 22px;
   margin-bottom: 4px;
 }
 
 .choiceTitle {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
   color: var(--c-text);
   line-height: 1.2;
 }
 
 .choiceDesc {
-  font-size: 0.8125rem;
+  font-size: 13px;
   color: var(--c-text-2);
   line-height: 1.5;
 }
@@ -243,7 +243,7 @@
   position: absolute;
   top: 1.25rem;
   right: 1.25rem;
-  font-size: 1rem;
+  font-size: 16px;
   color: var(--c-text-3);
 }
 
@@ -256,7 +256,7 @@
 }
 
 .cloudTag {
-  font-size: 0.75rem;
+  font-size: 12px;
   padding: 4px 12px;
   border-radius: var(--radius-full);
   background: var(--c-surface-2);
@@ -271,7 +271,7 @@
 }
 
 .homeFootnote {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
 }
 
@@ -286,14 +286,14 @@
 .browseHero { margin-bottom: 0.25rem; }
 
 .heroTitle {
-  font-size: 1.625rem;
+  font-size: 26px;
   font-weight: 700;
   color: var(--c-text);
   line-height: 1.2;
 }
 
 .heroSub {
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: var(--c-text-2);
   margin-top: 6px;
 }
@@ -319,7 +319,7 @@
   flex: 1;
   min-width: 180px;
   padding: 8px 12px;
-  font-size: 0.875rem;
+  font-size: 14px;
   border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   background: var(--c-surface);
@@ -333,7 +333,7 @@
 
 .filterSelect {
   padding: 8px 12px;
-  font-size: 0.8125rem;
+  font-size: 13px;
   border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   background: var(--c-surface);
@@ -347,7 +347,7 @@
 .filterSelect:focus { border-color: var(--c-border-strong); }
 
 .resultsCount {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
 }
 
@@ -366,7 +366,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  font-size: 0.9375rem;
+  font-size: 15px;
 }
 
 .clearBtn {
@@ -374,7 +374,7 @@
   border-radius: var(--radius-full);
   border: 1px solid var(--c-border);
   background: transparent;
-  font-size: 0.8125rem;
+  font-size: 13px;
   color: var(--c-text-2);
   cursor: pointer;
 }
@@ -390,13 +390,13 @@
   gap: 1.5rem;
 }
 
-.pageTitle { font-size: 1.5rem; font-weight: 700; }
-.pageSub { font-size: 0.875rem; color: var(--c-text-2); line-height: 1.6; margin-top: -0.75rem; }
+.pageTitle { font-size: 24px; font-weight: 700; }
+.pageSub { font-size: 14px; color: var(--c-text-2); line-height: 1.6; margin-top: -0.75rem; }
 
 .backBtn {
   background: none;
   border: none;
-  font-size: 0.8125rem;
+  font-size: 13px;
   color: var(--c-text-3);
   cursor: pointer;
   padding: 0;
@@ -415,8 +415,8 @@
   flex-wrap: wrap;
 }
 
-.detailTitle { font-size: 1.625rem; font-weight: 700; line-height: 1.2; }
-.detailDesc { font-size: 0.9375rem; color: var(--c-text-2); margin-top: 6px; line-height: 1.6; }
+.detailTitle { font-size: 26px; font-weight: 700; line-height: 1.2; }
+.detailDesc { font-size: 15px; color: var(--c-text-2); margin-top: 6px; line-height: 1.6; }
 
 .detailMeta { display: flex; gap: 10px; flex-wrap: wrap; }
 
@@ -429,12 +429,12 @@
   min-width: 80px;
 }
 
-.metaChipLabel { font-size: 0.625rem; font-weight: 600; color: var(--c-text-3); text-transform: uppercase; letter-spacing: 0.08em; }
-.metaChipValue { font-size: 0.875rem; font-weight: 500; color: var(--c-text); margin-top: 2px; }
+.metaChipLabel { font-size: 10px; font-weight: 600; color: var(--c-text-3); text-transform: uppercase; letter-spacing: 0.08em; }
+.metaChipValue { font-size: 14px; font-weight: 500; color: var(--c-text); margin-top: 2px; }
 
 .detailSection { display: flex; flex-direction: column; gap: 0.75rem; }
-.sectionTitle { font-size: 1rem; font-weight: 600; color: var(--c-text); }
-.sectionText { font-size: 0.875rem; color: var(--c-text-2); line-height: 1.6; }
+.sectionTitle { font-size: 16px; font-weight: 600; color: var(--c-text); }
+.sectionText { font-size: 14px; color: var(--c-text-2); line-height: 1.6; }
 
 .phaseList {
   display: flex;
@@ -460,7 +460,7 @@
   border-radius: 50%;
   background: var(--c-surface-2);
   color: var(--c-text-3);
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -479,12 +479,12 @@
   margin-bottom: 4px;
 }
 
-.phaseLabel { font-size: 0.875rem; font-weight: 600; color: var(--c-text); }
-.phaseMeta { font-size: 0.75rem; color: var(--c-text-3); white-space: nowrap; }
-.phaseInstruction { font-size: 0.8125rem; color: var(--c-text-2); line-height: 1.55; }
+.phaseLabel { font-size: 14px; font-weight: 600; color: var(--c-text); }
+.phaseMeta { font-size: 12px; color: var(--c-text-3); white-space: nowrap; }
+.phaseInstruction { font-size: 13px; color: var(--c-text-2); line-height: 1.55; }
 
 .tipsList { display: flex; flex-direction: column; gap: 8px; padding-left: 1.25rem; }
-.tipItem { font-size: 0.875rem; color: var(--c-text-2); line-height: 1.5; }
+.tipItem { font-size: 14px; color: var(--c-text-2); line-height: 1.5; }
 
 .detailFooter {
   display: flex;
@@ -501,7 +501,7 @@
   color: var(--c-bg);
   border: none;
   border-radius: var(--radius-full);
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: opacity 0.15s;
@@ -509,7 +509,7 @@
 }
 
 .runBigBtn:hover { opacity: 0.85; }
-.externalLink { font-size: 0.8125rem; color: var(--c-text-3); }
+.externalLink { font-size: 13px; color: var(--c-text-3); }
 
 /* ── Session ─────────────────────────────────────────────── */
 
@@ -522,7 +522,7 @@
 }
 
 .sessionLabel {
-  font-size: 0.75rem;
+  font-size: 12px;
   padding: 3px 10px;
   border-radius: var(--radius-full);
   background: var(--c-accent-light);
@@ -550,7 +550,7 @@
 }
 
 .footerBuilt {
-  font-size: 0.8125rem;
+  font-size: 13px;
   color: var(--c-text-3);
 }
 
@@ -603,12 +603,12 @@
 }
 
 .footerMeta {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
 }
 
 .footerAttribution {
-  font-size: 0.6875rem;
+  font-size: 11px;
   color: var(--c-text-3);
   text-align: center;
 }
@@ -631,7 +631,7 @@
 
 .lsNumberBadge {
   display: inline-block;
-  font-size: 0.6875rem;
+  font-size: 11px;
   font-weight: 600;
   color: var(--c-text-3);
   letter-spacing: 0.06em;
@@ -640,7 +640,7 @@
 }
 
 .invitation {
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: var(--c-text);
   line-height: 1.6;
   padding: 0.875rem 1rem;
@@ -652,13 +652,13 @@
 }
 
 .invitationHint {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
   margin-top: 6px;
 }
 
 .attribution {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
   font-style: italic;
   padding-top: 0.5rem;
@@ -731,7 +731,7 @@
 
 /* Detail page invitation block */
 .invitation {
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: var(--c-text);
   line-height: 1.6;
   padding: 0.875rem 1rem;
@@ -743,14 +743,14 @@
 }
 
 .invitationHint {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
   margin-top: 6px;
 }
 
 .lsNumberBadge {
   display: inline-block;
-  font-size: 0.6875rem;
+  font-size: 11px;
   font-weight: 600;
   color: var(--c-text-3);
   letter-spacing: 0.06em;
@@ -759,7 +759,7 @@
 }
 
 .attribution {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: var(--c-text-3);
   font-style: italic;
   padding-top: 0.5rem;
@@ -800,7 +800,33 @@
 }
 
 .displayBtnLabel {
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.02em;
+}
+
+/* ── Why / Purposes list ─────────────────────────────────── */
+.purposeList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.purposeItem {
+  font-size: 0.875rem;
+  color: var(--c-text-2);
+  line-height: 1.5;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.purposeItem::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--c-accent);
+  font-size: 0.75rem;
+  top: 2px;
 }
