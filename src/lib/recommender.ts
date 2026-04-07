@@ -119,7 +119,7 @@ function generateReason(structure: Structure, input: RecommendInput): string {
 // ─── Gemini AI recommender ───────────────────────────────────────────────────
 
 const GEMINI_API_URL =
-  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'
+  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
 
 export async function getAIRecommendations(
   structures: Structure[],
@@ -164,7 +164,22 @@ Respond ONLY with a valid JSON array, no other text:
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({}))
-    throw new Error(err?.error?.message || `Gemini API error: ${response.status}`)
+    const msg: string = err?.error?.message || ''
+    const status = response.status
+
+    if (status === 429 || msg.toLowerCase().includes('quota')) {
+      throw new Error(
+        'Quota exceeded. Make sure your API key is from Google AI Studio (aistudio.google.com/app/apikey), not a Google Cloud project key. AI Studio keys include a free tier of 1,500 requests/day.'
+      )
+    }
+    if (status === 400 && msg.toLowerCase().includes('api key not valid')) {
+      throw new Error('Invalid API key. Get a free key at aistudio.google.com/app/apikey')
+    }
+    if (status === 404 || msg.toLowerCase().includes('not found')) {
+      throw new Error('Model not available. Please check your API key and try again.')
+    }
+
+    throw new Error(msg || `Gemini API error (${status}). Check your API key and try again.`)
   }
 
   const data = await response.json()

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useId } from 'react'
 import type { Structure, Purpose, Recommendation } from '../types'
 import { getRuleBasedRecommendations, getAIRecommendations } from '../lib/recommender'
 import StructureCard from './StructureCard'
@@ -11,9 +11,9 @@ interface Props {
 }
 
 const PURPOSES: { value: Purpose; label: string }[] = [
-  { value: 'ideation', label: 'Generate ideas' },
-  { value: 'decision', label: 'Make decisions' },
-  { value: 'planning', label: 'Plan ahead' },
+  { value: 'ideation',   label: 'Generate ideas' },
+  { value: 'decision',   label: 'Make decisions' },
+  { value: 'planning',   label: 'Plan ahead' },
   { value: 'reflection', label: 'Reflect & learn' },
   { value: 'engagement', label: 'Engage everyone' },
   { value: 'connection', label: 'Build connection' },
@@ -32,6 +32,12 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
   const [error, setError] = useState('')
   const [usedAI, setUsedAI] = useState(false)
 
+  const challengeId = useId()
+  const participantsId = useId()
+  const timeId = useId()
+  const modeId = useId()
+  const keyId = useId()
+
   const togglePurpose = (p: Purpose) => {
     setSelectedPurposes(prev =>
       prev.includes(p) ? prev.filter(x => x !== p) : [...prev, p]
@@ -43,13 +49,7 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
     setError('')
     setRecommendations(null)
 
-    const input = {
-      challenge,
-      participants,
-      timeAvailable,
-      purposes: selectedPurposes,
-      online,
-    }
+    const input = { challenge, participants, timeAvailable, purposes: selectedPurposes, online }
 
     try {
       if (geminiKey.trim()) {
@@ -62,7 +62,7 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
         setUsedAI(false)
       }
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong. Check your API key and try again.')
+      setError(err instanceof Error ? err.message : 'Something went wrong. Please check your API key and try again.')
     } finally {
       setLoading(false)
     }
@@ -75,20 +75,25 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
       <div className={styles.form}>
 
         <div className={styles.field}>
-          <label className={styles.label}>Describe your challenge or goal</label>
+          {/* Proper label association (WCAG 2.4.6, 3.3.2) */}
+          <label className={styles.label} htmlFor={challengeId}>
+            Describe your challenge or goal
+          </label>
           <textarea
+            id={challengeId}
             className={styles.textarea}
             value={challenge}
             onChange={e => setChallenge(e.target.value)}
-            placeholder="e.g. We need to surface problems our team has been avoiding and move toward action. Some people dominate discussions and others never speak up…"
+            placeholder="e.g. We need to surface problems our team has been avoiding and move towards action. Some people dominate discussions and others never speak up…"
             rows={3}
           />
         </div>
 
         <div className={styles.fieldRow}>
           <div className={styles.field}>
-            <label className={styles.label}>Participants</label>
+            <label className={styles.label} htmlFor={participantsId}>Participants</label>
             <input
+              id={participantsId}
               type="number"
               className={styles.input}
               value={participants}
@@ -98,8 +103,9 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
             />
           </div>
           <div className={styles.field}>
-            <label className={styles.label}>Time available</label>
+            <label className={styles.label} htmlFor={timeId}>Time available</label>
             <select
+              id={timeId}
               className={styles.select}
               value={timeAvailable}
               onChange={e => setTimeAvailable(Number(e.target.value))}
@@ -114,8 +120,9 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
             </select>
           </div>
           <div className={styles.field}>
-            <label className={styles.label}>Mode</label>
+            <label className={styles.label} htmlFor={modeId}>Mode</label>
             <select
+              id={modeId}
               className={styles.select}
               value={online === null ? '' : String(online)}
               onChange={e => setOnline(e.target.value === '' ? null : e.target.value === 'true')}
@@ -127,12 +134,14 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
           </div>
         </div>
 
-        <div className={styles.field}>
-          <label className={styles.label}>What are you trying to achieve? (pick any)</label>
+        <fieldset className={styles.field}>
+          <legend className={styles.label}>What are you trying to achieve? (pick any)</legend>
           <div className={styles.purposeGrid}>
             {PURPOSES.map(p => (
               <button
                 key={p.value}
+                type="button"
+                aria-pressed={selectedPurposes.includes(p.value)}
                 className={`${styles.purposeBtn} ${selectedPurposes.includes(p.value) ? styles.purposeSelected : ''}`}
                 onClick={() => togglePurpose(p.value)}
               >
@@ -140,91 +149,97 @@ export default function RecommenderScreen({ structures, onRunNow, onViewDetail }
               </button>
             ))}
           </div>
-        </div>
+        </fieldset>
 
         {/* Optional Gemini key */}
         <div className={styles.aiSection}>
           <button
+            type="button"
             className={styles.aiToggle}
             onClick={() => setShowKeyField(!showKeyField)}
+            aria-expanded={showKeyField}
           >
-            <SparkleIcon />
+            <span aria-hidden="true">✨</span>
             {showKeyField ? 'Hide AI options' : 'Enable AI recommendations (optional)'}
           </button>
           {showKeyField && (
             <div className={styles.aiBox}>
-              <p className={styles.aiDesc}>
+              <p className={styles.aiDesc} id="key-desc">
                 Add a free{' '}
                 <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">
-                  Google Gemini API key
+                  Google AI Studio API key
+                  <span className="sr-only"> (opens in new tab)</span>
                 </a>{' '}
-                for smarter recommendations. Your key is never stored or sent anywhere except directly to Google.
+                for smarter recommendations. Must be from AI Studio (not Google Cloud). Includes 1,500 free requests/day. Your key goes directly to Google — never stored anywhere.
               </p>
+              <label htmlFor={keyId} className={styles.label}>Gemini API key</label>
               <input
+                id={keyId}
                 type="password"
                 className={styles.input}
                 placeholder="AIza…"
                 value={geminiKey}
                 onChange={e => setGeminiKey(e.target.value)}
+                aria-describedby="key-desc"
+                autoComplete="off"
               />
             </div>
           )}
         </div>
 
         <button
+          type="button"
           className={styles.submitBtn}
           onClick={handleRecommend}
           disabled={loading}
+          aria-busy={loading}
         >
           {loading ? 'Finding the right structures…' : 'Find structures for me →'}
         </button>
       </div>
 
+      {/* role="alert" announces errors immediately (WCAG 4.1.3) */}
       {error && (
-        <div className={styles.error}>{error}</div>
-      )}
-
-      {recommendations && (
-        <div className={styles.results}>
-          <div className={styles.resultsHeader}>
-            <h2 className={styles.resultsTitle}>Recommended for your session</h2>
-            <span className={styles.resultsBadge}>
-              {usedAI ? '✨ AI-powered' : 'Rule-based'}
-            </span>
-          </div>
-          {recommendations.map((rec, i) => {
-            const structure = getStructure(rec.structureId)
-            if (!structure) return null
-            return (
-              <div key={rec.structureId} className={styles.recItem}>
-                <div className={styles.recRank}>#{i + 1}</div>
-                <div className={styles.recContent}>
-                  <div className={styles.recReason}>{rec.reason}</div>
-                  <StructureCard
-                    structure={structure}
-                    onSelect={onViewDetail}
-                    onRunNow={onRunNow}
-                  />
-                </div>
-              </div>
-            )
-          })}
-          {recommendations.length > 1 && (
-            <p className={styles.stringTip}>
-              💡 Consider running these as a <strong>string</strong> — a sequence of structures that build on each other for a complete session arc.
-            </p>
-          )}
+        <div className={styles.error} role="alert">
+          {error}
         </div>
       )}
-    </div>
-  )
-}
 
-function SparkleIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5z"/>
-      <path d="M19 3l.75 2.25L22 6l-2.25.75L19 9l-.75-2.25L16 6l2.25-.75z"/>
-    </svg>
+      {/* aria-live="polite" announces when results appear (WCAG 4.1.3) */}
+      <div aria-live="polite" aria-atomic="false">
+        {recommendations && (
+          <div className={styles.results}>
+            <div className={styles.resultsHeader}>
+              <h2 className={styles.resultsTitle}>Recommended for your session</h2>
+              <span className={styles.resultsBadge}>
+                {usedAI ? '✨ AI-powered' : 'Rule-based'}
+              </span>
+            </div>
+            {recommendations.map((rec, i) => {
+              const structure = getStructure(rec.structureId)
+              if (!structure) return null
+              return (
+                <div key={rec.structureId} className={styles.recItem}>
+                  <div className={styles.recRank} aria-hidden="true">#{i + 1}</div>
+                  <div className={styles.recContent}>
+                    <p className={styles.recReason}>{rec.reason}</p>
+                    <StructureCard
+                      structure={structure}
+                      onSelect={onViewDetail}
+                      onRunNow={onRunNow}
+                    />
+                  </div>
+                </div>
+              )
+            })}
+            {recommendations.length > 1 && (
+              <p className={styles.stringTip}>
+                💡 Consider running these as a <strong>string</strong> — a sequence of structures that build on each other for a complete session arc.
+              </p>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
   )
 }
